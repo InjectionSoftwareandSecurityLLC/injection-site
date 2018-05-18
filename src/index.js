@@ -2,7 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Routes from './routes';
 import { BrowserRouter } from 'react-router-dom'
-require('./styles/test.css');
+import 'font-awesome/css/font-awesome.min.css';
+require('./styles/injection.css');
+
 
 const wrapper = document.getElementById('root')
 
