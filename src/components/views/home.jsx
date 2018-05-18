@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import {Image} from 'react-bootstrap'
 
 export default class Home extends Component {
-    
+    /* Example for API Fetch
     constructor(props) {
         super(props);
     
@@ -15,43 +15,165 @@ export default class Home extends Component {
         fetch("https://api.github.com/users/3ndG4me")
           .then(response => response.json())
           .then(data => this.setState({ content: data.bio }));
-      }
+      }*/
 
 
   render() {
     return (
+   <div id="home">
+        <TopSection />
+        <TwitterSection />
+        <DownloadsSection />
+        <GitHubSection />
+   </div>
+  
 
-      // Top Section
-    <div class="intro-header">
+
+
+    );
+  }
+}
+
+
+class TopSection extends Component{
+
+  render(){
+    return(
+     // Top Section
+     <div>
+     <div class="intro-header">
+         <div class="container">
+             <div class="row">
+                 <div class="col-lg-12">
+                     <div class="intro-message">
+                         <h1>Injection</h1>
+                         <h3>Software Development Project</h3>
+                         <hr class="intro-divider"/>
+                         <ul class="list-inline intro-social-buttons">
+                             <li>
+                                 <a href="#twitter" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                             </li>
+                             <li>
+                                 <a href="#downloads" class="btn btn-default btn-lg"><i class="fa  fa-arrow-circle-down fa-fw"></i> <span class="network-name">Downloads</span></a>
+                             </li>
+                             <li>
+                                 <a href="#github" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">GitHub</span></a>
+                             </li>
+                       
+                         </ul>
+                         <div align="center">
+                             <a href="https://github.com/InjectionSoftwareDevelopment/Propane" class="btn btn-default btn-lg">
+                             <Image src="https://raw.githubusercontent.com/InjectionSoftwareDevelopment/Propane/master/propane-logo.png" className="img-responsive" width="350" /></a>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+    </div>
+    );
+  }
+}
+
+class TwitterSection extends Component {
+
+  render() {
+    return (
+    <div>
+    <div name="twitter"></div>
+    <div class="content-section-a">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    <div class="intro-message">
-                        <h1>Injection</h1>
-                        <h3>Software Development Project</h3>
-                        <hr class="intro-divider"/>
-                        <ul class="list-inline intro-social-buttons">
-                            <li>
-                                <a href="#twitter" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                            </li>
-                            <li>
-                                <a href="#downloads" class="btn btn-default btn-lg"><i class="fa  fa-arrow-circle-down fa-fw"></i> <span class="network-name">Downloads</span></a>
-                            </li>
-                            <li>
-                                <a href="#gitlab" class="btn btn-default btn-lg"><i class="fa fa-gitlab fa-fw"></i> <span class="network-name">GitLab</span></a>
-                            </li>
-                      
-                        </ul>
-                        <div align="center">
-                            <a href="https://github.com/InjectionSoftwareDevelopment/Propane" class="btn btn-default btn-lg">
-                            <Image src="https://raw.githubusercontent.com/InjectionSoftwareDevelopment/Propane/master/propane-logo.png" className="img-responsive" width="350" /></a>
-                        </div>
-                    </div>
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer"/>
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Get the latest news!</h2>
+                    <p class="lead">Follow <a href="https://twitter.com/InjectionDev">@InjectionDev</a> on Twtter to get the latest updates on our software and progress. Our website is always updated first, but this is the second best way to keep up with us!</p>
                 </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                  <a class="twitter-timeline" href="https://twitter.com/InjectionDev" data-widget-id="530498121038434304">Tweets by @InjectionDev</a>
+              </div>
             </div>
         </div>
     </div>
+    </div>
+    );
+  }
 
+
+}
+
+class DownloadsSection extends Component {
+
+  render() {
+    return (
+    <div>
+    <div name="downloads"></div>
+    
+      <div class="content-section-b">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer"/>
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Downloads</h2>
+                    <p class="lead">We have something for everyone! Check out all of our downloads in the <a href="/downloads">Downloads</a> section of the site, or just select your platform by clicking a button to the left.</p>
+                </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                  <ul class="list-inline intro-social-buttons">
+                      <h3>Computer</h3>
+                      <hr/>
+                      <li>
+                          <a href="downloads/index.html#osxdownloads" class="btn btn-default btn-lg"><i class="fa fa-apple fa-fw"></i> <span class="network-name">OSX</span></a>
+                      </li>
+                      <li>
+                          <a href="downloads/index.html#linuxdownloads" class="btn btn-default btn-lg"><i class="fa fa-linux fa-fw"></i> <span class="network-name">Linux</span></a>
+                      </li>
+                      <li>
+                          <a href="downloads/index.html#windowsdownloads" class="btn btn-default btn-lg"><i class="fa fa-windows fa-fw"></i> <span class="network-name">Windows</span></a>
+                      </li>
+                      <hr/>
+                      <h3>Mobile</h3>
+                      <hr/>
+                        <li>
+                            <a href="downloads/index.html#iosdownloads" class="btn btn-default btn-lg"><i class="fa fa-apple fa-fw"></i> <span class="network-name">iOS</span></a>
+                        </li>
+                        <li>
+                            <a href="downloads/index.html#androiddownloads" class="btn btn-default btn-lg"><i class="fa fa-android fa-fw"></i> <span class="network-name">Android</span></a>
+                        </li>
+                        <hr/>
+                    </ul>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+}
+
+class GitHubSection extends Component {
+
+  render() {
+    return (
+    <div>
+    <div name="github"></div>
+      <div class="content-section-a">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer"/>
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Injection GitHub!</h2>
+                    <p class="lead">Are you interested in developing software and need some resources and references? <br/><br/> Or maybe you prefer to build your software from source and see the code you're installing directly? <br/><br/> If so check out the Injection Software Development github! Any open source software or projects we develop can be found here. Feel free to contribute, use, and reference any of our software, code, or documentation.</p>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <a href="https://github.com/InjectionSoftwareDevelopment"><font className="big-github-icon"><i class="fa fa-github fa-5x"></i></font></a>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
     );
   }
 }

@@ -9,7 +9,9 @@ export default class CustomNav extends Component {
         <Navbar.Brand>
           <a class="navbar-brand topnav" href="#home"><Image src="/media/img/top-logo-injection.png" className="img-responsive"/></a>
         </Navbar.Brand>
+        <Navbar.Toggle />
       </Navbar.Header>
+      <Navbar.Collapse>
       <Nav pullRight>
         <NavItem eventKey={1} href="/">
           Home
@@ -30,6 +32,7 @@ export default class CustomNav extends Component {
           Store
         </NavItem>
       </Nav>
+      </Navbar.Collapse>
     </Navbar>
     );
   }
