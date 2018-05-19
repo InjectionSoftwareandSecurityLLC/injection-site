@@ -85,6 +85,33 @@
     font-size: 75px;
 }
 
+.project-items-heading{
+    color: grey;
+}
+
+.projects-in-progress{
+    color: #FFF000;
+}
+
+.projects-done{
+    color: green;
+}
+
+.projects-cancelled{
+    color: red;
+}
+
+.big-terminal{
+    font-size:25px;
+}
+.list-decimal{
+    list-style: decimal;
+}
+
+.span-top-25-px{
+    padding-top: 25px;
+}
+
  @media(max-width:767px) {
      .intro-message {
          padding-bottom: 15%;

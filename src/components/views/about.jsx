@@ -23,7 +23,7 @@ export default class About extends Component {
             </div>
         </div>
        </div>
-    <div name="about"></div>
+    <a name="about"/>
     <div class="content-section-a">
         <div class="container">
             <div class="row">

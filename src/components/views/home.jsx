@@ -2,21 +2,6 @@ import React, { Component } from "react";
 import {Image} from 'react-bootstrap'
 
 export default class Home extends Component {
-    /* Example for API Fetch
-    constructor(props) {
-        super(props);
-    
-        this.state = {
-          content: 'None',
-        };
-      }
-
-    componentDidMount() {
-        fetch("https://api.github.com/users/3ndG4me")
-          .then(response => response.json())
-          .then(data => this.setState({ content: data.bio }));
-      }*/
-
 
   render() {
     return (
@@ -26,10 +11,6 @@ export default class Home extends Component {
         <DownloadsSection />
         <GitHubSection />
    </div>
-  
-
-
-
     );
   }
 }
@@ -80,7 +61,7 @@ class TwitterSection extends Component {
   render() {
     return (
     <div>
-    <div name="twitter"></div>
+    <a name="twitter"/>
     <div class="content-section-a">
         <div class="container">
             <div class="row">
@@ -108,8 +89,7 @@ class DownloadsSection extends Component {
   render() {
     return (
     <div>
-    <div name="downloads"></div>
-    
+    <a name="downloads"/>
       <div class="content-section-b">
         <div class="container">
             <div class="row">
@@ -157,7 +137,7 @@ class GitHubSection extends Component {
   render() {
     return (
     <div>
-    <div name="github"></div>
+    <a name="github"/>
       <div class="content-section-a">
         <div class="container">
             <div class="row">
