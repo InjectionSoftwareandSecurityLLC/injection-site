@@ -6,7 +6,7 @@ export default class Home extends Component {
   render() {
     return (
    <div id="home">
-        <TopSection />
+        <HomeHeader />
         <TwitterSection />
         <DownloadsSection />
         <GitHubSection />
@@ -16,7 +16,7 @@ export default class Home extends Component {
 }
 
 
-class TopSection extends Component{
+class HomeHeader extends Component{
 
   render(){
     return(

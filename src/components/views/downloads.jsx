@@ -1,22 +1,21 @@
 import React, { Component } from "react";
 import Spinner from '../spinner'
 
-export default class Projects extends Component {
+export default class Downloads extends Component {
 
-      render(){
-          return(
-              <div>
-              <ProjectsHeader />
-              <ProjectsStatus />
-              </div>
-          );
-      }
+    render(){
+        return(
+            <div>
+            <DownloadsHeader />
+            <DownloadsList />
+            </div>
+        );
+    }
 
 }
 
 
-class ProjectsHeader extends Component{
-
+class DownloadsHeader extends Component{
     render(){
         return(
         <div>
@@ -25,23 +24,12 @@ class ProjectsHeader extends Component{
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="intro-message">
-                                <h1>Projects</h1>
-                                <h3>See what we are working on!</h3>
+                                <h1>Downloads</h1>
+                                <h3>Software for all!</h3>
                                 <hr class="intro-divider"/>
                                 <ul class="list-inline intro-social-buttons">
                                     <li>
-                                        <a href="#projects" class="btn btn-default btn-lg"><i class="fa fa-code-fork fa-fw"></i> <span class="network-name">Projects</span></a>
-                                    </li>
-                                </ul>
-                                <ul class="list-inline intro-social-buttons">
-                                    <li>
-                                        <p class="project-items-heading">Published</p> <font class="projects-done"><i class="fa fa-circle" aria-hidden="true"></i></font>
-                                    </li>
-                                    <li>
-                                        <p class="project-items-heading">In Progress</p> <font class="projects-in-progress"><i class="fa fa-circle" aria-hidden="true"></i></font>
-                                    </li>
-                                    <li>
-                                        <p class="project-items-heading">Cancelled</p> <font class="projects-cancelled"><i class="fa fa-circle" aria-hidden="true"></i></font>
+                                        <a href="#downloads" class="btn btn-default btn-lg"><i class="fa  fa-arrow-circle-down fa-fw"></i> <span class="network-name">Downloads</span></a>
                                     </li>
                                 </ul>
                             </div>
@@ -50,18 +38,14 @@ class ProjectsHeader extends Component{
                 </div>
             </div>
         </div>
-
         );
     }
-
 }
 
 
-
-class ProjectsStatus extends Component{
-       
-   // Example for API Fetch
-    constructor(props) {
+class DownloadsList extends Component{
+       // Example for API Fetch
+       constructor(props) {
         super(props);
     
         this.state = {
@@ -134,16 +118,7 @@ class ProjectsStatus extends Component{
             {this.state.statuses.map((status)=>{
                 //console.log("Status loop", status);
 
-                if(!status.released || status.version !== status.release_version){
-                    var state_color;
-                    if(status.state === "done"){
-                        state_color = "projects-done"
-                    }else if(status.state === "cancelled"){
-                        state_color = "projects-cancelled"
-                    }else if(status.state === "in-progress"){
-                        state_color = "projects-in-progress"
-                    }
-
+                if(status.released){
                     var status_platform;
                     if(status.platform === "all"){
                         status_platform = <span><i class="fa fa-linux" aria-hidden="true"></i> <i class="fa fa-apple" aria-hidden="true"></i> <i class="fa fa-android" aria-hidden="true"></i> <i class="fa fa-windows" aria-hidden="true"></i></span>;
@@ -169,7 +144,7 @@ class ProjectsStatus extends Component{
                         status_platform = <span><i class="fa fa-globe" aria-hidden="true"></i></span>;
                     }
                     return(
-                        <li key={status}>{status.name} {status.version}: {status.progress} <font class={state_color}> {status_platform}</font></li>
+                        <li key={status}><a href={status.download_url}>{status.name} {status.release_version} {status_platform}</a></li>
                     );
                 }
                 return(true);
@@ -189,16 +164,15 @@ class ProjectsStatus extends Component{
                             <div class="col-lg-5 col-sm-6">
                                 <hr class="section-heading-spacer" />
                                 <div class="clearfix"></div>
-                                <h2 class="section-heading">Projects:</h2>
+                                <h2 class="section-heading">Downloads:</h2>
                                 <p class="lead">
                                 {this.state.isLoading ? <Spinner /> : this.displayProjects()}
                                 </p>
                             </div>
                             <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                            <font class="big-terminal">
-                            <span class="span-top-25-px fa-stack fa-lg fa-5x">
-                                <i class="fa fa-square fa-stack-2x"></i>
-                                <i class="fa fa-terminal fa-stack-1x fa-inverse"></i>
+                            <font class="big-download">
+                            <span class="fa-lg fa-5x">
+                                <i class="fa fa-arrow-circle-o-down"></i>
                             </span>
                             </font>
                         </div>

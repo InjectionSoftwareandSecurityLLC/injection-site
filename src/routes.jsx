@@ -9,7 +9,8 @@ import Footer from './components/footer'
 import Home from './components/views/home'
 import About from './components/views/about'
 import Projects from './components/views/projects'
-
+import Downloads from './components/views/downloads'
+import Blog from './components/views/blog'
 
 
 
@@ -21,6 +22,8 @@ export default class Routes extends React.Component {
         <Route exact={true} path="/" component={Home}/>
         <Route path="/about" component={About}/>
         <Route path="/projects" component={Projects}/>
+        <Route path="/downloads" component={Downloads}/>
+        <Route path="/blog" component={Blog}/>
         <Footer />
       </div>
     )

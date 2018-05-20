@@ -104,6 +104,11 @@
 .big-terminal{
     font-size:25px;
 }
+
+.big-download{
+    font-size:50px;
+}
+
 .list-decimal{
     list-style: decimal;
 }
@@ -114,6 +119,14 @@
 
 .loading-icon{
     color: #6cbff7;
+}
+
+.download-list{
+    padding-bottom: 20px;
+}
+
+.blog-iframe{
+    background-color: #3498db !important;
 }
 
  @media(max-width:767px) {

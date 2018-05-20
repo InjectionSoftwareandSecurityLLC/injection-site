@@ -7,7 +7,7 @@ export default class CustomNav extends Component {
       <Navbar>
       <Navbar.Header>
         <Navbar.Brand>
-          <a class="navbar-brand topnav" href="#home"><Image src="/media/img/top-logo-injection.png" className="img-responsive"/></a>
+          <a class="navbar-brand topnav" href="/"><Image src="/media/img/top-logo-injection.png" className="img-responsive"/></a>
         </Navbar.Brand>
         <Navbar.Toggle />
       </Navbar.Header>
