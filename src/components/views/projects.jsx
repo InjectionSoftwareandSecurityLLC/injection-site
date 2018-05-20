@@ -65,7 +65,8 @@ class ProjectsStatus extends Component{
         super(props);
     
         this.state = {
-          content: [],
+          repos: [],
+          statuses: []
         };
       }
 
@@ -84,13 +85,14 @@ class ProjectsStatus extends Component{
               console.log("Data", data)
               let all_repos = data.map((repos) => {
                   return(
-                    this.getStatuses(repos.full_name)
+                    repos.full_name
                   )
                   
               })
               console.log("All Repos", all_repos)
-              this.setState({ content: all_repos })
-              console.log("State", this.state.content)
+              this.setState({ repos: all_repos })
+              console.log("State", this.state.repos)
+              this.getStatuses();
 
         })
         .catch(error => console.log(error));
@@ -98,18 +100,27 @@ class ProjectsStatus extends Component{
       }
 
 
-    getStatuses(repo_name){
-        let url = "https://raw.githubusercontent.com/" + repo_name  + "/master/injection-status.json";
-        fetch(url)
-          .then(this.handleErrors)
-          .then(response => response.json())
-          .then(data => {
-            console.log("Raw Req Data", data)
-                return(
-                    <li>{data.progress}</li>
-                )
-            })
-          .catch(error => console.log("Project does not have injection-status.json...skipping..."));
+    getStatuses(){
+        var status = [];
+        var repo_names = this.state.repos;
+        repo_names.map((name) => {
+            let url = "https://raw.githubusercontent.com/" + name  + "/master/injection-status.json";
+            console.log("Req URL", url)
+            fetch(url)
+              .then(this.handleErrors)
+              .then(response => response.json())
+              .then(data => {
+                console.log("Raw Req Data", data)
+                status.push(data)
+                console.log("All Status", status)
+                this.setState({statuses: status})
+                console.log("State", this.state.statuses)
+                })
+              .catch(error => console.log("Project does not have injection-status.json...skipping..."));
+              
+              return({name});
+        })
+
 
       }
 
@@ -118,10 +129,43 @@ class ProjectsStatus extends Component{
 
         return(
             <ul class="list-decimal">
-            {this.state.content}
-            <li>OpenVPNConnect Wifi Pineapple Module: 100% <font class="projects-done"><i class="fa fa-plug" aria-hidden="true"></i></font></li>
-            <li>OSCP Journey: 25% <i class="fa fa-lock" aria-hidden="true"></i></li>
-            <li>DIY Rubber Ducky 2.0: 0% <i class="fa fa-linux" aria-hidden="true"></i> <i class="fa fa-apple" aria-hidden="true"></i> <i class="fa fa-windows" aria-hidden="true"></i></li>
+            {this.state.statuses.map((status)=>{
+                console.log("Status loop", status);
+                var state_color;
+                if(status.state === "done"){
+                    state_color = "projects-done"
+                }else if(status.state === "cancelled"){
+                    state_color = "projects-cancelled"
+                }else if(status.state === "in-progress"){
+                    state_color = "projects-in-progress"
+                }
+
+                var status_platform;
+                if(status.platform === "all"){
+                    status_platform = <span><i class="fa fa-linux" aria-hidden="true"></i> <i class="fa fa-apple" aria-hidden="true"></i> <i class="fa fa-android" aria-hidden="true"></i> <i class="fa fa-windows" aria-hidden="true"></i></span>;
+                }else if(status.platform === "all-mobile"){
+                    status_platform = <span><i class="fa fa-apple" aria-hidden="true"></i> <i class="fa fa-android" aria-hidden="true"></i></span>;
+                }else if(status.platform === "all-desktop"){
+                    status_platform = <span><i class="fa fa-linux" aria-hidden="true"></i> <i class="fa fa-apple" aria-hidden="true"></i> <i class="fa fa-windows" aria-hidden="true"></i></span>;
+                }else if(status.platform === "apple"){
+                    status_platform = <span><i class="fa fa-apple" aria-hidden="true"></i></span>;
+                }else if(status.platform === "linux"){
+                    status_platform = <span><i class="fa fa-linux" aria-hidden="true"></i></span>;
+                }else if(status.platform === "windows"){
+                    status_platform = <span><i class="fa fa-windows" aria-hidden="true"></i></span>;
+                }else if(status.platform === "android"){
+                    status_platform = <span><i class="fa fa-android" aria-hidden="true"></i></span>;
+                }else if(status.platform === "nix"){
+                    status_platform = <span><i class="fa fa-linux" aria-hidden="true"></i> <i class="fa fa-apple" aria-hidden="true"></i></span>;
+                }else if(status.platform === "plugin"){
+                    status_platform = <span><i class="fa fa-plug" aria-hidden="true"></i></span>;
+                }else if(status.platform === "security"){
+                    status_platform = <span><i class="fa fa-lock" aria-hidden="true"></i></span>;
+                }
+                return(
+                    <li key={status}>{status.name} {status.version}: {status.progress} <font class={state_color}> {status_platform}</font></li>
+                );
+            })}
             </ul>
         );
       }
