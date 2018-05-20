@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-//import {Image} from 'react-bootstrap'
+import Spinner from '../spinner'
 
 export default class Projects extends Component {
 
@@ -66,7 +66,8 @@ class ProjectsStatus extends Component{
     
         this.state = {
           repos: [],
-          statuses: []
+          statuses: [],
+          isLoading: false
         };
       }
 
@@ -78,20 +79,21 @@ class ProjectsStatus extends Component{
     }
 
     componentDidMount() {
+        this.setState({isLoading: true});
         fetch("https://api.github.com/orgs/InjectionSoftwareDevelopment/repos")
           .then(this.handleErrors)
           .then(response => response.json())
           .then(data => {
-              console.log("Data", data)
+              //console.log("Data", data)
               let all_repos = data.map((repos) => {
                   return(
                     repos.full_name
                   )
                   
               })
-              console.log("All Repos", all_repos)
+              //console.log("All Repos", all_repos)
               this.setState({ repos: all_repos })
-              console.log("State", this.state.repos)
+              //console.log("State", this.state.repos)
               this.getStatuses();
 
         })
@@ -105,19 +107,19 @@ class ProjectsStatus extends Component{
         var repo_names = this.state.repos;
         repo_names.map((name) => {
             let url = "https://raw.githubusercontent.com/" + name  + "/master/injection-status.json";
-            console.log("Req URL", url)
+            //console.log("Req URL", url)
             fetch(url)
               .then(this.handleErrors)
               .then(response => response.json())
               .then(data => {
-                console.log("Raw Req Data", data)
+                //console.log("Raw Req Data", data)
                 status.push(data)
-                console.log("All Status", status)
+                //console.log("All Status", status)
                 this.setState({statuses: status})
-                console.log("State", this.state.statuses)
+                //console.log("State", this.state.statuses)
                 })
               .catch(error => console.log("Project does not have injection-status.json...skipping..."));
-              
+              this.setState({isLoading: false})
               return({name});
         })
 
@@ -130,7 +132,7 @@ class ProjectsStatus extends Component{
         return(
             <ul class="list-decimal">
             {this.state.statuses.map((status)=>{
-                console.log("Status loop", status);
+                //console.log("Status loop", status);
                 var state_color;
                 if(status.state === "done"){
                     state_color = "projects-done"
@@ -169,6 +171,7 @@ class ProjectsStatus extends Component{
                 );
             })}
             </ul>
+            
         );
       }
 
@@ -185,7 +188,7 @@ class ProjectsStatus extends Component{
                                 <div class="clearfix"></div>
                                 <h2 class="section-heading">Projects:</h2>
                                 <p class="lead">
-                                {this.displayProjects()}
+                                {this.state.isLoading ? <Spinner /> : this.displayProjects()}
                                 </p>
                             </div>
                             <div class="col-lg-5 col-lg-offset-2 col-sm-6">

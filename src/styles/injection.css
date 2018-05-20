@@ -112,6 +112,10 @@
     padding-top: 25px;
 }
 
+.loading-icon{
+    color: #6cbff7;
+}
+
  @media(max-width:767px) {
      .intro-message {
          padding-bottom: 15%;
