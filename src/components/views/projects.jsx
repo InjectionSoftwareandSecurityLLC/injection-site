@@ -161,6 +161,8 @@ class ProjectsStatus extends Component{
                     status_platform = <span><i class="fa fa-plug" aria-hidden="true"></i></span>;
                 }else if(status.platform === "security"){
                     status_platform = <span><i class="fa fa-lock" aria-hidden="true"></i></span>;
+                }else if(status.platform === "web"){
+                    status_platform = <span><i class="fa fa-globe" aria-hidden="true"></i></span>;
                 }
                 return(
                     <li key={status}>{status.name} {status.version}: {status.progress} <font class={state_color}> {status_platform}</font></li>
