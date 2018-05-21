@@ -60,7 +60,7 @@ class ProjectsHeader extends Component{
 
 class ProjectsStatus extends Component{
        
-   // Example for API Fetch
+   // Projects API Fetch
     constructor(props) {
         super(props);
     

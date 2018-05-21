@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import {Image} from 'react-bootstrap'
+import Spinner from '../spinner'
 
 export default class Home extends Component {
 
@@ -17,6 +18,92 @@ export default class Home extends Component {
 
 
 class HomeHeader extends Component{
+
+    // Downloads API Fetch
+    constructor(props) {
+        super(props);
+    
+        this.state = {
+          repos: [],
+          statuses: [],
+          isLoading: false
+        };
+      }
+
+    handleErrors(response) {
+        if (!response.ok) {
+            throw Error(response.statusText);
+        }
+        return response;
+    }
+
+    componentDidMount() {
+        this.setState({isLoading: true});
+        fetch("https://api.github.com/orgs/InjectionSoftwareDevelopment/repos")
+          .then(this.handleErrors)
+          .then(response => response.json())
+          .then(data => {
+              //console.log("Data", data)
+              let all_repos = data.map((repos) => {
+                  return(
+                    repos.full_name
+                  )
+                  
+              })
+              //console.log("All Repos", all_repos)
+              this.setState({ repos: all_repos })
+              //console.log("State", this.state.repos)
+              this.getStatuses();
+
+        })
+        .catch(error => console.log("Github API cannot be reached..."));
+          
+      }
+
+
+    getStatuses(){
+        var status = [];
+        var repo_names = this.state.repos;
+        repo_names.map((name) => {
+            let url = "https://raw.githubusercontent.com/" + name  + "/master/injection-status.json";
+            //console.log("Req URL", url)
+            fetch(url)
+              .then(this.handleErrors)
+              .then(response => response.json())
+              .then(data => {
+                //console.log("Raw Req Data", data)
+                status.push(data)
+                //console.log("All Status", status)
+                this.setState({statuses: status})
+                //console.log("State", this.state.statuses)
+                })
+              .catch(error => console.log("Project does not have injection-status.json...skipping..."));
+              this.setState({isLoading: false})
+              return({name});
+        })
+
+
+      }
+
+
+      displayFeatured(){
+
+        return(
+            <ul class="list-decimal">
+            {this.state.statuses.map((status, index)=>{
+                //console.log("Status loop", status);
+                if(status.featured){
+                    return(
+                        <a href={status.download_url} class="btn btn-default btn-lg">
+                        <Image src={status.featured_image} className="img-responsive" width="350" /></a>
+                    );
+                }
+                return(true);
+            })}
+            </ul>
+            
+        );
+      }
 
   render(){
     return(
@@ -43,8 +130,7 @@ class HomeHeader extends Component{
                        
                          </ul>
                          <div align="center">
-                             <a href="https://github.com/InjectionSoftwareDevelopment/Propane" class="btn btn-default btn-lg">
-                             <Image src="https://raw.githubusercontent.com/InjectionSoftwareDevelopment/Propane/master/propane-logo.png" className="img-responsive" width="350" /></a>
+                            {this.state.isLoading ? <Spinner /> : this.displayFeatured()}
                          </div>
                      </div>
                  </div>

@@ -2,9 +2,11 @@
     "name": "Injection Website",
     "version": "1.0",
     "platform": "web",
-    "progress": "99%",
-    "state": "in-progress",
+    "progress": "100%",
+    "state": "done",
     "released": false,
     "release_version": "",
-    "download_url": ""
+    "download_url": "",
+    "featured": false,
+    "featured_image": ""
 }

@@ -44,7 +44,7 @@ class DownloadsHeader extends Component{
 
 
 class DownloadsList extends Component{
-       // Example for API Fetch
+       // Downloads API Fetch
        constructor(props) {
         super(props);
     
@@ -111,7 +111,7 @@ class DownloadsList extends Component{
       }
 
 
-      displayProjects(){
+      displayDownloads(){
 
         return(
             <ul class="list-decimal">
@@ -166,7 +166,7 @@ class DownloadsList extends Component{
                                 <div class="clearfix"></div>
                                 <h2 class="section-heading">Downloads:</h2>
                                 <p class="lead">
-                                {this.state.isLoading ? <Spinner /> : this.displayProjects()}
+                                {this.state.isLoading ? <Spinner /> : this.displayDownloads()}
                                 </p>
                             </div>
                             <div class="col-lg-5 col-lg-offset-2 col-sm-6">
