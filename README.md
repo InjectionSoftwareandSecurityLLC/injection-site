@@ -1,12 +1,21 @@
 # Injection Website
 
-Shiny new injecti0n.org website rewrite using React
+Shiny new injecti0n.org website rewrite using React!
 
-## WIP
-Current status: 90% complete
+This is a portfolio site for the Injection Software Development project. We like to hack stuff, and also make software/games for all platforms.
 
-## TODO:
-1. Update github repos to have new injection-status.json file
-2. Testing project and downloads pages after updates to repos have been made
-3. Build the project and test production build
-4. Finalize and release!
+This new site integrates with the GitHub API to pull down specially crafted JSON payloads to help keep our website up to date with the latest project statuses and releases for download.
+
+Any project that we add a special `injection-status.json` file to will be tracked and automatically updated via the projects and download pages on injecti0n.org. You can keep up with all of the development statuses via our website and they shoul always be up to date!
+
+If you're interested in tracking your own project status like this, feel free to use this source code to build your own site in react that intgrates with GitHub!
+
+## Version 1.0 Release!
+**Core Features:**
+1. Dynamic featured software/front page item
+2. Dynamic Project Statuses
+3. Dynamic Download page updates for release builds
+
+### Visit it @ [injecti0n.org](https://injecti0n.org)
+
+

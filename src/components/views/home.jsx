@@ -147,8 +147,7 @@ class TwitterSection extends Component {
   render() {
     return (
     <div>
-    <a name="twitter"/>
-    <div class="content-section-a">
+    <div id="twitter" class="content-section-a">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 col-sm-6">
@@ -175,8 +174,7 @@ class DownloadsSection extends Component {
   render() {
     return (
     <div>
-    <a name="downloads"/>
-      <div class="content-section-b">
+      <div id="downloads" class="content-section-b">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
@@ -223,8 +221,7 @@ class GitHubSection extends Component {
   render() {
     return (
     <div>
-    <a name="github"/>
-      <div class="content-section-a">
+      <div id="github" class="content-section-a">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 col-sm-6">

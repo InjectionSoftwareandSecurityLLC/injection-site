@@ -27,7 +27,7 @@ class BlogHeader extends Component{
                                     <hr class="intro-divider"/>
                                     <ul class="list-inline intro-social-buttons">
                                         <li>
-                                            <a href="#projects" class="btn btn-default btn-lg"><i class="fa fa-keyboard-o fa-fw"></i> <span class="network-name">Blog</span></a>
+                                            <a href="#blog" class="btn btn-default btn-lg"><i class="fa fa-keyboard-o fa-fw"></i> <span class="network-name">Blog</span></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -45,8 +45,7 @@ class BlogFrame extends Component{
     render(){
         return(
         <div>
-            <a name="projects"></a>
-                <div class="content-section-a blog-iframe">
+            <div id="blog" class="content-section-a blog-iframe">
                     <div class="container">
                         <div class="row">
                             <div class="embed-responsive embed-responsive-16by9">

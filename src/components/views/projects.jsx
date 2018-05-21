@@ -183,7 +183,7 @@ class ProjectsStatus extends Component{
     render(){
         return(
         <div>
-                <div class="content-section-a">
+            <div id="projects" class="content-section-a">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-5 col-sm-6">

@@ -11,6 +11,7 @@ import About from './components/views/about'
 import Projects from './components/views/projects'
 import Downloads from './components/views/downloads'
 import Blog from './components/views/blog'
+import MerchFeedback from './components/views/merch-feedback'
 
 
 
@@ -24,6 +25,7 @@ export default class Routes extends React.Component {
         <Route path="/projects" component={Projects}/>
         <Route path="/downloads" component={Downloads}/>
         <Route path="/blog" component={Blog}/>
+        <Route path="/merch-feedback" component={MerchFeedback}/>
         <Footer />
       </div>
     )
