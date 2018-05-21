@@ -131,7 +131,7 @@ class ProjectsStatus extends Component{
 
         return(
             <ul class="list-decimal">
-            {this.state.statuses.map((status)=>{
+            {this.state.statuses.map((status, index)=>{
                 //console.log("Status loop", status);
 
                 if(!status.released || status.version !== status.release_version){
@@ -169,7 +169,7 @@ class ProjectsStatus extends Component{
                         status_platform = <span><i class="fa fa-globe" aria-hidden="true"></i></span>;
                     }
                     return(
-                        <li key={status}>{status.name} {status.version}: {status.progress} <font class={state_color}> {status_platform}</font></li>
+                        <li key={index}>{status.name} {status.version}: {status.progress} <font class={state_color}> {status_platform}</font></li>
                     );
                 }
                 return(true);

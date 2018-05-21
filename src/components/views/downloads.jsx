@@ -115,7 +115,7 @@ class DownloadsList extends Component{
 
         return(
             <ul class="list-decimal">
-            {this.state.statuses.map((status)=>{
+            {this.state.statuses.map((status, index)=>{
                 //console.log("Status loop", status);
 
                 if(status.released){
@@ -144,7 +144,7 @@ class DownloadsList extends Component{
                         status_platform = <span><i class="fa fa-globe" aria-hidden="true"></i></span>;
                     }
                     return(
-                        <li key={status}><a href={status.download_url}>{status.name} {status.release_version} {status_platform}</a></li>
+                        <li key={index}><a href={status.download_url}>{status.name} {status.release_version} {status_platform}</a></li>
                     );
                 }
                 return(true);
