@@ -27,7 +27,7 @@ export default class Footer extends Component {
                             <a href="https://www.redbubble.com/people/injectiondev/shop?ref=artist_shop_category_refinement">Store</a>
                         </li>
                     </ul>
-                    <p class="copyright text-muted small">Copyright &copy; Injection 2018. All Rights Reserved</p>
+                    <p class="copyright text-muted small">Copyright &copy; Injection {new Date().getFullYear()}. All Rights Reserved</p>
                 </div>
             </div>
         </div>
