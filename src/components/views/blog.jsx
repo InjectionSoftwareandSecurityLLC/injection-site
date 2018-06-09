@@ -45,11 +45,11 @@ class BlogFrame extends Component{
     render(){
         return(
         <div>
-            <div id="blog" class="content-section-a blog-iframe">
+            <div id="blog" class="content-section-a">
                     <div class="container">
                         <div class="row">
-                            <div class="embed-responsive embed-responsive-16by9">
-                                <iframe title="injection-wp-blog" class="embed-responsive-item" src="https://injectionweb.wordpress.com/"/>
+                            <div class="embed-responsive embed-responsive-16by9 scroll-wrapper">
+                                <iframe title="injection-wp-blog" class="embed-responsive-item" src="https://injectionsoftwaredevelopment.github.io"/>
                             </div>
                         </div>
                     </div>

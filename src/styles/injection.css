@@ -125,12 +125,13 @@
     padding-bottom: 20px;
 }
 
-.blog-iframe{
-    background-color: #3498db !important;
-}
-
 .site-icon-theme{
     color: #3498db;
+}
+
+.scroll-wrapper {
+	-webkit-overflow-scrolling: touch;
+  	overflow-y: scroll;
 }
 
 .margin-bottom-5-perc{
