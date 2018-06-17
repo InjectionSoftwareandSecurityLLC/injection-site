@@ -9,7 +9,7 @@ require('./styles/injection.css');
 const wrapper = document.getElementById('root')
 
 const App = () => (
-  <BrowserRouter>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
     <Routes />
   </BrowserRouter>
 )

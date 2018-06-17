@@ -1,9 +1,9 @@
 {
     "name": "Injection Website",
-    "version": "1.0",
+    "version": "1.0.1",
     "platform": "web",
     "progress": "100%",
-    "state": "done",
+    "state": "in-progress",
     "released": true,
     "release_version": "1.0",
     "download_url": "https://injecti0n.org/",
