@@ -1,8 +1,8 @@
 {
   "name": "injection-site",
-  "version": "0.1.0",
+  "version": "1.0.2",
   "private": true,
-  "homepage": "http://InjectionSoftwareDevelopment.github.io/",
+  "homepage": "http://injectionsoftwaredevelopment.github.io/",
   "dependencies": {
     "font-awesome": "^4.7.0",
     "react": "^16.3.2",
