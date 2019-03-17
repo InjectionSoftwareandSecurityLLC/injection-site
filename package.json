@@ -5,6 +5,7 @@
   "homepage": "http://injectionsoftwaredevelopment.github.io/",
   "dependencies": {
     "font-awesome": "^4.7.0",
+    "gh-pages": "^2.0.1",
     "react": "^16.3.2",
     "react-bootstrap": "^0.32.1",
     "react-dom": "^16.3.2",
