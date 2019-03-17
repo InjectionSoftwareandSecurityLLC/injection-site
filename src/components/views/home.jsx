@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import {Image} from 'react-bootstrap'
 import Spinner from '../spinner'
 
-export default class Home extends Component {
+export default class HomeComponent extends Component {
 
   render() {
     return (

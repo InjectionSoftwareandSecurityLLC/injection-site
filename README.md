@@ -10,11 +10,9 @@ Any project that we add a special `injection-status.json` file to will be tracke
 
 If you're interested in tracking your own project status like this, feel free to use this source code to build your own site in react that intgrates with GitHub!
 
-## Version 1.0 Release!
+## Version 1.0.2 Release!
 **Core Features:**
-1. Dynamic featured software/front page item
-2. Dynamic Project Statuses
-3. Dynamic Download page updates for release builds
+1. Converted to Github pages for easier maintenance and release structure
 
 ### Visit it @ [injecti0n.org](https://injecti0n.org)
 

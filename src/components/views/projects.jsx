@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Spinner from '../spinner'
 
-export default class Projects extends Component {
+export default class ProjectsComponent extends Component {
 
       render(){
           return(

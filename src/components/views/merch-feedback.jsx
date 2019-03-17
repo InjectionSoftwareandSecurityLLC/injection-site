@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 
-export default class MerchFeedback extends Component {
+export default class MerchFeedbackComponent extends Component {
 
     render(){
         return(
