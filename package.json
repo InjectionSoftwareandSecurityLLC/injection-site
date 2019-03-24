@@ -4,14 +4,17 @@
   "private": true,
   "homepage": "http://injectionsoftwaredevelopment.github.io/",
   "dependencies": {
+    "braces": "^2.3.2",
+    "create-react-app": "^2.1.8",
     "font-awesome": "^4.7.0",
     "gh-pages": "^2.0.1",
-    "react": "^16.3.2",
+    "react": "^16.8.5",
     "react-bootstrap": "^0.32.1",
-    "react-dom": "^16.3.2",
-    "react-router": "^4.2.0",
+    "react-dom": "^16.8.5",
+    "react-router": "^4.3.1",
     "react-router-dom": "^4.2.2",
-    "react-scripts": "1.1.4"
+    "react-scripts": "^2.1.8",
+    "update": "^0.7.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -19,5 +22,11 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d ./build -r https://github.com/InjectionSoftwareDevelopment/injectionsoftwaredevelopment.github.io -b master -m deploy"
-  }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
