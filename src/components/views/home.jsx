@@ -9,7 +9,7 @@ export default class HomeComponent extends Component {
    <div id="home">
         <HomeHeader />
         <TwitterSection />
-        <DownloadsSection />
+        <YouTubeSection />
         <GitHubSection />
    </div>
     );
@@ -122,7 +122,7 @@ class HomeHeader extends Component{
                                  <a href="#twitter" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
                              </li>
                              <li>
-                                 <a href="#downloads" class="btn btn-default btn-lg"><i class="fa  fa-arrow-circle-down fa-fw"></i> <span class="network-name">Downloads</span></a>
+                                 <a href="#youtube" class="btn btn-default btn-lg"><i class="fa  fa-youtube-play fa-fw"></i> <span class="network-name">YouTube</span></a>
                              </li>
                              <li>
                                  <a href="#github" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">GitHub</span></a>
@@ -169,45 +169,23 @@ class TwitterSection extends Component {
 
 }
 
-class DownloadsSection extends Component {
+class YouTubeSection extends Component {
 
   render() {
     return (
     <div>
-      <div id="downloads" class="content-section-b">
+      <div id="youtube" class="content-section-b">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
                     <hr class="section-heading-spacer"/>
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">Downloads</h2>
-                    <p class="lead">We have something for everyone! Check out all of our downloads in the <a href="/downloads">Downloads</a> section of the site, or just select your platform by clicking a button to the left.</p>
-                </div>
-                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                  <ul class="list-inline intro-social-buttons">
-                      <h3>Computer</h3>
-                      <hr/>
-                      <li>
-                          <a href="downloads/index.html#osxdownloads" class="btn btn-default btn-lg"><i class="fa fa-apple fa-fw"></i> <span class="network-name">OSX</span></a>
-                      </li>
-                      <li>
-                          <a href="downloads/index.html#linuxdownloads" class="btn btn-default btn-lg"><i class="fa fa-linux fa-fw"></i> <span class="network-name">Linux</span></a>
-                      </li>
-                      <li>
-                          <a href="downloads/index.html#windowsdownloads" class="btn btn-default btn-lg"><i class="fa fa-windows fa-fw"></i> <span class="network-name">Windows</span></a>
-                      </li>
-                      <hr/>
-                      <h3>Mobile</h3>
-                      <hr/>
-                        <li>
-                            <a href="downloads/index.html#iosdownloads" class="btn btn-default btn-lg"><i class="fa fa-apple fa-fw"></i> <span class="network-name">iOS</span></a>
-                        </li>
-                        <li>
-                            <a href="downloads/index.html#androiddownloads" class="btn btn-default btn-lg"><i class="fa fa-android fa-fw"></i> <span class="network-name">Android</span></a>
-                        </li>
-                        <hr/>
-                    </ul>
-                </div>
+                    <h2 class="section-heading">YouTube</h2>
+                    <p class="lead">Interested in new promo videos? How about watching some hands on hacking videos and tutorials? Whatever your interest is in Injection you can find lively video updates on our YouTube channel so go check it out!</p>
+                    </div>
+                    <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                        <a href="https://www.youtube.com/channel/UC31jVeFdiPWsxMRqhXapRGQ"><font className="big-youtube-icon"><i class="fa fa-youtube-play fa-5x"></i></font></a>
+                    </div>
             </div>
           </div>
         </div>
