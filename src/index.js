@@ -54,7 +54,7 @@ export default class App extends React.Component {
       <div>
         <CustomNav update={page => this.changePage(page)} />
         <Comp />
-        <FooterComponent />
+        <FooterComponent update={page => this.changePage(page)} />
       </div>
     );
   }
