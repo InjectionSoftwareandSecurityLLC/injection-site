@@ -19,12 +19,13 @@
      font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
      font-weight: 700;
      color: grey;
+     background-color: #000000;
  }
  
  .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
        color: #ff0000;
  }
- 
+
  
  .navbar-brand {
     float: left;
@@ -41,7 +42,29 @@
    color: #ff0000;
  
  }
+
+ a {
+    color: #ff0000;
+    text-decoration: none;
+}
  
+ .btn-default {
+    color: #ff0000;
+    background-color: #000000;
+    border-color: #ff0000;
+}
+
+.btn-default:hover {
+    color: #ff0000;
+    background-color: #181818;
+    border-color: #ff0000;
+}
+
+ .navbar-default {
+    background-color: #000000;
+    border-color: #181818;
+}
+
  .topnav .navbar-default {
      font-size: 14px;
      padding-top: 2px;
@@ -57,7 +80,7 @@
      padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
      padding-bottom: 50px;
      text-align: center;
-     color: #4a4a4a;
+     color: #181818;
      background-size: cover;
  }
  
@@ -73,7 +96,7 @@
  
  .intro-divider {
      width: 400px;
-     border-top: 1px solid #4a4a4a;
+     border-top: 1px solid #181818;
      border-bottom: 1px solid rgba(0,0,0,0.2);
  }
  
@@ -175,7 +198,7 @@
  
  .content-section-a {
      padding: 50px 0;
-     background-color: #4a4a4a;
+     background-color: #181818;
  }
  
  .content-section-b {
@@ -196,7 +219,7 @@
  
  .banner {
      padding: 100px 0;
-     color: #4a4a4a;
+     color: #181818;
      /*background: url(../img/banner-bg.jpg) no-repeat center center;*/
      background-size: cover;
  }

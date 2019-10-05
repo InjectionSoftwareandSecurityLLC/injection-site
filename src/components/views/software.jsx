@@ -29,7 +29,7 @@ class SoftwareHeader extends Component{
                                 <hr class="intro-divider"/>
                                 <ul class="list-inline intro-social-buttons">
                                     <li>
-                                        <a href="#downloads" class="btn btn-default btn-lg"><i class="fa  fa-arrow-circle-down fa-fw"></i> <span class="network-name">Software</span></a>
+                                        <a href="#downloads" class="btn btn-default btn-lg"><i class="fas fa-arrow-circle-down fa-fw"></i> <span class="network-name">Software</span></a>
                                     </li>
                                 </ul>
                             </div>
@@ -121,27 +121,27 @@ class SoftwareList extends Component{
                 if(status.released){
                     var status_platform;
                     if(status.platform === "all"){
-                        status_platform = <span><i class="fa fa-linux" aria-hidden="true"></i> <i class="fa fa-apple" aria-hidden="true"></i> <i class="fa fa-android" aria-hidden="true"></i> <i class="fa fa-windows" aria-hidden="true"></i></span>;
+                        status_platform = <span><i class="fab fa-linux" aria-hidden="true"></i> <i class="fab fa-apple" aria-hidden="true"></i> <i class="fab fa-android" aria-hidden="true"></i> <i class="fab fa-windows" aria-hidden="true"></i></span>;
                     }else if(status.platform === "all-mobile"){
-                        status_platform = <span><i class="fa fa-apple" aria-hidden="true"></i> <i class="fa fa-android" aria-hidden="true"></i></span>;
+                        status_platform = <span><i class="fab fa-apple" aria-hidden="true"></i> <i class="fab fa-android" aria-hidden="true"></i></span>;
                     }else if(status.platform === "all-desktop"){
-                        status_platform = <span><i class="fa fa-linux" aria-hidden="true"></i> <i class="fa fa-apple" aria-hidden="true"></i> <i class="fa fa-windows" aria-hidden="true"></i></span>;
+                        status_platform = <span><i class="fab fa-linux" aria-hidden="true"></i> <i class="fab fa-apple" aria-hidden="true"></i> <i class="fab fa-windows" aria-hidden="true"></i></span>;
                     }else if(status.platform === "apple"){
-                        status_platform = <span><i class="fa fa-apple" aria-hidden="true"></i></span>;
+                        status_platform = <span><i class="fab fa-apple" aria-hidden="true"></i></span>;
                     }else if(status.platform === "linux"){
-                        status_platform = <span><i class="fa fa-linux" aria-hidden="true"></i></span>;
+                        status_platform = <span><i class="fab fa-linux" aria-hidden="true"></i></span>;
                     }else if(status.platform === "windows"){
-                        status_platform = <span><i class="fa fa-windows" aria-hidden="true"></i></span>;
+                        status_platform = <span><i class="fab fa-windows" aria-hidden="true"></i></span>;
                     }else if(status.platform === "android"){
-                        status_platform = <span><i class="fa fa-android" aria-hidden="true"></i></span>;
+                        status_platform = <span><i class="fab fa-android" aria-hidden="true"></i></span>;
                     }else if(status.platform === "nix"){
-                        status_platform = <span><i class="fa fa-linux" aria-hidden="true"></i> <i class="fa fa-apple" aria-hidden="true"></i></span>;
+                        status_platform = <span><i class="fab fa-linux" aria-hidden="true"></i> <i class="fab fa-apple" aria-hidden="true"></i></span>;
                     }else if(status.platform === "plugin"){
-                        status_platform = <span><i class="fa fa-plug" aria-hidden="true"></i></span>;
+                        status_platform = <span><i class="fas fa-plug" aria-hidden="true"></i></span>;
                     }else if(status.platform === "security"){
-                        status_platform = <span><i class="fa fa-lock" aria-hidden="true"></i></span>;
+                        status_platform = <span><i class="fas fa-lock" aria-hidden="true"></i></span>;
                     }else if(status.platform === "web"){
-                        status_platform = <span><i class="fa fa-globe" aria-hidden="true"></i></span>;
+                        status_platform = <span><i class="fas fa-globe" aria-hidden="true"></i></span>;
                     }
                     return(
                         <li key={index}><a href={status.download_url}>{status.name} {status.release_version} {status_platform}</a></li>
