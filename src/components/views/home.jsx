@@ -119,13 +119,13 @@ class HomeHeader extends Component{
                          <hr class="intro-divider"/>
                          <ul class="list-inline intro-social-buttons">
                              <li>
-                                 <a href="#twitter" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                                 <a href="#twitter" class="btn btn-default btn-lg"><i class="fab fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
                              </li>
                              <li>
-                                 <a href="#youtube" class="btn btn-default btn-lg"><i class="fa  fa-youtube-play fa-fw"></i> <span class="network-name">YouTube</span></a>
+                                 <a href="#youtube" class="btn btn-default btn-lg"><i class="fab fa-youtube fa-fw"></i> <span class="network-name">YouTube</span></a>
                              </li>
                              <li>
-                                 <a href="#github" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">GitHub</span></a>
+                                 <a href="#github" class="btn btn-default btn-lg"><i class="fab fa-github fa-fw"></i> <span class="network-name">GitHub</span></a>
                              </li>
                        
                          </ul>
@@ -184,7 +184,7 @@ class YouTubeSection extends Component {
                     <p class="lead">Interested in new promo videos? How about watching some hands on hacking videos and tutorials? Whatever your interest is in Injection you can find lively video updates on our YouTube channel so go check it out!</p>
                     </div>
                     <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                        <a href="https://www.youtube.com/channel/UC31jVeFdiPWsxMRqhXapRGQ"><font className="big-youtube-icon"><i class="fa fa-youtube-play fa-5x"></i></font></a>
+                        <a href="https://www.youtube.com/channel/UC31jVeFdiPWsxMRqhXapRGQ"><font className="big-youtube-icon"><i class="fab fa-youtube fa-5x"></i></font></a>
                     </div>
             </div>
           </div>
@@ -209,7 +209,7 @@ class GitHubSection extends Component {
                     <p class="lead">Are you interested in developing software and need some resources and references? <br/><br/> Or maybe you prefer to build your software from source and see the code you're installing directly? <br/><br/> If so check out the Injection Software Development github! Any open source software or projects we develop can be found here. Feel free to contribute, use, and reference any of our software, code, or documentation.</p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <a href="https://github.com/InjectionSoftwareDevelopment"><font className="big-github-icon"><i class="fa fa-github fa-5x"></i></font></a>
+                    <a href="https://github.com/InjectionSoftwareDevelopment"><font className="big-github-icon"><i class="fab fa-github fa-5x"></i></font></a>
                 </div>
             </div>
         </div>

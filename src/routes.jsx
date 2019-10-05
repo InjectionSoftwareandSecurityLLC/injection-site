@@ -10,6 +10,7 @@ import Home from "./components/views/home";
 import Security from "./components/views/security";
 import Software from "./components/views/software";
 import About from "./components/views/about";
+import Profile from "./components/views/profile"
 import Projects from "./components/views/projects";
 import Blog from "./components/views/blog";
 
@@ -22,16 +23,24 @@ export default class Routes extends React.Component {
           component={Home} 
         />
         <Route 
-          path={`${process.env.PUBLIC_URL}/about`} 
-          component={About} 
+          path={`${process.env.PUBLIC_URL}/security`}
+          component={Security}
+        />
+        <Route
+          path={`${process.env.PUBLIC_URL}/software`}
+          component={Software}
         />
         <Route
           path={`${process.env.PUBLIC_URL}/projects`}
           component={Projects}
         />
+                <Route 
+          path={`${process.env.PUBLIC_URL}/about`} 
+          component={About} 
+        />
         <Route
-          path={`${process.env.PUBLIC_URL}/downloads`}
-          component={Downloads}
+          path={`${process.env.PUBLIC_URL}/3ndG4me`}
+          component={Profile}
         />
         <Route 
           path={`${process.env.PUBLIC_URL}/blog`} 

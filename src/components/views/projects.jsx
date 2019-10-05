@@ -30,18 +30,18 @@ class ProjectsHeader extends Component{
                                 <hr class="intro-divider"/>
                                 <ul class="list-inline intro-social-buttons">
                                     <li>
-                                        <a href="#projects" class="btn btn-default btn-lg"><i class="fa fa-code-fork fa-fw"></i> <span class="network-name">Projects</span></a>
+                                        <a href="#projects" class="btn btn-default btn-lg"><i class="fas fa-code-branch fa-fw"></i> <span class="network-name">Projects</span></a>
                                     </li>
                                 </ul>
                                 <ul class="list-inline intro-social-buttons">
                                     <li>
-                                        <p class="project-items-heading">Published</p> <font class="projects-done"><i class="fa fa-circle" aria-hidden="true"></i></font>
+                                        <p class="project-items-heading">Published</p> <font class="projects-done"><i class="fas fa-circle" aria-hidden="true"></i></font>
                                     </li>
                                     <li>
-                                        <p class="project-items-heading">In Progress</p> <font class="projects-in-progress"><i class="fa fa-circle" aria-hidden="true"></i></font>
+                                        <p class="project-items-heading">In Progress</p> <font class="projects-in-progress"><i class="fas fa-circle" aria-hidden="true"></i></font>
                                     </li>
                                     <li>
-                                        <p class="project-items-heading">Cancelled</p> <font class="projects-cancelled"><i class="fa fa-circle" aria-hidden="true"></i></font>
+                                        <p class="project-items-heading">Cancelled</p> <font class="projects-cancelled"><i class="fas fa-circle" aria-hidden="true"></i></font>
                                     </li>
                                 </ul>
                             </div>
@@ -146,27 +146,27 @@ class ProjectsStatus extends Component{
 
                     var status_platform;
                     if(status.platform === "all"){
-                        status_platform = <span><i class="fa fa-linux" aria-hidden="true"></i> <i class="fa fa-apple" aria-hidden="true"></i> <i class="fa fa-android" aria-hidden="true"></i> <i class="fa fa-windows" aria-hidden="true"></i></span>;
+                        status_platform = <span><i class="fab fa-linux" aria-hidden="true"></i> <i class="fab fa-apple" aria-hidden="true"></i> <i class="fab fa-android" aria-hidden="true"></i> <i class="fab fa-windows" aria-hidden="true"></i></span>;
                     }else if(status.platform === "all-mobile"){
-                        status_platform = <span><i class="fa fa-apple" aria-hidden="true"></i> <i class="fa fa-android" aria-hidden="true"></i></span>;
+                        status_platform = <span><i class="fab fa-apple" aria-hidden="true"></i> <i class="fab fa-android" aria-hidden="true"></i></span>;
                     }else if(status.platform === "all-desktop"){
-                        status_platform = <span><i class="fa fa-linux" aria-hidden="true"></i> <i class="fa fa-apple" aria-hidden="true"></i> <i class="fa fa-windows" aria-hidden="true"></i></span>;
+                        status_platform = <span><i class="fab fa-linux" aria-hidden="true"></i> <i class="fab fa-apple" aria-hidden="true"></i> <i class="fab fa-windows" aria-hidden="true"></i></span>;
                     }else if(status.platform === "apple"){
-                        status_platform = <span><i class="fa fa-apple" aria-hidden="true"></i></span>;
+                        status_platform = <span><i class="fab fa-apple" aria-hidden="true"></i></span>;
                     }else if(status.platform === "linux"){
-                        status_platform = <span><i class="fa fa-linux" aria-hidden="true"></i></span>;
+                        status_platform = <span><i class="fab fa-linux" aria-hidden="true"></i></span>;
                     }else if(status.platform === "windows"){
-                        status_platform = <span><i class="fa fa-windows" aria-hidden="true"></i></span>;
+                        status_platform = <span><i class="fab fa-windows" aria-hidden="true"></i></span>;
                     }else if(status.platform === "android"){
-                        status_platform = <span><i class="fa fa-android" aria-hidden="true"></i></span>;
+                        status_platform = <span><i class="fab fa-android" aria-hidden="true"></i></span>;
                     }else if(status.platform === "nix"){
-                        status_platform = <span><i class="fa fa-linux" aria-hidden="true"></i> <i class="fa fa-apple" aria-hidden="true"></i></span>;
+                        status_platform = <span><i class="fab fa-linux" aria-hidden="true"></i> <i class="fab fa-apple" aria-hidden="true"></i></span>;
                     }else if(status.platform === "plugin"){
-                        status_platform = <span><i class="fa fa-plug" aria-hidden="true"></i></span>;
+                        status_platform = <span><i class="fas fa-plug" aria-hidden="true"></i></span>;
                     }else if(status.platform === "security"){
-                        status_platform = <span><i class="fa fa-lock" aria-hidden="true"></i></span>;
+                        status_platform = <span><i class="fas fa-lock" aria-hidden="true"></i></span>;
                     }else if(status.platform === "web"){
-                        status_platform = <span><i class="fa fa-globe" aria-hidden="true"></i></span>;
+                        status_platform = <span><i class="fas fa-globe" aria-hidden="true"></i></span>;
                     }
                     return(
                         <li key={index}>{status.name} {status.version}: {status.progress} <font class={state_color}> {status_platform}</font></li>

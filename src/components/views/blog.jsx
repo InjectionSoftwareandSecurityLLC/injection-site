@@ -27,7 +27,7 @@ class BlogHeader extends Component{
                                     <hr class="intro-divider"/>
                                     <ul class="list-inline intro-social-buttons">
                                         <li>
-                                            <a href="#blog" class="btn btn-default btn-lg"><i class="fa fa-keyboard-o fa-fw"></i> <span class="network-name">Blog</span></a>
+                                            <a href="#blog" class="btn btn-default btn-lg"><i class="fas fa-keyboard fa-fw"></i> <span class="network-name">Blog</span></a>
                                         </li>
                                     </ul>
                                 </div>

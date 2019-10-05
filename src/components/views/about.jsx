@@ -11,12 +11,12 @@ export default class About extends Component {
               <div class="col-lg-12">
                 <div class="intro-message">
                   <h1>About</h1>
-                  <h3>What is the Injection Software Development Project?</h3>
+                  <h3>What is the Injection?</h3>
                   <hr class="intro-divider" />
                   <ul class="list-inline intro-social-buttons">
                     <li>
                       <a href="#about" class="btn btn-default btn-lg">
-                        <i class="fa fa-level-down fa-fw" />{" "}
+                        <i class="fas fa-network-wired fa-fw" />{" "}
                         <span class="network-name">About</span>
                       </a>
                     </li>
