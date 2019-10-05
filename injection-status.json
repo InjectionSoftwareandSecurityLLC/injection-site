@@ -1,12 +1,12 @@
 {
     "name": "Injection Website",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "platform": "web",
-    "progress": "100%",
-    "state": "done",
-    "released": true,
-    "release_version": "1.0.2",
-    "download_url": "https://injecti0n.org/",
-    "featured": false,
-    "featured_image": ""
+    "progress": "40%",
+    "state": "in-progress",
+    "released": false,
+    "release_version": "1.0.3",
+    "download_url": "https://github.com/InjectionSoftwareDevelopment/injection-site",
+    "featured": true,
+    "featured_image": "https://raw.githubusercontent.com/InjectionSoftwareDevelopment/injection-site/master/public/media/img/injection-logo.png"
 }

@@ -1,26 +1,29 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import { BLOG } from "./constants";
 import { HOME } from "./constants";
+import { SECURITY } from "./constants";
+import { SOFTWARE } from "./constants";
 import { ABOUT } from "./constants";
 import { PROJECTS } from "./constants";
-import { DOWNLOADS } from "./constants";
+import { BLOG } from "./constants";
 
 import CustomNav from "./components/nav";
 import FooterComponent from "./components/footer";
 import HomeComponent from "./components/views/home";
+import SecurityComponent from "./components/views/security";
+import SoftwareComponent from "./components/views/software";
 import AboutComponent from "./components/views/about";
 import ProjectsComponent from "./components/views/projects";
-import DownloadsComponent from "./components/views/downloads";
 import BlogComponent from "./components/views/blog";
-import "font-awesome/css/font-awesome.min.css";
 import "./styles/injection.css";
+import "font-awesome/css/font-awesome.min.css";
 
 export default class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = { currPage: HOME };
+
   }
 
   changePage(page) {
@@ -29,16 +32,18 @@ export default class App extends React.Component {
 
   currentPageComponent() {
     switch (this.state.currPage) {
+      case HOME:
+        return HomeComponent;
+      case SECURITY:
+        return SecurityComponent;
+      case SOFTWARE:
+        return SoftwareComponent;
       case ABOUT:
         return AboutComponent;
       case PROJECTS:
         return ProjectsComponent;
-      case DOWNLOADS:
-        return DownloadsComponent;
       case BLOG:
         return BlogComponent;
-      case HOME:
-        return HomeComponent;
       default:
         throw Error(`No such page: ${this.state.currPage}`);
     }

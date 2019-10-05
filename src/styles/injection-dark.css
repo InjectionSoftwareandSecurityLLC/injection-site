@@ -21,18 +21,8 @@
      color: grey;
  }
  
-
- /* Dark Theme WIP */
-
- .intro-message-dark > h1 {
-    margin: 0;
-    color: #ff0000;
-    font-size: 5em;
-}
-/* End of Dark Theme */
-
  .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-       color: #3498db;
+       color: #ff0000;
  }
  
  
@@ -48,7 +38,7 @@
  h2{
    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
    font-weight: 700;
-   color: #3498db;
+   color: #ff0000;
  
  }
  
@@ -67,7 +57,7 @@
      padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
      padding-bottom: 50px;
      text-align: center;
-     color: #f8f8f8;
+     color: #4a4a4a;
      background-size: cover;
  }
  
@@ -77,13 +67,13 @@
  
  .intro-message > h1 {
      margin: 0;
-     color: #3498db;
+     color: #ff0000;
      font-size: 5em;
  }
  
  .intro-divider {
      width: 400px;
-     border-top: 1px solid #f8f8f8;
+     border-top: 1px solid #4a4a4a;
      border-bottom: 1px solid rgba(0,0,0,0.2);
  }
  
@@ -132,7 +122,7 @@
 }
 
 .loading-icon{
-    color: #6cbff7;
+    color:  #ff4242;
 }
 
 .download-list{
@@ -140,7 +130,7 @@
 }
 
 .site-icon-theme{
-    color: #3498db;
+    color: #ff0000;
 }
 
 .scroll-wrapper {
@@ -185,13 +175,13 @@
  
  .content-section-a {
      padding: 50px 0;
-     background-color: #f8f8f8;
+     background-color: #4a4a4a;
  }
  
  .content-section-b {
      padding: 50px 0;
-     border-top: 1px solid #e7e7e7;
-     border-bottom: 1px solid #e7e7e7;
+     border-top: 1px solid #000000;
+     border-bottom: 1px solid #000000;
  }
  
  .section-heading {
@@ -201,12 +191,12 @@
  .section-heading-spacer {
      float: left;
      width: 200px;
-     border-top: 3px solid #e7e7e7;
+     border-top: 3px solid #000000;
  }
  
  .banner {
      padding: 100px 0;
-     color: #f8f8f8;
+     color: #4a4a4a;
      /*background: url(../img/banner-bg.jpg) no-repeat center center;*/
      background-size: cover;
  }
@@ -253,8 +243,8 @@
  
  footer {
      padding: 50px 0;
-     border-top: 1px solid #e7e7e7;
-     border-bottom: 1px solid #e7e7e7;
+     border-top: 1px solid #000000;
+     border-bottom: 1px solid #000000;
  }
  
  p.copyright {
