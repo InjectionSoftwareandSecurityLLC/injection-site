@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 import Spinner from '../spinner'
 
-export default class DownloadsComponent extends Component {
+export default class SoftwareComponent extends Component {
 
     render(){
         return(
             <div>
-            <DownloadsHeader />
-            <DownloadsList />
+            <SoftwareHeader />
+            <SoftwareList />
             </div>
         );
     }
@@ -15,7 +15,7 @@ export default class DownloadsComponent extends Component {
 }
 
 
-class DownloadsHeader extends Component{
+class SoftwareHeader extends Component{
     render(){
         return(
         <div>
@@ -24,12 +24,12 @@ class DownloadsHeader extends Component{
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="intro-message">
-                                <h1>Downloads</h1>
+                                <h1>Software</h1>
                                 <h3>Software for all!</h3>
                                 <hr class="intro-divider"/>
                                 <ul class="list-inline intro-social-buttons">
                                     <li>
-                                        <a href="#downloads" class="btn btn-default btn-lg"><i class="fa  fa-arrow-circle-down fa-fw"></i> <span class="network-name">Downloads</span></a>
+                                        <a href="#downloads" class="btn btn-default btn-lg"><i class="fa  fa-arrow-circle-down fa-fw"></i> <span class="network-name">Software</span></a>
                                     </li>
                                 </ul>
                             </div>
@@ -43,8 +43,8 @@ class DownloadsHeader extends Component{
 }
 
 
-class DownloadsList extends Component{
-       // Downloads API Fetch
+class SoftwareList extends Component{
+       // Software API Fetch
        constructor(props) {
         super(props);
     
@@ -111,7 +111,7 @@ class DownloadsList extends Component{
       }
 
 
-      displayDownloads(){
+      displaySoftware(){
 
         return(
             <ul class="list-decimal">
@@ -164,9 +164,9 @@ class DownloadsList extends Component{
                             <div class="col-lg-5 col-sm-6">
                                 <hr class="section-heading-spacer" />
                                 <div class="clearfix"></div>
-                                <h2 class="section-heading">Downloads:</h2>
+                                <h2 class="section-heading">Software:</h2>
                                 <p class="lead">
-                                {this.state.isLoading ? <Spinner /> : this.displayDownloads()}
+                                {this.state.isLoading ? <Spinner /> : this.displaySoftware()}
                                 </p>
                             </div>
                             <div class="col-lg-5 col-lg-offset-2 col-sm-6">
