@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Image } from "react-bootstrap";
+//import { Image } from "react-bootstrap";
 
 export default class About extends Component {
   render() {
@@ -40,7 +40,7 @@ export default class About extends Component {
                 </p>
               </div>
               <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                <img width="100%" src="/media/img/injection-logo.png" />
+                <img alt="Injection Logo" width="100%" src="/media/img/injection-logo.png" />
               </div>
             </div>
           </div>

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Spinner from '../spinner'
+//import Spinner from '../spinner'
 
 export default class SecurityComponent extends Component {
 
@@ -162,7 +162,7 @@ class SecurityList extends Component{
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-12">
-                                <img class="center-block" width="60%" src="/media/img/injection-offsec-logo.png"/>
+                                <img alt="Injection Offsec Logo" class="center-block" width="60%" src="/media/img/injection-offsec-logo.png"/>
                             </div>
                         </div>
                     </div>
