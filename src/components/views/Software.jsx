@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Spinner from '../spinner'
+import Spinner from '../Spinner'
 
 export default class SoftwareComponent extends Component {
 
@@ -25,7 +25,7 @@ class SoftwareHeader extends Component{
                         <div class="col-lg-12">
                             <div class="intro-message">
                                 <h1>Software</h1>
-                                <h3>Software for all!</h3>
+                                <h3>Software Downloads</h3>
                                 <hr class="intro-divider"/>
                                 <ul class="list-inline intro-social-buttons">
                                     <li>

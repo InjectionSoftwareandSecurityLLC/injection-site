@@ -21,6 +21,15 @@
      color: grey;
  }
 
+ a{
+     color: #337ab7;
+ }
+
+
+ a:hover{
+    color: #337ab7;
+}
+
 
  /* Cool fade in transition stuff */
 
@@ -82,9 +91,19 @@
      background-color: #000000;
      
  }
+
+ .navbar-default-dark{
+    padding-right: 15%;
+    padding-left: 15%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
+ }
  
  .navbar-default-dark .navbar-nav-dark > li > a:hover, .navbar-default-dark .navbar-nav-dark > li > a:focus {
        color: #ff0000;
+       
  }
 
  .nav-items-dark{
@@ -101,15 +120,19 @@
  
  }
 
- .a-dar {
+ .a-dark {
     color: #ff0000;
     text-decoration: none;
+}
+
+.a-dark:hover {
+    color: #000000;
 }
  
  .btn-default-dark {
     color: #ff0000;
     background-color: #000000;
-    border-color: #ff0000;
+    border-color: #ff0000 !important; 
 }
 
 .btn-default-dark:hover {
@@ -195,64 +218,64 @@
 
 
 
-/* Dark Theme Profile */
+/* Dark Theme portfolio */
 
 /* Basically just changes the accents to white */
 
-.navbar-default-dark-profile .navbar-nav-dark-profile > li > a:hover, .navbar-default-dark-profile .navbar-nav-dark-profile > li > a:focus {
+.navbar-default-dark-portfolio .navbar-nav-dark-portfolio > li > a:hover, .navbar-default-dark-portfolio .navbar-nav-dark-portfolio > li > a:focus {
       color: #ffffff;
 }
 
-.nav-items-dark-profile{
+.nav-items-dark-portfolio{
    color: #777;
 }
 
-.nav-items-dark-profile:hover {
+.nav-items-dark-portfolio:hover {
    color: #ffffff;
 }
 
-.h2-dark-profile{
+.h2-dark-portfolio{
   font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 700;
   color:#ffffff;
 
 }
 
-.a-dark-profile {
+.a-dark-portfolio {
    color: #ffffff;
    text-decoration: none;
 }
 
-.btn-default-dark-profile {
+.btn-default-dark-portfolio {
    color: #ffffff;
    background-color: #000000;
-   border-color: #ffffff;
+   border-color: #ffffff !important;
 }
 
-.btn-default-dark-profile:hover {
+.btn-default-dark-portfolio:hover {
    color: #ffffff;
    background-color: #181818;
    border-color: #ffffff;
 }
 
-.intro-message-dark-profile > h1 {
+.intro-message-dark-portfolio > h1 {
     margin: 0;
     color: #ffffff;
     font-size: 5em;
 }
 
-.site-icon-theme-dark-profile{
+.site-icon-theme-dark-portfolio{
    color: #ffffff;
 }
 
-.navbar-brand-dark-profile {
+.navbar-brand-dark-portfolio {
     margin-top: 5px !important;
 }
 
 
-/* End of Dark Profile Theme */
+/* End of Dark portfolio Theme */
 
- .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+.navbar-light .navbar-nav .nav-link:hover {
        color: #3498db;
  }
  
@@ -266,6 +289,15 @@
     margin-bottom: 10px;
     margin-top: -5px;
     
+}
+
+.cust-nav-container {
+    padding-right: 15%;
+    padding-left: 15%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
 }
  
  
@@ -281,6 +313,58 @@
      padding-top: 2px;
      padding-bottom: 2px;
  }
+
+
+ .btn{
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid
+    transparent;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+ }
+
+ .btn-default {
+    color: #333;
+    background-color:#fff;
+    border-color:#ccc;
+}
+
+ .btn-lg{
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+ }
+
+ .list-inline {
+    padding-left: 0;
+    margin-left: -5px;
+    list-style: none;
+}
+
+.list-inline > li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}
  
  .lead {
      font-size: 18px;
@@ -304,6 +388,17 @@
      color: #3498db;
      font-size: 5em;
  }
+
+ .featured-project{
+     margin-top: 50px;
+ }
+
+
+ .featured-project > h5{
+    margin-top: 50px;
+    color: #3498db;
+}
+
  
  .intro-divider {
      width: 400px;

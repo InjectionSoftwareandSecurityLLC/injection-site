@@ -1,26 +1,68 @@
-# Injection Website
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Shiny new injection.sh website rewrite using React!
+## Available Scripts
 
-This is a portfolio site for the Injection Software Development project. We like to hack stuff, and also make software/games for all platforms.
+In the project directory, you can run:
 
-This new site integrates with the GitHub API to pull down specially crafted JSON payloads to help keep our website up to date with the latest project statuses and releases for download.
+### `npm start`
 
-Any project that we add a special `injection-status.json` file to will be tracked and automatically updated via the projects and download pages on injection.sh. You can keep up with all of the development statuses via our website and they shoul always be up to date!
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-If you're interested in tracking your own project status like this, feel free to use this source code to build your own site in react that intgrates with GitHub!
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-## Version 1.0.3 Soft Release!
-**Core Features:**
-1. New Logos!
-2. Cryptic text for WIP progress items ;)
-3. New domain!
+### `npm test`
 
-## TODO:
-1. Dynamic "Dark Theme" for some pages
-2. Cool fade in/out tranisitions
-3. Fill in that cryptic text!
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### Visit it @ [injection.sh](https://injection.sh)
+### `npm run build`
 
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `npm run build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify

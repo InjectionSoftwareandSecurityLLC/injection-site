@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Spinner from '../spinner'
+import Spinner from '../Spinner'
 
 export default class ProjectsComponent extends Component {
 
@@ -186,7 +186,7 @@ class ProjectsStatus extends Component{
             <div id="projects" class="content-section-a">
                     <div class="container">
                         <div class="row">
-                            <div class="col-lg-5 col-sm-6">
+                            <div class="col-lg-7 col-lg-offset-6">
                                 <hr class="section-heading-spacer" />
                                 <div class="clearfix"></div>
                                 <h2 class="section-heading">Projects:</h2>
@@ -194,7 +194,7 @@ class ProjectsStatus extends Component{
                                 {this.state.isLoading ? <Spinner /> : this.displayProjects()}
                                 </p>
                             </div>
-                            <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                            <div class="col-lg-5">
                             <font class="big-terminal">
                             <span class="span-top-25-px fa-stack fa-lg fa-5x">
                                 <i class="fa fa-square fa-stack-2x"></i>

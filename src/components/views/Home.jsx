@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import {Image} from 'react-bootstrap'
-import Spinner from '../spinner'
+import Spinner from '../Spinner'
 
 export default class HomeComponent extends Component {
 
@@ -89,7 +89,7 @@ class HomeHeader extends Component{
       displayFeatured(){
 
         return(
-            <ul class="list-decimal">
+            <div>
             {this.state.statuses.map((status, index)=>{
                 //console.log("Status loop", status);
                 if(status.featured){
@@ -100,7 +100,7 @@ class HomeHeader extends Component{
                 }
                 return(true);
             })}
-            </ul>
+            </div>
             
         );
       }
@@ -115,9 +115,12 @@ class HomeHeader extends Component{
                  <div class="col-lg-12">
                      <div class="intro-message">
                          <h1>Injection</h1>
-                         <h3>Software Development Project</h3>
+                         <h3>Software and Security LLC</h3>
                          <hr class="intro-divider"/>
                          <ul class="list-inline intro-social-buttons">
+                              <li>
+                                 <a href="/security" class="btn btn-default btn-lg"><i class="fas fa-bug fa-fw"></i> <span class="network-name">Security</span></a>
+                             </li>
                              <li>
                                  <a href="#twitter" class="btn btn-default btn-lg"><i class="fab fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
                              </li>
@@ -129,7 +132,8 @@ class HomeHeader extends Component{
                              </li>
                        
                          </ul>
-                         <div align="center">
+                         <div align="center" class="featured-project">
+                           <h5>Featured Project</h5>
                             {this.state.isLoading ? <Spinner /> : this.displayFeatured()}
                          </div>
                      </div>
@@ -150,14 +154,14 @@ class TwitterSection extends Component {
     <div id="twitter" class="content-section-a">
         <div class="container">
             <div class="row">
-                <div class="col-lg-5 col-sm-6">
+                <div class="col-lg-7 col-lg-offset-6">
                     <hr class="section-heading-spacer"/>
                     <div class="clearfix"></div>
                     <h2 class="section-heading">Get the latest news!</h2>
-                    <p class="lead">Follow <a href="https://twitter.com/InjectionDev">@InjectionDev</a> on Twtter to get the latest updates on our software and progress. Our website is always updated first, but this is the second best way to keep up with us!</p>
+                    <p class="lead">Follow <a href="https://twitter.com/InjectionSec">@InjectionSec</a> on Twtter to get the latest updates on business activity, blog posts, and software releases. Our website is always updated first, but this is the second best way to keep up with us!</p>
                 </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                  <a class="twitter-timeline" href="https://twitter.com/InjectionDev" data-widget-id="530498121038434304">Tweets by @InjectionDev</a>
+                <div class="col-lg-5">
+                  <a class="twitter-timeline" href="https://twitter.com/InjectionSec" data-widget-id="530498121038434304">Tweets by @InjectionSec</a>
               </div>
             </div>
         </div>
@@ -177,15 +181,16 @@ class YouTubeSection extends Component {
       <div id="youtube" class="content-section-b">
         <div class="container">
             <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                <div class="col-lg-7 col-lg-offset-6">
+                        <a href="https://www.youtube.com/channel/UC31jVeFdiPWsxMRqhXapRGQ"><font className="big-youtube-icon"><i class="fab fa-youtube fa-5x"></i></font></a>
+                </div>
+                <div class="col-lg-5">
                     <hr class="section-heading-spacer"/>
                     <div class="clearfix"></div>
                     <h2 class="section-heading">YouTube</h2>
-                    <p class="lead">Interested in new promo videos? How about watching some hands on hacking videos and tutorials? Whatever your interest is in Injection you can find lively video updates on our YouTube channel so go check it out!</p>
+                    <p class="lead"><h5><i>Spearheading free security education for the masses.</i></h5><br/> Whether you are a beginner looking to train up to the OSCP, a defender trying to learn new tricks, or a seasoned offensive security professional looking to step your game up, the Injection YouTube channel will have something for you!</p>
                     </div>
-                    <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                        <a href="https://www.youtube.com/channel/UC31jVeFdiPWsxMRqhXapRGQ"><font className="big-youtube-icon"><i class="fab fa-youtube fa-5x"></i></font></a>
-                    </div>
+
             </div>
           </div>
         </div>
@@ -202,13 +207,13 @@ class GitHubSection extends Component {
       <div id="github" class="content-section-a">
         <div class="container">
             <div class="row">
-                <div class="col-lg-5 col-sm-6">
+                <div class="col-lg-7 col-lg-offset-6">
                     <hr class="section-heading-spacer"/>
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">Injection GitHub!</h2>
-                    <p class="lead">Are you interested in developing software and need some resources and references? <br/><br/> Or maybe you prefer to build your software from source and see the code you're installing directly? <br/><br/> If so check out the Injection Software Development github! Any open source software or projects we develop can be found here. Feel free to contribute, use, and reference any of our software, code, or documentation.</p>
+                    <h2 class="section-heading">Injection GitHub</h2>
+                    <p class="lead">Offensive Security tooling <br/><br/> Desktop and Mobile Applications <br/><br/> Even Games!<br/><br/> We are building all kinds of software here at Injection, and almost all of it is open source! Check out our projects on our <a href="https://github.com/InjectionSoftwareDevelopment">Github.</a></p>
                 </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                <div class="col-lg-5">
                     <a href="https://github.com/InjectionSoftwareDevelopment"><font className="big-github-icon"><i class="fab fa-github fa-5x"></i></font></a>
                 </div>
             </div>

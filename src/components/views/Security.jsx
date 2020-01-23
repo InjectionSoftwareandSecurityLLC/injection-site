@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 
-export default class ProfileComponent extends Component {
+export default class SecurityComponent extends Component {
 
     render(){
         return(
             <div>
-            <ProfileHeader />
-            <ProfileBody />
+            <SecurityHeader />
+            <SecurityBody />
             </div>
         );
     }
@@ -14,7 +14,7 @@ export default class ProfileComponent extends Component {
 }
 
 
-class ProfileHeader extends Component{
+class SecurityHeader extends Component{
     render(){
         return(
         <div>
@@ -22,13 +22,13 @@ class ProfileHeader extends Component{
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12">
-                            <div class="intro-message-dark-profile">
-                                <h1>3ndG4me</h1>
-                                <h3>Portfolio (Coming Soon!)</h3>
+                            <div class="intro-message-dark">
+                                <h1>Security</h1>
+                                <h3>Security Services (Coming soon!)</h3>
                                 <hr class="intro-divider-dark"/>
                                 <ul class="list-inline intro-social-buttons">
                                     <li>
-                                        <a href="#profile" class="btn btn-default-dark-profile btn-lg"><i class="fas fa-chess-rook fa-fw"></i> <span class="network-name">3ndG4me</span></a>
+                                        <a href="#security" class="btn btn-default-dark btn-lg"><i class="fas fa-bug fa-fw"></i> <span class="network-name">Security</span></a>
                                     </li>
                                 </ul>
                             </div>
@@ -42,17 +42,19 @@ class ProfileHeader extends Component{
 }
 
 
-class ProfileBody extends Component{
+class SecurityBody extends Component{
 
 
     render(){
         return(
           <div>
-            <div id="profile" class="content-section-a-dark">
+            <div id="security" class="content-section-a-dark">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-12">
-                                <img alt="Injection Offsec Logo" class="center-block" width="30%" src="/media/img/3ndG4me_main.png"/>
+                                <div class="text-center">
+                                    <img alt="Injection Offsec Logo" class="center-block" width="50%" src="/media/img/injection-offsec-logo.png"/>
+                                </div>
                             </div>
                         </div>
                     </div>
