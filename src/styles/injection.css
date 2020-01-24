@@ -21,6 +21,10 @@
      color: grey;
  }
 
+ul.none{
+    list-style-type: none;
+}
+
  a{
      color: #337ab7;
  }
@@ -146,6 +150,10 @@
     border-color: #181818;
 }
 
+.dark-navbar-toggler{
+    background-color: red;
+}
+
  
  .intro-header-dark {
      padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
@@ -212,7 +220,109 @@
     border: none;
 
  }
+
+
+.dark-card{
+    background-color: #000000;
+    border-color: red;
+
+}
+
+.dark-card-green{
+    background-color: #000000;
+    border-color: #28a745;
+
+}
+
+.dark-card-blue{
+    background-color: #000000;
+    border-color: #007bff;
+
+}
+
+.dark-card-yellow{
+    background-color: #000000;
+    border-color: #ffc107;
+
+}
+
+.dark-card-white{
+    background-color: #000000;
+    border-color: white;
+
+}
+
+.dark-btn-outline {
+    color: red;
+    border-color: red !important;
+}
+
+.dark-btn-outline-green {
+    color:#28a745;
+    border-color:#28a745 !important;
+}
+
+.dark-btn-outline-blue {
+    color:#007bff;
+    border-color:#007bff !important;
+}
+
+.dark-btn-outline-yellow{
+    color:#ffc107;
+    border-color:#ffc107 !important;
+}
+
+.dark-btn-outline-white{
+    color:white;
+    border-color:white !important;
+}
+
+.offsec-services-container {
+    max-width: 1500px;
+}
+
+
+.dark-list-group-pricing-red{
+    color: red;
+    background-color: black;
+    border-color: red;
+}
  
+.dark-list-group-pricing-green{
+    color:#28a745;
+    background-color: black;
+    border-color:#28a745;
+}
+
+.dark-list-group-pricing-blue{
+    color:#007bff;
+    background-color: black;
+    border-color:#007bff;
+}
+
+.dark-list-group-pricing-yellow{
+    color:#ffc107;
+    background-color: black;
+    border-color:#ffc107;
+}
+
+
+.dark-list-group-pricing-white{
+    color: white;
+    background-color: black;
+    border-color: white;
+}
+
+
+
+.pricing{
+    color:#28a745;
+}
+
+.engagement-details{
+    color:white;
+}
+
 /* End of Dark Theme */
 
 
@@ -232,6 +342,10 @@
 
 .nav-items-dark-portfolio:hover {
    color: #ffffff;
+}
+
+.dark-navbar-toggler-portfolio{
+    background-color: white;
 }
 
 .h2-dark-portfolio{
@@ -271,6 +385,8 @@
 .navbar-brand-dark-portfolio {
     margin-top: 5px !important;
 }
+
+
 
 
 /* End of Dark portfolio Theme */

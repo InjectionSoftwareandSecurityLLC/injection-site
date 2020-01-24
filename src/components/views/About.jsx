@@ -36,16 +36,14 @@ export default class About extends Component {
                   For this company, what we do is in the name. We build software, and we are experts in the field computer and information security. 
                   <br />
                   <br />
-                  Our primary business is to provide Offensive Security Consulting services for clients in need of various security testing goals. Simply put, we are the kind of hackers that you pay to break into your systems before the criminals do!
+                  Our primary business is to provide offensive security consulting services for clients in need of various security testing goals. Simply put, we are the kind of hackers that you pay to break into your systems before the criminals do!
                   <br />
                   <br />
-                  Our mission is to help organizations of all kinds operate more securely and develop better secured products.
+                  Offensive security is a proactive approach to improving the over all security posture of your organization.        
+                  Our mission is to use this approach to help organizations of all kinds operate more securely and develop better secured products.
                   <br />
                   <br />
-                  Offensive security is a proactive approach to improving the over all security posture of your organization. 
-                  <br />
-                  <br />
-                  Many companies can't afford to have dedicated "Red Teamers" and are left with two options:
+                  Many companies can't afford to have dedicated "Red Teams" and are left with two options:
                   <ol type="1">
                     <li>Pay extreme amounts of money to large corporate security consulting firms for "penetration testing" with questionable quality of the service they provide.</li>
                     <li>Do nothing, and risk being breached by those criminals we mentioned above.</li>  
@@ -55,7 +53,7 @@ export default class About extends Component {
                   <br />
                   So whether you:
                   <ul>
-                    <li>Need more budget for security.</li>
+                    <li>Need help justifying more budget for security.</li>
                     <li>Want to train your security teams.</li>
                     <li>Need to secure your software applications.</li>
                     <li>Or simply want test how well your organization would hold up to a real threat.</li>
