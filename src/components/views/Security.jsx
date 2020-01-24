@@ -236,7 +236,7 @@ class SecurityBody extends Component{
                                         <Card.Header><Card.Title>Physical Penetration Testing</Card.Title></Card.Header>
                                         <Card.Body>
                                         <Card.Text>
-                                            Does your organization have a physical location? Perhaps it have sensitive information in the desks within. Maybe it houses mission critical operations.
+                                            Does your organization have a physical location? Perhaps there is sensitive information in the desks within. Maybe it houses mission critical operations.
                                             Whatever the case, physical security isn't a risk you should always accept.
                                             <br/>
                                             <br/>
