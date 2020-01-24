@@ -249,7 +249,7 @@ class SecurityBody extends Component{
                                         <Accordion.Collapse eventKey="4">
                                         <Card.Body>
                                             <Card.Text>
-                                            Our physical penetration testing services will implore every breaking and entering technique in the book...and plenty more techniques from the hacker's book.
+                                            Our physical penetration testing services will make use of every breaking and entering technique in the book...and plenty more techniques from the hacker's book.
                                             <br/>
                                             <br/>
                                             Badge cloning attacks, lock picking, social engineering, and even some network penetration testing while we are in there. Let us come to you, and let ourselves in.
