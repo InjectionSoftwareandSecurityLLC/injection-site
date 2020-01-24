@@ -39,7 +39,7 @@ class HomeHeader extends Component{
 
     componentDidMount() {
         this.setState({isLoading: true});
-        fetch("https://api.github.com/orgs/InjectionSoftwareDevelopment/repos")
+        fetch("https://api.github.com/orgs/InjectionSoftwareandSecurityLLC/repos")
           .then(this.handleErrors)
           .then(response => response.json())
           .then(data => {
