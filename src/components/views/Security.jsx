@@ -64,7 +64,7 @@ class SecurityBody extends Component{
                                             With well over 6 years in industry backgrounds within the IT spaces of payments, medical, and security research, our consultants have the experience to provide services that can be tailored to your organization's needs.
                                             <br/>
                                             <br/>
-                                            Compliance standards are not security standards, but they do try. Our services close that gap and not only help you satisfy compliance goals within standards such as PCI DSS, HIPAA, and GDPR, but also provide a value of real security guidance and remediation without our results.
+                                            Compliance standards are not security standards, but they do try. Our services close that gap and not only help you satisfy compliance goals within standards such as PCI DSS, HIPAA, and GDPR, but also provide a value of real security guidance and remediation with our results.
                                             <br/>
                                             <br/>
                                             Compliance or not, organizations and businesses have security risks. We help you identify those, and remediate them, before the criminals do.
