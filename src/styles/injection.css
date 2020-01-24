@@ -146,6 +146,10 @@
     border-color: #181818;
 }
 
+.dark-navbar-toggler{
+    background-color: red;
+}
+
  
  .intro-header-dark {
      padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
@@ -212,6 +216,13 @@
     border: none;
 
  }
+
+
+.dark-card{
+    background-color: #000000;
+}
+
+
  
 /* End of Dark Theme */
 
@@ -232,6 +243,10 @@
 
 .nav-items-dark-portfolio:hover {
    color: #ffffff;
+}
+
+.dark-navbar-toggler-portfolio{
+    background-color: white;
 }
 
 .h2-dark-portfolio{

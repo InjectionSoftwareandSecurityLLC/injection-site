@@ -83,7 +83,7 @@ class DarkHeader extends Component {
               />
             </a>
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Toggle className="dark-navbar-toggler" aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="ml-auto">
           <Nav.Link href="/">
@@ -130,7 +130,7 @@ class DarkPortfolio extends Component {
               />
             </a>
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Toggle className="dark-navbar-toggler-portfolio" aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="ml-auto">
           <Nav.Link href="/">
@@ -155,7 +155,7 @@ class DarkPortfolio extends Component {
                 <span class="nav-items-dark-portfolio">Blog</span>
             </Nav.Link >
             <Nav.Link href="https://www.redbubble.com/people/injectiondev/shop?ref=artist_shop_category_refinement">
-                <span class="nav-items-dark">Store</span>
+                <span class="nav-items-dark-portfolio">Store</span>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
