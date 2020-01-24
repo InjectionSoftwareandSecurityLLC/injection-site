@@ -25,7 +25,7 @@ class SecurityHeader extends Component{
                         <div class="col-lg-12">
                             <div class="intro-message-dark">
                                 <h1>Security</h1>
-                                <h3>Security Services</h3>
+                                <h3>Offensive Security Services</h3>
                                 <hr class="intro-divider-dark"/>
                                 <ul class="list-inline intro-social-buttons">
                                     <li>
