@@ -49,7 +49,7 @@ class BlogFrame extends Component{
                     <div class="container">
                         <div class="row">
                             <div class="embed-responsive embed-responsive-16by9 scroll-wrapper">
-                                <iframe title="injection-blog" class="embed-responsive-item" src="https://injectionsoftwaredevelopment.github.io/injection-blog"/>
+                                <iframe title="injection-blog" class="embed-responsive-item" src="https://injectionsoftwareandsecurityllc.github.io/injection-blog"/>
                             </div>
                         </div>
                     </div>
