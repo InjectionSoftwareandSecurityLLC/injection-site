@@ -62,7 +62,7 @@ class PortfolioBody extends Component{
                                                 The security and hacking community is a strange one, but it's one we love and are proud to contribute to here at Injection Software and Security LLC.
                                                 <br/>
                                                 <br/>
-                                                If you're involved with the community you'll know and understand that many of us maintain some sort of "handle" or screen name that we use to stand out in the community.
+                                                If you're involved with the community you'll know, and understand, that many of us maintain some sort of "handle" or screen name that we use to stand out in the community.
                                                 The concept of a handle's presence, even in modern "hacker culture", is partially a historical thing, but for the most part, some of us just think it is fun and we like it.
                                                 <br/>
                                                 <br/>
