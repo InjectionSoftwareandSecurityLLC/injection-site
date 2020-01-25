@@ -33,7 +33,7 @@ export default class About extends Component {
                 <div class="clearfix" />
                 <h2 class="section-heading">Injection Software and Security LLC</h2>
                 <p class="lead">
-                  For this company, what we do is in the name. We build software, and we are experts in the field computer and information security. 
+                  For this company, what we do is in the name. We build software, and we are experts in the field of computer and information security. 
                   <br />
                   <br />
                   Our primary business is to provide offensive security consulting services for clients in need of various security testing goals. Simply put, we are the kind of hackers that you pay to break into your systems before the criminals do!
