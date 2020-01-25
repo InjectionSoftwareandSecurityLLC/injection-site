@@ -145,6 +145,13 @@ ul.none{
     border-color: #ff0000;
 }
 
+.btn-sec-homepage-dark:hover {
+    color: #ff0000;
+    background-color: #181818;
+    border-color: #ff0000;
+}
+
+
  .navbar-default-dark {
     background-color: #000000;
     border-color: #181818;
@@ -314,13 +321,32 @@ ul.none{
 }
 
 
-
 .pricing{
     color:#28a745;
 }
 
 .engagement-details{
     color:white;
+}
+
+.pentest-icon{
+    color: red;
+}
+
+.app-pentest-icon{
+    color: green;
+}
+
+.wireless-pentest-icon{
+    color: #007bff;
+}
+
+.sec-awareness-icon{
+    color: #ffc107;
+}
+
+.adversarial-icon{
+    color: white;
 }
 
 /* End of Dark Theme */
@@ -386,8 +412,19 @@ ul.none{
     margin-top: 5px !important;
 }
 
+.section-heading-dark-portfolio{
+    color: white;
+}
 
 
+.portfolio-image-pos{
+    margin-left: 67%;
+    margin-top: -87%;
+}
+
+.portfolio-image-container{
+    margin-top: 50%;
+}
 
 /* End of Dark portfolio Theme */
 
@@ -583,6 +620,10 @@ ul.none{
   	overflow-y: scroll;
 }
 
+.white-border{
+    border-color: white;
+}
+
 .margin-bottom-5-perc{
     margin-bottom: 5%;
 }
@@ -661,11 +702,13 @@ ul.none{
      margin-top: 0;
  }
  
+ 
  @media(max-width:1199px) {
      ul.banner-social-buttons {
          float: left;
          margin-top: 15px;
      }
+     
  }
  
  @media(max-width:767px) {
@@ -684,6 +727,11 @@ ul.none{
      ul.banner-social-buttons > li:last-child {
          margin-bottom: 0;
      }
+     .portfolio-image-container{
+        margin-top: 50%;
+        margin-left: -20%;
+    }
+    
  }
 
  .nav-footer{

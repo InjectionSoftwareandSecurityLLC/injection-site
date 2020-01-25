@@ -80,6 +80,8 @@ class SecurityBody extends Component{
                                         <Card.Header><Card.Title>Network Penetration Testing</Card.Title></Card.Header>
                                         <Card.Body>
                                         <Card.Text>
+                                            <div class="text-center"><i class="fas fa-server fa-5x pentest-icon"></i></div>
+                                            <br/>
                                             Whether it's internal or external, we will go where your network doesn't want us to go. These engagements cover your networks, applications, services, and systems of any kind.
                                             <br/>
                                             <br/>
@@ -115,6 +117,8 @@ class SecurityBody extends Component{
                                         <Card.Header><Card.Title>Application Penetration Testing</Card.Title></Card.Header>
                                         <Card.Body>
                                         <Card.Text>
+                                            <div class="text-center"><i class="fas fa-mobile fa-5x app-pentest-icon"></i></div>
+                                            <br/>
                                             Our testing practices are built by consultants who have been software developers for many years. We know what issues applications are prone to, and we know how to remediate them too.
                                             <br/>
                                             <br/>
@@ -151,6 +155,8 @@ class SecurityBody extends Component{
                                     <Card.Header><Card.Title>Wireless Security Audit</Card.Title></Card.Header>
                                         <Card.Body>
                                         <Card.Text>
+                                            <div class="text-center"><i class="fas fa-wifi fa-5x wireless-pentest-icon"></i></div>
+                                            <br/>
                                            How often does your network take WiFi security into account? In our day and age, portable computing devices are abundant. Chances are there are a ton on your network, and they don't belong to you.
                                            <br/>
                                            <br/>
@@ -189,6 +195,8 @@ class SecurityBody extends Component{
                                         <Card.Header><Card.Title>Security Awareness</Card.Title></Card.Header>
                                         <Card.Body>
                                         <Card.Text>
+                                            <div class="text-center"><i class="fas fa-envelope fa-5x sec-awareness-icon"></i></div>
+                                            <br/>
                                             Sometimes you just need to show impact to convince your organization it could use a boost in its security posture. Other times, you may just want to see how your organization would stand up to a potential threat.
                                             <br/>
                                             <br/>
@@ -237,6 +245,8 @@ class SecurityBody extends Component{
                                         <Card.Header><Card.Title>Physical Penetration Testing</Card.Title></Card.Header>
                                         <Card.Body>
                                         <Card.Text>
+                                            <div class="text-center"><i class="fas fa-unlock fa-5x pentest-icon"></i></div>
+                                            <br/>
                                             Does your organization have a physical location? Perhaps there is sensitive information in the desks within. Maybe it houses mission critical operations.
                                             Whatever the case, physical security isn't a risk you should always accept.
                                             <br/>
@@ -271,6 +281,8 @@ class SecurityBody extends Component{
                                         <Card.Header><Card.Title>Adversarial Emulation</Card.Title></Card.Header>
                                         <Card.Body>
                                         <Card.Text>
+                                            <div class="text-center"><i class="fas fa-bug fa-5x adversarial-icon"></i></div>
+                                            <br/>
                                             Our Adversarial Emulation requires time, dedication, and employs techniques your teams won't forget. Need us to be an APT? How about an advanced insider threat?
                                             In any case, we will hit your organization with everything we've got. 
                                             <br/>
