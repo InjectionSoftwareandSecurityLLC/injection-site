@@ -98,7 +98,7 @@ class PortfolioBody extends Component{
                                                 This page is a dedicated portfolio that represents the work ethic, expertise, and accomplishments that have been achieved by Casey. 
                                                 <br/>
                                                 <br/>
-                                                It is a professional page of reference they goes beyond a resume to provide confidence in the quality of services to potential customers, partners, and even confidence in skills and abilities to current and future employers.
+                                                It is a professional page of reference that goes beyond a resume to provide confidence in the quality of services to potential customers, partners, and even confidence in skills and abilities to current and future employers.
                                                 </Card.Text>
                                                 </Card.Body>
                                             </Card>
