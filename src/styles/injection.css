@@ -393,8 +393,19 @@ ul.none{
     margin-top: 5px !important;
 }
 
+.section-heading-dark-portfolio{
+    color: white;
+}
 
 
+.portfolio-image-pos{
+    margin-left: 67%;
+    margin-top: -87%;
+}
+
+.portfolio-image-container{
+    margin-top: 20%;
+}
 
 /* End of Dark portfolio Theme */
 
@@ -590,6 +601,10 @@ ul.none{
   	overflow-y: scroll;
 }
 
+.white-border{
+    border-color: white;
+}
+
 .margin-bottom-5-perc{
     margin-bottom: 5%;
 }
@@ -667,6 +682,7 @@ ul.none{
      float: right;
      margin-top: 0;
  }
+ 
  
  @media(max-width:1199px) {
      ul.banner-social-buttons {

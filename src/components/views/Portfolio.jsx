@@ -114,48 +114,23 @@ class PortfolioBody extends Component{
                         <div class="col-lg-7 col-lg-offset-6">
                             <hr class="section-heading-spacer" />
                             <div class="clearfix" />
-                            <h2 class="section-heading-dark-portfolio">Injection Software and Security LLC</h2>
-                            <p class="lead">
-                            For this company, what we do is in the name. We build software, and we are experts in the field computer and information security. 
-                            <br />
-                            <br />
-                            Our primary business is to provide offensive security consulting services for clients in need of various security testing goals. Simply put, we are the kind of hackers that you pay to break into your systems before the criminals do!
-                            <br />
-                            <br />
-                            Offensive security is a proactive approach to improving the over all security posture of your organization.        
-                            Our mission is to use this approach to help organizations of all kinds operate more securely and develop better secured products.
-                            <br />
-                            <br />
-                            Many companies can't afford to have dedicated "Red Teams" and are left with two options:
-                            <ol type="1">
-                                <li>Pay extreme amounts of money to large corporate security consulting firms for "penetration testing" with questionable quality of the service they provide.</li>
-                                <li>Do nothing, and risk being breached by those criminals we mentioned above.</li>  
-                            </ol>
-                            Security is a passion here at Injection. We are a small company with only 1-6 consultants operating at any given time. This means we are able to charge less, and deliver more in every way. 
-                            <br />
-                            <br />
-                            So whether you:
-                            <ul>
-                                <li>Need help justifying more budget for security.</li>
-                                <li>Want to train your security teams.</li>
-                                <li>Need to secure your software applications.</li>
-                                <li>Or simply want test how well your organization would hold up to a real threat.</li>
-                            </ul>
-                            We are the team for you! <i class="fas fa-smile"></i>
-                            <br />
-                            <br />
-                            If you are interested in learning more about the security services we offer please visit the <a class="a-dark" href="/security">security section</a> of our site!
-                            <br />
-                            <br />
-                            Additionally we are a software company. While we don't offer software development contracting, we do build our own software. 
-                            <br />
-                            <br />
-                            Much of this software is related to offensive security specifically, and almost all of it is open source for you to use to improve your organization's own security practices/tooling.
-                            Any other software applications we develop will be available via their own distribution mediums and websites. They may be promoted on this site from time to time, but can usually always be found on the <a href="/software">software section</a> of this site.
-                            </p>
+                            <h2 class="section-heading-dark-portfolio">Casey Erdmann (3ndG4me) Portfolio</h2>
+                            <Card className="dark-card-white" text="white">
+                                        <Card.Header><Card.Title>Adversarial Emulation</Card.Title></Card.Header>
+                                        <Card.Body>
+                                        <Card.Text>
+                                            Our Adversarial Emulation requires time, dedication, and employs techniques your teams won't forget. Need us to be an APT? How about an advanced insider threat?
+                                            In any case, we will hit your organization with everything we've got. 
+                                            <br/>
+                                            <br/>
+                                            Full scope, no guard rails. This is the "Red Team".
+                                        </Card.Text>
+                                       </Card.Body>
+                                    </Card>
                         </div>
-                        <div class="col-lg-5">
-                            <img alt="3ndG4me Pic" width="70%" src="/media/img/3ndG4me_main.png" />
+                        <div class="col-lg-5 portfolio-image-container">
+                            <img alt="3ndG4me Pic" class="rounded-circle border" width="80%" src="/media/img/3ndG4me_main.png" />
+                            <img alt="Casey headshot Pic" class="rounded-circle border portfolio-image-pos" width="80%" src="/media/img/casey_headshot.png" />
                         </div>
                      </div>
                 </div> 
