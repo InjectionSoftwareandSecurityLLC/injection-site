@@ -145,6 +145,13 @@ ul.none{
     border-color: #ff0000;
 }
 
+.btn-sec-homepage-dark:hover {
+    color: #ff0000;
+    background-color: #181818;
+    border-color: #ff0000;
+}
+
+
  .navbar-default-dark {
     background-color: #000000;
     border-color: #181818;

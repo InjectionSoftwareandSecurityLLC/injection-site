@@ -119,7 +119,7 @@ class HomeHeader extends Component{
                          <hr class="intro-divider"/>
                          <ul class="list-inline intro-social-buttons">
                               <li>
-                                 <a href="/security" class="btn btn-default btn-lg"><i class="fas fa-bug fa-fw"></i> <span class="network-name">Security</span></a>
+                                 <a href="/security" class="btn btn-default btn-sec-homepage-dark btn-lg"><i class="fas fa-bug fa-fw"></i> <span class="network-name">Security</span></a>
                              </li>
                              <li>
                                  <a href="#twitter" class="btn btn-default btn-lg"><i class="fab fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
