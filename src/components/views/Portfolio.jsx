@@ -89,7 +89,7 @@ class PortfolioBody extends Component{
                                                 A few that inspire us are mubix, ReL1K, g0tmi1k, _r00k_, ippsec, and Viss.
                                                 <br/>
                                                 <br/>
-                                                3ndG4me is a brand of sorts in that same vein. Not that it's a product or household name we expect you to know, but it's a person attached to an identity built around contributing to the hacking and security world. All of our YouTube content, blog posts, and even our services have a bit of personal flare to them captured by the handle of the contributor. Casey, being the founder of this company, is the primary contributor, as such, 3ndG4me is a name you may see often in relation to publications, talks, blogs, and videos that we produce here at Injection Software and Security LLC.
+                                                3ndG4me is a brand of sorts in that same vein. Not that it's a product or household name we expect you to know, but it's a person, attached to an identity, built around contributing to the hacking and security world. All of our YouTube content, blog posts, and even our services have a bit of personal flare to them captured by the handle of the contributor. Casey, being the founder of this company, is the primary contributor, as such, 3ndG4me is a name you may see often in relation to publications, talks, blogs, and videos that we produce here at Injection Software and Security LLC.
                                                 <br/>
                                                 <br/>
                                                 </Card.Text>
