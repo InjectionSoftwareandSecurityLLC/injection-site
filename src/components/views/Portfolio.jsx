@@ -511,6 +511,16 @@ class PortfolioBody extends Component{
                                         </Card.Text>
                                        </Card.Body>
                                     </Card>
+                                    <br/>
+                                    <br/>
+                                    <Card className="dark-card-white" text="white">
+                                        <Card.Header><Card.Title>Professional Certifications</Card.Title></Card.Header>
+                                    <Card.Body>
+                                        <Card.Text>
+                                               OSCP, LRPA, GDPR Foundations, eJPT
+                                        </Card.Text>
+                                       </Card.Body>
+                                    </Card>
                                     </Accordion>
                         </div>
                         <div class="col-lg-5 portfolio-image-container">
