@@ -120,6 +120,9 @@ class PortfolioBody extends Component{
                                         <Card.Header><Card.Title>Community</Card.Title></Card.Header>
                                         <Card.Body>
                                         <Card.Text>
+                                                <i class="fas fa-users fa-5x"></i>
+                                                <br/>
+                                                <br/>
                                                 DC706 - Co-Founder of DC706
                                                     <br/>
                                                     <br/>
@@ -185,6 +188,9 @@ class PortfolioBody extends Component{
                                         <Card.Header><Card.Title>Professional Experience</Card.Title></Card.Header>
                                         <Card.Body>
                                         <Card.Text>
+                                                <i class="fas fa-user-tie fa-5x"></i>
+                                                <br/>
+                                                <br/>
                                                 Founder/Lead Consultant/Hacker (2019 - Current)
                                                     <br/>
                                                     <br/>
@@ -363,6 +369,9 @@ class PortfolioBody extends Component{
                                         <Card.Header><Card.Title>Open Source Contributions</Card.Title></Card.Header>
                                         <Card.Body>
                                         <Card.Text>
+                                                <i class="fas fa-code-branch fa-5x"></i>
+                                                <br/>
+                                                <br/>
                                                 OpenVPNConnect - WiFi Pineapple Module
                                                     <br/>
                                                     <br/>
@@ -422,6 +431,9 @@ class PortfolioBody extends Component{
                                         <Card.Header><Card.Title>Security Research</Card.Title></Card.Header>
                                         <Card.Body>
                                         <Card.Text>
+                                                 <i class="fas fa-search fa-5x"></i>
+                                                <br/>
+                                                <br/>
                                                 Authenticated Persistent XSS in (Redacted) - CVE-2020-7934
                                                     <br/>
                                                     <br/>

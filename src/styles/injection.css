@@ -321,13 +321,32 @@ ul.none{
 }
 
 
-
 .pricing{
     color:#28a745;
 }
 
 .engagement-details{
     color:white;
+}
+
+.pentest-icon{
+    color: red;
+}
+
+.app-pentest-icon{
+    color: green;
+}
+
+.wireless-pentest-icon{
+    color: #007bff;
+}
+
+.sec-awareness-icon{
+    color: #ffc107;
+}
+
+.adversarial-icon{
+    color: white;
 }
 
 /* End of Dark Theme */
