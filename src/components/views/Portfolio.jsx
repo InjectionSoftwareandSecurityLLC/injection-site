@@ -228,6 +228,7 @@ class PortfolioBody extends Component{
                                                 </Accordion.Toggle>
                                                 <Accordion.Collapse eventKey="5">
                                                     <Card.Text>
+                                                    <br/>
                                                     As a Security Engineer the core responsibilities are serve as subject matter experts on all things computer and information security. Daily responsibilities include a healthy mix of offensive security testing and devsecops automation work to proactively insure applications/systems are secure. 
                                                     <br/>
                                                     <br/>
@@ -252,6 +253,7 @@ class PortfolioBody extends Component{
                                                 </Accordion.Toggle>
                                                 <Accordion.Collapse eventKey="6">
                                                     <Card.Text>
+                                                    <br/>
                                                     As a Security Researcher on the Synack Red Team (SRT) the core responsibility is simply to hack target applications/systems to identity vulnerabilities with the goal of improving their security posture.. 
                                                     <br/>
                                                     <br/>
