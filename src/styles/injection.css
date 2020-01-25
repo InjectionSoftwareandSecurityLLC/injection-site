@@ -404,7 +404,7 @@ ul.none{
 }
 
 .portfolio-image-container{
-    margin-top: 20%;
+    margin-top: 50%;
 }
 
 /* End of Dark portfolio Theme */
@@ -689,6 +689,7 @@ ul.none{
          float: left;
          margin-top: 15px;
      }
+     
  }
  
  @media(max-width:767px) {
@@ -707,6 +708,11 @@ ul.none{
      ul.banner-social-buttons > li:last-child {
          margin-bottom: 0;
      }
+     .portfolio-image-container{
+        margin-top: 50%;
+        margin-left: -20%;
+    }
+    
  }
 
  .nav-footer{
