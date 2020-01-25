@@ -254,7 +254,7 @@ class PortfolioBody extends Component{
                                                 <Accordion.Collapse eventKey="6">
                                                     <Card.Text>
                                                     <br/>
-                                                    As a Security Researcher on the Synack Red Team (SRT) the core responsibility is simply to hack target applications/systems to identity vulnerabilities with the goal of improving their security posture.. 
+                                                    As a Security Researcher on the Synack Red Team (SRT) the core responsibility is simply to hack target applications/systems to identity vulnerabilities with the goal of improving their security posture. 
                                                     <br/>
                                                     <br/>
                                                     The SRT is private bug bounty program that requires a comprehensive interview process to be accepted in. Once accepted researchers can complete bug bounties in a sort of "crowd source penetration testing" format, and missions related to compliance objectives to help targets establish a general based line of security.

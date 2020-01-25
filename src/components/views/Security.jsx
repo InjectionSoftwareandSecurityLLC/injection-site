@@ -58,7 +58,7 @@ class SecurityBody extends Component{
                                             <Card.Header><Card.Title>Offensive Security Services</Card.Title></Card.Header>
                                             <Card.Body>
                                             <Card.Text>
-                                            At Injection, security is our passion. We are hackers at heart, always trying to find a way to do the things no one supposed to be able do.
+                                            At Injection, security is our passion. We are hackers at heart, always trying to find a way to do the things no one is supposed to be able do.
                                             <br/>
                                             <br/>
                                             With well over 6 years in industry backgrounds within the IT spaces of payments, medical, and security research, our consultants have the experience to provide services that can be tailored to your organization's needs.
