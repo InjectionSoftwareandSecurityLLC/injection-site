@@ -63,7 +63,7 @@ class PortfolioBody extends Component{
                                                 <br/>
                                                 <br/>
                                                 If you're involved with the community you'll know, and understand, that many of us maintain some sort of "handle" or screen name that we use to stand out in the community.
-                                                The concept of a handle's presence, even in modern "hacker culture", is partially a historical thing, but for the most part, some of us just think it is fun and we like it.
+                                                The concept of a handle's presence, even in modern "hacker culture", is partially a historical thing, but for the most part, some of us just think it is fun, and we really like it.
                                                 <br/>
                                                 <br/>
                                                 Most of the security professionals you will interact with at our company have handles, but one of the key individuals is Casey Erdmann - aka - 3ndG4me.
