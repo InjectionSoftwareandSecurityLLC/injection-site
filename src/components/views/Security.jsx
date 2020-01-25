@@ -166,7 +166,7 @@ class SecurityBody extends Component{
                                             Our wireless security audits are an on-premise engagement. We will come to your business and perform a variety of activities related to wireless security.
                                             <br/>
                                             <br/>
-                                            We don't <i>just</i> "hack the WiFi", we also can perform wireless asset reconnaissance to help you identify rogue devices, and even employ various techniques from our physical offensive security testing engagements to plant our own rogue devices for you to test your own controls. 
+                                            We don't <i>just</i> "hack the WiFi", we also can perform wireless asset reconnaissance to help you identify rogue devices. We can also employ various techniques from our physical offensive security testing such as planting our own rogue devices for you to test your controls. 
                                             <br/>
                                             <br/>
                                             Whether it's testing your wireless network segmentation, cracking the password of the access point, or testing out evil twin attacks, we have a whole suite of techniques to show you all the ways wireless network security can impact your organization.
@@ -175,7 +175,7 @@ class SecurityBody extends Component{
 
                                             <ListGroup>
                                                 <ListGroup.Item variant="dark" className="dark-list-group-pricing-blue">Price:<br/><span class="pricing">$3,000*</span></ListGroup.Item>
-                                                <ListGroup.Item variant="dark" className="dark-list-group-pricing-blue">Duration:<br/><span class="engagement-details">1 week/5 business days <br/>(Additional applications add more time)</span></ListGroup.Item>
+                                                <ListGroup.Item variant="dark" className="dark-list-group-pricing-blue">Duration:<br/><span class="engagement-details">1 week/5 business days</span></ListGroup.Item>
                                             </ListGroup>
                                             </Card.Text>
                                         </Card.Body>
@@ -204,11 +204,11 @@ class SecurityBody extends Component{
                                             Our security awareness services come in three packages:
                                             <br/>
                                             <ol class="numbers">
-                                                <li>Phishing Campaigns:<br/><br/>Our phishing campaigns aren't some automated robot sending spam emails. We have real hackers crafting really convincing emails to send to your organization. We can tailor experiences to meet your goals and design emails to measure a wide range of impacts and experiences even down to simulated malware events.</li>
+                                                <li>Phishing Campaigns:<br/><br/>Our phishing campaigns aren't some automated robot sending spam emails. We have real hackers crafting really convincing emails to send to your organization. We can tailor experiences to meet your goals and design emails to measure a wide range of impacts and experiences, even down to simulated malware events.</li>
                                                 <br/>
-                                                <li>Physical Security Awareness Engagements:<br/><br/>These are onsite engagements that test the physical security controls of your organization. This is very similar to a physical penetration test, we use the exact same tools, techniques, and procedures, but we don't actually exploit anything. We will break in, prove that we broke in, and provide evidence of all the scary things we <i>could</i> have done while we were inside, without actually doing it.</li>
+                                                <li>Physical Security Awareness Engagements:<br/><br/>These are onsite engagements that test the physical security controls of your organization. This is very similar to a physical penetration test. We use the exact same tools, techniques, and procedures, but we don't actually exploit anything. We will break in, prove that we broke in, and provide evidence of all the scary things we <i>could</i> have done while we were inside, without actually doing it.</li>
                                                 <br/>
-                                                <li>Table Top Exercises:<br/><br/>These are compromising event walkthroughs to test your incident response capabilities that can be done onsite or remotely. We will design an incident related to your organizations needs, and walk you through it step by step throwing every curve ball we can along the way. This will be sure to test your incident response playbooks...or lack thereof. </li>
+                                                <li>Table Top Exercises:<br/><br/>These are compromising event walkthroughs to test your incident response capabilities that can be done onsite or remotely. We will design an incident related to your organization's needs, and walk you through it step by step throwing every curve ball we can along the way. This will be sure to test your incident response playbooks...or lack thereof. </li>
                                             </ol>
                                             <br/>
                                             <br/>
@@ -225,6 +225,7 @@ class SecurityBody extends Component{
                                             </ListGroup>
                                             <br/>
                                             <ListGroup>
+                                                <ListGroup.Item variant="dark" className="dark-list-group-pricing-yellow"><span class="engagement-details">Table Top Exercises</span></ListGroup.Item>
                                                 <ListGroup.Item variant="dark" className="dark-list-group-pricing-yellow">Price:<br/><span class="pricing">$2,500*</span></ListGroup.Item>
                                                 <ListGroup.Item variant="dark" className="dark-list-group-pricing-yellow">Duration:<br/><span class="engagement-details">3 business days</span></ListGroup.Item>
                                             </ListGroup>
@@ -249,7 +250,7 @@ class SecurityBody extends Component{
                                         <Accordion.Collapse eventKey="4">
                                         <Card.Body>
                                             <Card.Text>
-                                            Our physical penetration testing services will make use of every breaking and entering technique in the book...and plenty more techniques from the hacker's book.
+                                            Our physical penetration testing services will make use of every breaking and entering technique in the book...and plenty more techniques from a hacker's book.
                                             <br/>
                                             <br/>
                                             Badge cloning attacks, lock picking, social engineering, and even some network penetration testing while we are in there. Let us come to you, and let ourselves in.
@@ -289,13 +290,13 @@ class SecurityBody extends Component{
                                             We will emulate any adversary, scenario, and threat that we possibly can to the benefit of testing your organization's controls.
                                             <br/>
                                             <br/>
-                                            These engagements are goal based, meaning we are not looking for every vulnerability possible like a penetration test will. We will employ the some of the same techniques, and even possibly present some of the same findings in the report as we would on a penetration test. That said, that will only be true if the activity conducted was necessary to reach the goal.
+                                            These engagements are goal based, meaning we are not looking for every vulnerability possible like a penetration test will. We will employ the some of the same techniques, and even possibly present some of the same findings in that we would on a penetration test. That said, that will only be true if such an activity was conducted that was necessary to reach the goal.
                                             <br/>
                                             <br/>
                                             We can emulate things from any perspective, it's not all about how dangerous we can be as an external adversary. Sometimes it might be a staged test to emulate an insider threat and leave with sensitive information from the office.
                                             <br/>
                                             <br/>
-                                            This service is full scoped, with very limited to no restrictions for what our team will do. It is all about targeting goals that are a risk or concern to your organization, and measuring how well you would hold up if our team succeeds.
+                                            This service is full scoped, with very limited, to no restrictions for what our team will do. It is all about targeting goals that are a risk or concern to your organization, and measuring how well you would hold up if our team succeeds.
                                             <br/>
                                             <br/>
                                             <ListGroup>
