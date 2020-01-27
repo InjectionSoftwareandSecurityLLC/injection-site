@@ -106,7 +106,7 @@ class SecurityBody extends Component{
                                             <br/>
                                             <br/>
                                             <ListGroup>
-                                                <ListGroup.Item variant="dark" className="dark-list-group-pricing-red">Price:<br/><span class="pricing">$5,000*</span><span class="engagement-details"> - Internal or External<br/>(<span class="pricing">$7,500*</span> - Internal + External)</span></ListGroup.Item>
+                                                <ListGroup.Item variant="dark" className="dark-list-group-pricing-red">Price:<br/><span class="pricing">$6,000*</span><span class="engagement-details"> - Internal or External<br/>(<span class="pricing">$8,500*</span> - Internal + External)</span></ListGroup.Item>
                                                 <ListGroup.Item variant="dark" className="dark-list-group-pricing-red">Duration:<br/><span class="engagement-details">2 weeks/10 business days<br/>(3 weeks/15 business days Internal + External engagement)</span></ListGroup.Item>
                                             </ListGroup>
                                             </Card.Text>
@@ -144,7 +144,7 @@ class SecurityBody extends Component{
                                             <br/>
                                             <br/>
                                             <ListGroup>
-                                                <ListGroup.Item variant="dark" className="dark-list-group-pricing-green">Price:<br/><span class="pricing">$2,500*</span><span class="engagement-details"> - 1 Application<br/>(<span class="pricing">$500*</span> per additional application)</span></ListGroup.Item>
+                                                <ListGroup.Item variant="dark" className="dark-list-group-pricing-green">Price:<br/><span class="pricing">$3,500*</span><span class="engagement-details"> - 1 Application<br/>(<span class="pricing">$500*</span> per additional application)</span></ListGroup.Item>
                                                 <ListGroup.Item variant="dark" className="dark-list-group-pricing-green">Duration:<br/><span class="engagement-details">1 week/5 business days <br/>(Additional applications add more time)</span></ListGroup.Item>
                                             </ListGroup>
                                             </Card.Text>
@@ -180,7 +180,7 @@ class SecurityBody extends Component{
                                             <br/>
 
                                             <ListGroup>
-                                                <ListGroup.Item variant="dark" className="dark-list-group-pricing-blue">Price:<br/><span class="pricing">$3,000*</span></ListGroup.Item>
+                                                <ListGroup.Item variant="dark" className="dark-list-group-pricing-blue">Price:<br/><span class="pricing">$4,000**</span></ListGroup.Item>
                                                 <ListGroup.Item variant="dark" className="dark-list-group-pricing-blue">Duration:<br/><span class="engagement-details">1 week/5 business days</span></ListGroup.Item>
                                             </ListGroup>
                                             </Card.Text>
@@ -200,7 +200,7 @@ class SecurityBody extends Component{
                                             Sometimes you just need to show impact to convince your organization it could use a boost in its security posture. Other times, you may just want to see how your organization would stand up to a potential threat.
                                             <br/>
                                             <br/>
-                                            Allow us simulate those threats, and see how you turn out.
+                                            Allow us to be those threats, and see how you turn out.
                                         </Card.Text>
                                         <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-yellow" eventKey="3">
                                             Details
@@ -222,19 +222,19 @@ class SecurityBody extends Component{
                                             <br/>
                                             <ListGroup>
                                                 <ListGroup.Item variant="dark" className="dark-list-group-pricing-yellow"><span class="engagement-details">Phishing Campaign</span></ListGroup.Item>
-                                                <ListGroup.Item variant="dark" className="dark-list-group-pricing-yellow">Price:<br/><span class="pricing">$1,500*</span></ListGroup.Item>
+                                                <ListGroup.Item variant="dark" className="dark-list-group-pricing-yellow">Price:<br/><span class="pricing">$2,500*</span></ListGroup.Item>
                                                 <ListGroup.Item variant="dark" className="dark-list-group-pricing-yellow">Duration:<br/><span class="engagement-details">2 week/10 business days <br/>(This is the base timeline/price, and like all our services, can be extended on negotiation.)</span></ListGroup.Item>
                                             </ListGroup>
                                             <br/>
                                             <ListGroup>
                                                 <ListGroup.Item variant="dark" className="dark-list-group-pricing-yellow"><span class="engagement-details">Physical Security Awareness Engagement</span></ListGroup.Item>
-                                                <ListGroup.Item variant="dark" className="dark-list-group-pricing-yellow">Price:<br/><span class="pricing">$7,500*</span></ListGroup.Item>
+                                                <ListGroup.Item variant="dark" className="dark-list-group-pricing-yellow">Price:<br/><span class="pricing">$8,500**</span></ListGroup.Item>
                                                 <ListGroup.Item variant="dark" className="dark-list-group-pricing-yellow">Duration:<br/><span class="engagement-details">1 week/5 business days</span></ListGroup.Item>
                                             </ListGroup>
                                             <br/>
                                             <ListGroup>
                                                 <ListGroup.Item variant="dark" className="dark-list-group-pricing-yellow"><span class="engagement-details">Table Top Exercises</span></ListGroup.Item>
-                                                <ListGroup.Item variant="dark" className="dark-list-group-pricing-yellow">Price:<br/><span class="pricing">$2,500*</span></ListGroup.Item>
+                                                <ListGroup.Item variant="dark" className="dark-list-group-pricing-yellow">Price:<br/><span class="pricing">$3,500*</span></ListGroup.Item>
                                                 <ListGroup.Item variant="dark" className="dark-list-group-pricing-yellow">Duration:<br/><span class="engagement-details">3 business days</span></ListGroup.Item>
                                             </ListGroup>
                                             </Card.Text>
@@ -270,7 +270,7 @@ class SecurityBody extends Component{
                                             <br/>
                                             <br/>
                                             <ListGroup>
-                                                <ListGroup.Item variant="dark" className="dark-list-group-pricing-red">Price:<br/><span class="pricing">$10,000*</span><span class="engagement-details"> - Physical Only<br/>(<span class="pricing">$15,000*</span> - Physical + Internal Network)</span></ListGroup.Item>
+                                                <ListGroup.Item variant="dark" className="dark-list-group-pricing-red">Price:<br/><span class="pricing">$12,000**</span><span class="engagement-details"> - Physical Only<br/>(<span class="pricing">$17,000**</span> - Physical + Internal Network)</span></ListGroup.Item>
                                                 <ListGroup.Item variant="dark" className="dark-list-group-pricing-red">Duration:<br/><span class="engagement-details">2 weeks/10 business days</span></ListGroup.Item>
                                             </ListGroup>
                                             </Card.Text>
@@ -284,7 +284,7 @@ class SecurityBody extends Component{
                                             <div class="text-center"><i class="fas fa-bug fa-5x adversarial-icon"></i></div>
                                             <br/>
                                             Our Adversarial Emulation requires time, dedication, and employs techniques your teams won't forget. Need us to be an APT? How about an advanced insider threat?
-                                            In any case, we will hit your organization with everything we've got. 
+                                            In any case, we will hit your organization with all that we've got. 
                                             <br/>
                                             <br/>
                                             Full scope, no guard rails. This is the "Red Team".
@@ -312,7 +312,7 @@ class SecurityBody extends Component{
                                             <br/>
                                             <br/>
                                             <ListGroup>
-                                                <ListGroup.Item variant="dark" className="dark-list-group-pricing-white">Price:<br/><span class="pricing">$20,000*</span></ListGroup.Item>
+                                                <ListGroup.Item variant="dark" className="dark-list-group-pricing-white">Price:<br/><span class="pricing">$25,000**</span></ListGroup.Item>
                                                 <ListGroup.Item variant="dark" className="dark-list-group-pricing-white">Duration:<br/><span class="engagement-details">1 month/20 business days</span></ListGroup.Item>
                                             </ListGroup>
                                             </Card.Text>
@@ -332,7 +332,10 @@ class SecurityBody extends Component{
                             <Card className="dark-card-green" text="white">
                                         <Card.Body>
                                         <Card.Text>
-                                        *All prices listed are a baseline figure to provide transparency into the value of our services. These prices are NOT a guarantee and may change based on negotiations for a given statement of work.
+                                        *All prices listed are a baseline figure to provide transparency into the value of our services. These prices are NOT a guarantee and may change based on negotiations for a given statement of work. Injection Software and Security LLC reserves the right to update these baseline figures as desired.
+                                        <br/>
+                                        <br/>
+                                        **Some engagements require travel and lodging due to a necessity for consultants to physically work at the client's site. All travel and lodging expenses will be billed to the client for these engagements. The terms and rate for these expenses are defined within the statement of work for a given engagement at time of negotiation.
                                         </Card.Text>
                                         </Card.Body>
                                     </Card>
