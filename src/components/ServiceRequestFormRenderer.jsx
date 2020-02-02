@@ -44,7 +44,7 @@ export default class ServiceRequestFormRenderer extends Component{
                     If so, that is great! Thank you for considering Injection Software and Security LLC for your offensive security testing needs.
                     <br/>
                     <br/>
-                    Unfortunately our services are new, and still being rolled out at this time. We apologize for the inconvenience and ask that you keep an eye on this page, our blog, and our twitter @InjectionSec for when our services become open to requests.
+                    Unfortunately we are unable to take requests for services at this time. We apologize for the inconvenience and ask that you keep an eye on this page, our blog, and our twitter @InjectionSec for when our services become open to requests.
                 </div>
             )
         }
