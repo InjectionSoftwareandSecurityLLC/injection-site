@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Form, Button, Alert } from "react-bootstrap";
+import { Form, Button, Alert, Col } from "react-bootstrap";
 import axios from 'axios';
 
 const GOOGLE_FORM_EMAIL_ID = 'emailAddress'
@@ -134,12 +134,28 @@ export default class ServiceRequestForm extends Component {
             </Form.Group>
             <Form.Group>
                 <Form.Label>What service(s) would you like to inquire about?*</Form.Label>
-                <Form.Check label={net_pentest} name='net_pentest' value={net_pentest} onChange={this.handleChange} />  
-                <Form.Check label={app_pentest} name='app_pentest' value={app_pentest} onChange={this.handleChange} />  
-                <Form.Check label={wireless_audit} name='wireless_audit' value={wireless_audit} onChange={this.handleChange} />  
-                <Form.Check label={sec_awareness} name='sec_awareness' value={sec_awareness} onChange={this.handleChange} />  
-                <Form.Check label={physical_pentest} name='physical_pentest' value={physical_pentest} onChange={this.handleChange} />  
-                <Form.Check label={adv_emulation} name='adv_emulation' value={adv_emulation} onChange={this.handleChange} />  
+                <Form.Row>
+                    <Col>
+                        <Form.Check label={net_pentest} name='net_pentest' value={net_pentest}  onChange={this.handleChange} />
+                    </Col>
+                    <Col>
+                        <Form.Check label={app_pentest} name='app_pentest' value={app_pentest} onChange={this.handleChange} />  
+                    </Col>
+                    <Col>
+                        <Form.Check label={wireless_audit} name='wireless_audit' value={wireless_audit} onChange={this.handleChange} />  
+                    </Col>
+                </Form.Row>
+                <Form.Row>
+                    <Col>
+                        <Form.Check label={sec_awareness} name='sec_awareness' value={sec_awareness} onChange={this.handleChange} />  
+                    </Col>
+                    <Col>
+                        <Form.Check label={physical_pentest} name='physical_pentest' value={physical_pentest} onChange={this.handleChange} />  
+                    </Col>
+                    <Col>
+                        <Form.Check label={adv_emulation} name='adv_emulation' value={adv_emulation} onChange={this.handleChange} />  
+                    </Col>
+                </Form.Row>
             </Form.Group>
             <Form.Group>
                 <Form.Label>Feel free to leave any additional comments/questions below!</Form.Label>
@@ -152,9 +168,9 @@ export default class ServiceRequestForm extends Component {
             <br/>
             { this.state.formIsValid ? <div></div> : 
             <Alert variant="danger">
-                Please insure you have submitted a valid email/phone number and double check that all fields have been filled out.
+                Please insure you have submitted a valid email/phone number and double check that all required fields have been filled out.
                 <br/>
-                Note: The additional comments box is NOT required.
+                Notice: (*) Denotes a required field.
             </Alert>
             }
             </Form>
