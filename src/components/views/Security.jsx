@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Card, CardDeck, Button, Accordion, ListGroup } from "react-bootstrap";
+import ServiceRequestFormRenderer from "../ServiceRequestFormRenderer";
 
 export default class SecurityComponent extends Component {
 
@@ -345,16 +346,11 @@ class SecurityBody extends Component{
                                             <Card.Header><Card.Title>Request a Service</Card.Title></Card.Header>
                                             <Card.Body>
                                             <Card.Text>
-                                            Do you like the look of our services? 
-                                            <br/>
-                                            <br/>
-                                            If so, that is great! Thank you for considering Injection Software and Security LLC for your offensive security testing needs.
-                                            <br/>
-                                            <br/>
-                                            Unfortunately our services are new, and still being rolled out at this time. We apologize for the inconvenience and ask that you keep an eye on this page, our blog, and our twitter @InjectionSec for when our services become open to requests.
+                                                <ServiceRequestFormRenderer />
                                             </Card.Text>
                                             </Card.Body>
                                         </Card>
+
                             </div>
                         </div>
                     </div>
