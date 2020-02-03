@@ -436,7 +436,7 @@ class PortfolioBody extends Component{
                                                  <i class="fas fa-search fa-5x"></i>
                                                 <br/>
                                                 <br/>
-                                                Authenticated Persistent XSS in (Redacted) - CVE-2020-7934
+                                                CVE-2020-7934 - Authenticated Persistent XSS in Liferay Portal CE 7.1.0-7.2.1
                                                     <br/>
                                                     <br/>
                                                 <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="14">
@@ -445,7 +445,24 @@ class PortfolioBody extends Component{
                                                 <Accordion.Collapse eventKey="14">
                                                     <Card.Text>
                                                     <br/>
-                                                    More information coming soon pending public disclosure...
+                                                    CVE-2020-7934 was discovered by Casey Erdmann during a local penetration test/software security audit of the Liferay Portal application.
+                                                    It is an authenticated persistent cross site scripting (XSS) vulnerability that can allow a potential attacker to execute JavaScript code in the context of another user's session.
+                                                    This can be used to escalate privileges, move laterally, and in cases of administrative privilege escalation, even gain access to GroovyScript functionality in Liferay which can provide a path to remote code execution.
+                                                    <br/>
+                                                    <br/>
+                                                    Full blog post/write up of the public disclosure by Casey Erdmann: 
+                                                    <br/>
+                                                    <a href="https://semanticbits.com/liferay-portal-authenticated-xss-disclosure/">https://semanticbits.com/liferay-portal-authenticated-xss-disclosure/</a>
+                                                    <br/>
+                                                    <br/>
+                                                    MITRE CVE entry: 
+                                                    <br/>
+                                                    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-7934">https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-7934</a>
+                                                    <br/>
+                                                    <br/>
+                                                    NIST NVD entry: 
+                                                    <br/>
+                                                    <a href="https://nvd.nist.gov/vuln/detail/CVE-2020-7934">https://nvd.nist.gov/vuln/detail/CVE-2020-7934</a>
                                                     </Card.Text>
                                                 </Accordion.Collapse>
                                         </Card.Text>
