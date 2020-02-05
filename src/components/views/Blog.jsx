@@ -1,13 +1,13 @@
-import React, { Component } from "react";
-import { Redirect } from "react-router-dom";
+import { Component } from "react";
 
 export default class BlogComponent extends Component {
+
+    componentDidMount(){
+        window.location.replace('https://injection.sh/injection-blog')
+    }
+
     render(){
-        return(
-            <div>
-                <Redirect to="/injection-blog" />
-            </div>
-        );
+        return null;
     }
 
 }
