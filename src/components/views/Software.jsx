@@ -69,22 +69,41 @@ class SoftwareList extends Component{
           .then(response => response.json())
           .then(data => {
               //console.log("Data", data)
-              let all_repos = data.map((repos) => {
+              let org_repos = data.map((repos) => {
                   return(
                     repos.full_name
                   )
                   
               })
-              //console.log("All Repos", all_repos)
-              this.setState({ repos: all_repos })
+              //console.log("All Repos", org_repos)
+              this.setState({ repos: org_repos })
               //console.log("State", this.state.repos)
               this.getStatuses();
 
         })
         .catch(error => console.log("Github API cannot be reached..."));
+
+        fetch("https://api.github.com/users/3ndG4me/repos")
+        .then(this.handleErrors)
+        .then(response => response.json())
+        .then(data => {
+            //console.log("Data", data)
+            let user_repos = data.map((repos) => {
+                return(
+                  repos.full_name
+                )
+                
+            })
+            //console.log("All Repos", all_repos)
+            let all_repos = [...this.state.repos, ...user_repos]
+            this.setState({ repos: all_repos })
+            //console.log("State", this.state.repos)
+            this.getStatuses();
+
+      })
+      .catch(error => console.log("Github API cannot be reached..."));
           
       }
-
 
     getStatuses(){
         var status = [];
