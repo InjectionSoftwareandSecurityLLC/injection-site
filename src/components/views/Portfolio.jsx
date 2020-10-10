@@ -218,15 +218,34 @@ class PortfolioBody extends Component{
                                                 </Accordion.Collapse>
                                         </Card.Text>
                                        </Card.Body>
-                                        <Card.Body>
+                                       <Card.Body>
                                         <Card.Text>
-                                                Security Engineer (2019 - Current)
+                                                Security Consultant (2020 - Current)
                                                     <br/>
                                                     <br/>
                                                 <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="5">
                                                     Learn More
                                                 </Accordion.Toggle>
                                                 <Accordion.Collapse eventKey="5">
+                                                    <Card.Text>
+                                                    <br/>
+                                                    As a Security Consultant the core responsibilities are providing offensive security services to clients. 
+                                                    <br/>
+                                                    <br/>
+                                                    This role facilitates ever changing engagements for assessing external and internal networks, web applications, mobile applications, wireless networks, and occassionally physical security for clients.
+                                                    </Card.Text>
+                                                </Accordion.Collapse>
+                                        </Card.Text>
+                                       </Card.Body>
+                                        <Card.Body>
+                                        <Card.Text>
+                                                Security Engineer (2019 - 2020)
+                                                    <br/>
+                                                    <br/>
+                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="6">
+                                                    Learn More
+                                                </Accordion.Toggle>
+                                                <Accordion.Collapse eventKey="6">
                                                     <Card.Text>
                                                     <br/>
                                                     As a Security Engineer the core responsibilities are serve as subject matter experts on all things computer and information security. Daily responsibilities include a healthy mix of offensive security testing and devsecops automation work to proactively insure applications/systems are secure. 
@@ -248,10 +267,10 @@ class PortfolioBody extends Component{
                                                 SRT Security Researcher (2019 - Current)
                                                     <br/>
                                                     <br/>
-                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="6">
+                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="7">
                                                     Learn More
                                                 </Accordion.Toggle>
-                                                <Accordion.Collapse eventKey="6">
+                                                <Accordion.Collapse eventKey="7">
                                                     <Card.Text>
                                                     <br/>
                                                     As a Security Researcher on the Synack Red Team (SRT) the core responsibility is simply to hack target applications/systems to identity vulnerabilities with the goal of improving their security posture. 
@@ -267,10 +286,10 @@ class PortfolioBody extends Component{
                                                 Manager of Information Security (2019)
                                                 <br/>
                                                 <br/>
-                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="7">
+                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="8">
                                                     Learn More
                                                 </Accordion.Toggle>
-                                                <Accordion.Collapse eventKey="7">
+                                                <Accordion.Collapse eventKey="8">
                                                     <Card.Text>
                                                      <br/>
                                                      As a Manager of Information Security for a financial firm there are many critical requirements to keep up with. One of the key experiences during time spent in this role was leading the organization to PCI DSS Level 1 compliance. This meant not only having to meet compliance goals, but also meeting brand new security standards this organization had never faced. 
@@ -290,10 +309,10 @@ class PortfolioBody extends Component{
                                                 Security Analyst (2018-2019)
                                                 <br/>
                                                 <br/>
-                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="8">
+                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="9">
                                                     Learn More
                                                 </Accordion.Toggle>
-                                                <Accordion.Collapse eventKey="8">
+                                                <Accordion.Collapse eventKey="9">
                                                     <Card.Text>
                                                      <br/>
                                                      Security Analyst means something different at many organizations. Often times its a SOC Analyst that performs alert triage and incident response, other times it's a penetration tester at a smaller consulting firm. There are many other connotations this title can bring, rarely however, is it both of these things and more.
@@ -318,10 +337,10 @@ class PortfolioBody extends Component{
                                                 Software Developer (2015-2018)
                                                 <br/>
                                                 <br/>
-                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="9">
+                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="10">
                                                     Learn More
                                                 </Accordion.Toggle>
-                                                <Accordion.Collapse eventKey="9">
+                                                <Accordion.Collapse eventKey="10">
                                                     <Card.Text>
                                                      <br/>
                                                      Working as Software Developer for 3 different companies over the years. Some were small freelance contracts, others client facing shops creating websites and mobile applications for customers. More significantly was a role working with a team to improve a set of products used by thousands across the nation.
@@ -347,10 +366,10 @@ class PortfolioBody extends Component{
                                                 System Administrator's Assistant (2013-2016)
                                                 <br/>
                                                 <br/>
-                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="10">
+                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="11">
                                                     Learn More
                                                 </Accordion.Toggle>
-                                                <Accordion.Collapse eventKey="10">
+                                                <Accordion.Collapse eventKey="11">
                                                     <Card.Text>
                                                      <br/>
                                                       This role was more or less a "junior" System Administrator role for a private school system. It was a start into the IT field and provided the opportunity to build a strong foundation of networks and physical hardware administration/maintenance.
@@ -377,10 +396,10 @@ class PortfolioBody extends Component{
                                                 OpenVPNConnect - WiFi Pineapple Module
                                                     <br/>
                                                     <br/>
-                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="11">
+                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="12">
                                                     Learn More
                                                 </Accordion.Toggle>
-                                                <Accordion.Collapse eventKey="11">
+                                                <Accordion.Collapse eventKey="12">
                                                     <Card.Text>
                                                      <br/>
                                                      Author and maintainer of the OpenVPNConnect WiFi Pineapple module: <a href="https://github.com/InjectionSoftwareandSecurityLLC/OpenVPNConnect">https://github.com/InjectionSoftwareandSecurityLLC/OpenVPNConnect</a>
@@ -393,10 +412,10 @@ class PortfolioBody extends Component{
                                                 Propane King of the Hill (NetKotH Fork)
                                                     <br/>
                                                     <br/>
-                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="12">
+                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="13">
                                                     Learn More
                                                 </Accordion.Toggle>
-                                                <Accordion.Collapse eventKey="12">
+                                                <Accordion.Collapse eventKey="13">
                                                 <Card.Text>
                                                 <br/>
                                                 Author and maintainer of the Propane King of the Hill platform:<br/><a href="https://github.com/InjectionSoftwareandSecurityLLC/Propane">https://github.com/InjectionSoftwareandSecurityLLC/Propane</a>
@@ -412,10 +431,10 @@ class PortfolioBody extends Component{
                                                 All other open source projects and repos
                                                 <br/>
                                                 <br/>
-                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="13">
+                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="14">
                                                     Learn More
                                                 </Accordion.Toggle>
-                                                <Accordion.Collapse eventKey="13">
+                                                <Accordion.Collapse eventKey="14">
                                                     <Card.Text>
                                                     <br/>
                                                     Injection Software and Security LLC:<br/> <a href="https://github.com/InjectionSoftwareandSecurityLLC">https://github.com/InjectionSoftwareandSecurityLLC</a>
@@ -436,16 +455,63 @@ class PortfolioBody extends Component{
                                                  <i class="fas fa-search fa-5x"></i>
                                                 <br/>
                                                 <br/>
+                                                CVE-2020-3452 - CISCO ASA/FTD Directory Traversal Exploit (discovered by Ahmed Aboul-Ela)
+                                                    <br/>
+                                                    <br/>
+                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="15">
+                                                    Learn More
+                                                </Accordion.Toggle>
+                                                <Accordion.Collapse eventKey="15">
+                                                    <Card.Text>
+                                                    <br/>
+                                                    CVE-2020-3452 is a directory traversal vulnerability discovered by Ahmed Aboul-Ela and published on July 22nd 2020.
+                                                    <br/>
+                                                    <br/>
+                                                    The exploit is similar to CVE-2018-0296 but lacks a directory listing abuse and therefore requires a dictionary attack of known/guessed files in order to pull them down.
+                                                    <br/>
+                                                    <br/>
+                                                    On September 28th, 2020 Casey published a simple bash proof of concept that leverages a list of known files that can be downloaded from the default web directory in order to further demonstrate the impact of the exploit beyond the initial proof of concept. 
+                                                    <br/>
+                                                    <br/>
+                                                    <h6>NOTE:</h6> Casey/Injection have no formal association with the original reseacher Ahmed Aboul-Ela. All credit for the original research belongs to them. Casey is simply the author of the public exploit code below based on his own further research of the exploit published by Ahmed Aboul-Ela.
+                                                    <br/>
+                                                    <br/>
+                                                    Initial public disclosure by Ahmed Aboul-Ela: 
+                                                    <br/>
+                                                    <a href="https://twitter.com/aboul3la/status/1286012324722155525">https://twitter.com/aboul3la/status/1286012324722155525/</a>
+                                                    <br/>
+                                                    <br/>
+                                                    CVE-2020-3542 Exploit by Casey Erdmann:
+                                                    <br/>
+                                                    <a href="https://github.com/3ndG4me/CVE-2020-3452-Exploit">https://github.com/3ndG4me/CVE-2020-3452-Exploit</a>
+                                                    <br/>
+                                                    <br/>
+                                                    Advisory from CISCO: 
+                                                    <br/>
+                                                    <a href="https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-ro-path-KJuQhB86">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-ro-path-KJuQhB86</a>
+                                                    <br/>
+                                                    <br/>
+                                                    Rapid7 Blog Writeup: 
+                                                    <br/>
+                                                    <a href="https://blog.rapid7.com/2020/07/23/cve-2020-3452-cisco-asa-firepower-read-only-path-traversal-vulnerability-what-you-need-to-know/">https://blog.rapid7.com/2020/07/23/cve-2020-3452-cisco-asa-firepower-read-only-path-traversal-vulnerability-what-you-need-to-know/</a>
+                                                    </Card.Text>
+                                                </Accordion.Collapse>
+                                        </Card.Text>
+                                       </Card.Body>
+                                        <Card.Body>
+                                        <Card.Text>
                                                 CVE-2020-7934 - Authenticated Persistent XSS in Liferay Portal CE 7.1.0-7.2.1
                                                     <br/>
                                                     <br/>
-                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="14">
+                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="16">
                                                     Learn More
                                                 </Accordion.Toggle>
-                                                <Accordion.Collapse eventKey="14">
+                                                <Accordion.Collapse eventKey="16">
                                                     <Card.Text>
                                                     <br/>
                                                     CVE-2020-7934 was discovered by Casey Erdmann during a local penetration test/software security audit of the Liferay Portal application.
+                                                    <br/>
+                                                    <br/>
                                                     It is an authenticated persistent cross site scripting (XSS) vulnerability that can allow a potential attacker to execute JavaScript code in the context of another user's session.
                                                     This can be used to escalate privileges, move laterally, and in cases of administrative privilege escalation, even gain access to GroovyScript functionality in Liferay which can provide a path to remote code execution.
                                                     <br/>
@@ -453,6 +519,11 @@ class PortfolioBody extends Component{
                                                     Full blog post/write up of the public disclosure by Casey Erdmann: 
                                                     <br/>
                                                     <a href="https://semanticbits.com/liferay-portal-authenticated-xss-disclosure/">https://semanticbits.com/liferay-portal-authenticated-xss-disclosure/</a>
+                                                    <br/>
+                                                    <br/>
+                                                    Full disclosure report with proof of concept by Casey Erdmann:
+                                                    <br/>
+                                                    <a href="https://github.com/3ndG4me/liferay-xss-7.2.1GA2-poc-report-CVE-2020-7934">https://github.com/3ndG4me/liferay-xss-7.2.1GA2-poc-report-CVE-2020-7934</a>
                                                     <br/>
                                                     <br/>
                                                     MITRE CVE entry: 
@@ -472,10 +543,10 @@ class PortfolioBody extends Component{
                                                 BadSalt - Adversarial DevOps - Red Team Village @ DEF CON 27
                                                 <br/>
                                                 <br/>
-                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="15">
+                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="17">
                                                     Learn More
                                                 </Accordion.Toggle>
-                                                <Accordion.Collapse eventKey="15">
+                                                <Accordion.Collapse eventKey="17">
                                                     <Card.Text>
                                                     <br/>
                                                     BadSalt is a project that was created from research conducted around the concept of using modern "DevOps" tools from an adversarial, or "red team", perspective.
@@ -504,10 +575,10 @@ class PortfolioBody extends Component{
                                                 Cyber Attacks/Effects on Cyber Physical Systems (CPS) - MITRE - Elevator Simulation
                                                     <br/>
                                                     <br/>
-                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="16">
+                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="18">
                                                     Learn More
                                                 </Accordion.Toggle>
-                                                <Accordion.Collapse eventKey="16">
+                                                <Accordion.Collapse eventKey="18">
                                                 <Card.Text>
                                                 <br/>
                                                 Alongside fellow researcher Cody Greene, under the guidance of research owner Suresh Damodaran of MITRE, a software based elevator simulation was developed. The goal of this simulator was to construct specific interfaces in order to provide mechanisms to simulate effects that would impact the system in the event of an attack or malfunction that might occur on a real elevator system.
@@ -542,7 +613,7 @@ class PortfolioBody extends Component{
                         </div>
                         <div class="col-lg-5 portfolio-image-container">
                             <img alt="3ndG4me Pic" class="rounded-circle border" width="80%" src="/media/img/3ndG4me_main.png" />
-                            <img alt="Casey headshot Pic" class="rounded-circle border portfolio-image-pos" width="80%" src="/media/img/casey_headshot.png" />
+                            <img alt="Casey headshot Pic" class="rounded-circle border portfolio-image-pos" width="80%" src="/media/img/3ndG4me_main.png" />
                         </div>
                      </div>
                 </div> 
