@@ -613,7 +613,7 @@ class PortfolioBody extends Component{
                         </div>
                         <div class="col-lg-5 portfolio-image-container">
                             <img alt="3ndG4me Pic" class="rounded-circle border" width="80%" src="/media/img/3ndG4me_main.png" />
-                            <img alt="Casey headshot Pic" class="rounded-circle border portfolio-image-pos" width="80%" src="/media/img/3ndG4me_main.png" />
+                            <img alt="Casey headshot Pic" class="rounded-circle border portfolio-image-pos" width="80%" src="/media/img/headshot.jpeg" />
                         </div>
                      </div>
                 </div> 
