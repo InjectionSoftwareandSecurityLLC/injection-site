@@ -1,9 +1,9 @@
 {
     "name": "Injection Website",
-    "version": "2.1.0",
+    "version": "2.2.0",
     "platform": "web",
-    "progress": "100%",
-    "state": "done",
+    "progress": "25%",
+    "state": "in-progress",
     "released": true,
     "release_version": "2.1.0",
     "download_url": "https://github.com/InjectionSoftwareDevelopment/injection-site",
