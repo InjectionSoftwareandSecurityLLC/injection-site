@@ -248,7 +248,7 @@ class PortfolioBody extends Component{
                                                 <Accordion.Collapse eventKey="6">
                                                     <Card.Text>
                                                     <br/>
-                                                    As a Security Engineer the core responsibilities are serve as subject matter experts on all things computer and information security. Daily responsibilities include a healthy mix of offensive security testing and devsecops automation work to proactively insure applications/systems are secure. 
+                                                    As a Security Engineer the core responsibilities are to serve as a subject matter experts on all things computer and information security. Daily responsibilities include a healthy mix of offensive security testing and devsecops automation work to proactively insure applications/systems are secure. 
                                                     <br/>
                                                     <br/>
                                                     All work is client facing and usually related to the medical field, which often means strict government regulations and compliance standards to insure systems being developed are up to specifications. This provides a new challenge as each software application and infrastructure has its own unique challenges to tackle from a security perspective.
