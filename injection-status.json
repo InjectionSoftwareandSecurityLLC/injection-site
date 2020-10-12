@@ -1,11 +1,11 @@
 {
     "name": "Injection Website",
-    "version": "2.2.0",
+    "version": "2.2.1",
     "platform": "web",
     "progress": "100%",
     "state": "done",
     "released": true,
-    "release_version": "2.2.0",
+    "release_version": "2.2.1",
     "download_url": "https://github.com/InjectionSoftwareDevelopment/injection-site",
     "featured": true,
     "featured_image": "https://raw.githubusercontent.com/InjectionSoftwareDevelopment/injection-site/master/public/media/img/injection-logo.png"
