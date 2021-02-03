@@ -7,7 +7,7 @@
     "released": true,
     "release_version": "2.2.1",
     "download_url": "https://github.com/InjectionSoftwareDevelopment/injection-site",
-    "featured": true,
+    "featured": false,
     "featured_image": "https://raw.githubusercontent.com/InjectionSoftwareDevelopment/injection-site/master/public/media/img/injection-logo.png"
 }
 
