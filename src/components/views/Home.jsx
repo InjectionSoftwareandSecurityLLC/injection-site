@@ -214,7 +214,7 @@ class GitHubSection extends Component {
                     <p class="lead">Offensive Security tooling <br/><br/> Desktop and Mobile Applications <br/><br/> Even Games!<br/><br/> We are building all kinds of software here at Injection, and almost all of it is open source! Check out our projects on our <a href="https://github.com/InjectionSoftwareDevelopment">Github.</a></p>
                 </div>
                 <div class="col-lg-5">
-                    <a href="https://github.com/InjectionSoftwareDevelopment"><font className="big-github-icon"><i class="fab fa-github fa-5x"></i></font></a>
+                    <a href="https://github.com/InjectionSoftwareandSecurityLLC"><font className="big-github-icon"><i class="fab fa-github fa-5x"></i></font></a>
                 </div>
             </div>
         </div>
