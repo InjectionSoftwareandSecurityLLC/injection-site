@@ -170,7 +170,7 @@ class PortfolioBody extends Component{
                                                       The Black Box Society is a registered student organization at Columbus State University. This organization is dedicated to providing students a means to continue learning and improving their skills in computer and information security.
                                                      <br/>
                                                      <br/>
-                                                      As an alumni member in the field, a primary goal is to return to the organization whenever possible to continue sharing knowledge and building up students to achieve greatness in the field of computer and information security. 
+                                                      As an alumni member in the field, a primary objective is to return to the organization whenever possible to continue sharing knowledge and building up students to achieve greatness in the field of computer and information security. 
                                                      <br/>
                                                      <br/>
                                                       As former General Liaison from 2016-2017 primary responsibilities were to provide out reach to the student community, be the face of the organization to the student body's government functions, and create challenging actives (such as CTF challenges) to draw in new talent. 
@@ -213,14 +213,14 @@ class PortfolioBody extends Component{
                                                     From security awareness, to adversarial emulation, and everything in between, this role is a primary contributor to the consulting practice.
                                                     <br/>
                                                     <br/>
-                                                    Additional responsibilities include developing software for various projects and infrastructure, as well as maintaining the company website.
+                                                    Additional responsibilities include developing software for various projects and infrastructure, as well as maintaining the company website, and creating both free and paid educational content for information security professionals.
                                                     </Card.Text>
                                                 </Accordion.Collapse>
                                         </Card.Text>
                                        </Card.Body>
                                        <Card.Body>
                                         <Card.Text>
-                                                Security Consultant (2020 - Current)
+                                                Senior Security Consultant (2021 - Current)
                                                     <br/>
                                                     <br/>
                                                 <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="5">
@@ -229,10 +229,29 @@ class PortfolioBody extends Component{
                                                 <Accordion.Collapse eventKey="5">
                                                     <Card.Text>
                                                     <br/>
+                                                    As a Senior Security Consultant the core responsibilities are providing offensive security services to clients, be a leading member of the offensive security team to train other teammates, and develop/maintain new and old offensive security technologies and methodologies for the team to utilize. 
+                                                    <br/>
+                                                    <br/>
+                                                    This role facilitates ever changing offensive engagements, in the form of both Penetration Testing and Red Teaming, for assessing external and internal networks, web applications, mobile applications, wireless networks, social engineering attack vectors, and physical security for clients.
+                                                    </Card.Text>
+                                                </Accordion.Collapse>
+                                        </Card.Text>
+                                       </Card.Body>
+                                       <Card.Body>
+                                        <Card.Text>
+                                                Security Consultant (2020 - 2021)
+                                                    <br/>
+                                                    <br/>
+                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="6">
+                                                    Learn More
+                                                </Accordion.Toggle>
+                                                <Accordion.Collapse eventKey="6">
+                                                    <Card.Text>
+                                                    <br/>
                                                     As a Security Consultant the core responsibilities are providing offensive security services to clients. 
                                                     <br/>
                                                     <br/>
-                                                    This role facilitates ever changing engagements for assessing external and internal networks, web applications, mobile applications, wireless networks, and occassionally physical security for clients.
+                                                    This role facilitates ever changing offensive engagements, in the form of both Penetration Testing and Red Teaming, for assessing external and internal networks, web applications, mobile applications, wireless networks, social engineering attack vectors, and physical security for clients.
                                                     </Card.Text>
                                                 </Accordion.Collapse>
                                         </Card.Text>
@@ -242,22 +261,22 @@ class PortfolioBody extends Component{
                                                 Security Engineer (2019 - 2020)
                                                     <br/>
                                                     <br/>
-                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="6">
+                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="7">
                                                     Learn More
                                                 </Accordion.Toggle>
-                                                <Accordion.Collapse eventKey="6">
+                                                <Accordion.Collapse eventKey="7">
                                                     <Card.Text>
                                                     <br/>
-                                                    As a Security Engineer the core responsibilities are to serve as a subject matter experts on all things computer and information security. Daily responsibilities include a healthy mix of offensive security testing and devsecops automation work to proactively insure applications/systems are secure. 
+                                                    As a Security Engineer the core responsibilities are to serve as a subject matter experts on all things computer and information security. Daily responsibilities include a healthy mix of offensive security testing and DevSecOps automation work to proactively insure applications/systems are secure. 
                                                     <br/>
                                                     <br/>
-                                                    All work is client facing and usually related to the medical field, which often means strict government regulations and compliance standards to insure systems being developed are up to specifications. This provides a new challenge as each software application and infrastructure has its own unique challenges to tackle from a security perspective.
+                                                    All work is client facing and usually related to the medical field, which often means strict government regulations and compliance standards to insure systems being developed are up to strict specifications. This provides a new challenge as each software application and infrastructure has its own unique challenges to tackle from a security perspective.
                                                     <br/>
                                                     <br/>
                                                     Penetration testing is a major part of the job, with requirements often providing opportunities to test both custom software/systems and publicly available software applications. Sometimes this testing turns into vulnerability research with opportunities to discover new vulnerabilities in open public applications that can contribute to the broader security community.
                                                     <br/>
                                                     <br/>
-                                                    Devsecops is a practice of automating out the trivial aspects of security to insure the low hanging fruit gets caught before penetration testing ever occurs, or worse, before the issue hits the public. For this role its a proactive approach, think about the things you would do as an offensive security professional to hack into systems, automate as much as you can of that, and covert it into CI/CD pipelines for agile development. It is no easy feat, but each accomplishment in this area keeps the systems being developed more secure.
+                                                    DevSecOps is a practice of automating out the trivial aspects of security to insure the low hanging fruit gets caught before penetration testing ever occurs, or worse, before the issue hits the public. This role takes a proactive approach, requiring one to think about the things you would do as an offensive security professional to hack into systems, automate as much as you can of that, and covert it into CI/CD pipelines for agile development. It is no easy feat, but each accomplishment in this area keeps the systems being developed more secure.
                                                     </Card.Text>
                                                 </Accordion.Collapse>
                                         </Card.Text>
@@ -267,16 +286,16 @@ class PortfolioBody extends Component{
                                                 SRT Security Researcher (2019 - Current)
                                                     <br/>
                                                     <br/>
-                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="7">
+                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="8">
                                                     Learn More
                                                 </Accordion.Toggle>
-                                                <Accordion.Collapse eventKey="7">
+                                                <Accordion.Collapse eventKey="8">
                                                     <Card.Text>
                                                     <br/>
                                                     As a Security Researcher on the Synack Red Team (SRT) the core responsibility is simply to hack target applications/systems to identity vulnerabilities with the goal of improving their security posture. 
                                                     <br/>
                                                     <br/>
-                                                    The SRT is private bug bounty program that requires a comprehensive interview process to be accepted in. Once accepted researchers can complete bug bounties in a sort of "crowd source penetration testing" format, and missions related to compliance objectives to help targets establish a general based line of security.
+                                                    The SRT is private bug bounty program that requires a comprehensive interview process to be accepted in. Once accepted researchers can complete bug bounties in a sort of "crowd sourced penetration testing" format, and missions related to compliance objectives to help targets establish a general based line of security.
                                                     </Card.Text>
                                                 </Accordion.Collapse>
                                         </Card.Text>
@@ -286,13 +305,13 @@ class PortfolioBody extends Component{
                                                 Manager of Information Security (2019)
                                                 <br/>
                                                 <br/>
-                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="8">
+                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="9">
                                                     Learn More
                                                 </Accordion.Toggle>
-                                                <Accordion.Collapse eventKey="8">
+                                                <Accordion.Collapse eventKey="9">
                                                     <Card.Text>
                                                      <br/>
-                                                     As a Manager of Information Security for a financial firm there are many critical requirements to keep up with. One of the key experiences during time spent in this role was leading the organization to PCI DSS Level 1 compliance. This meant not only having to meet compliance goals, but also meeting brand new security standards this organization had never faced. 
+                                                     As a Manager of Information Security for a financial firm there are many critical requirements to keep up with. One of the key experiences during time spent in this role was leading the organization to PCI DSS Level 1 and both SOC 1 and 2 compliance statuses. This meant not only having to meet compliance goals, but also meeting brand new security standards this organization had never faced. 
                                                      <br/>
                                                      <br/>
                                                      During this role a small team was formed, SIEM infrastructure was built, and daily monitoring and incident response was conducted. In addition to this penetration testing services were developed and red teaming processes were standardized. It was a key responsibiltity not only to build and maintain these structures, but also to lead and execute the tasks within them. With a small team this managerial role required "getting your hands dirty" every single day.
@@ -309,10 +328,10 @@ class PortfolioBody extends Component{
                                                 Security Analyst (2018-2019)
                                                 <br/>
                                                 <br/>
-                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="9">
+                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="10">
                                                     Learn More
                                                 </Accordion.Toggle>
-                                                <Accordion.Collapse eventKey="9">
+                                                <Accordion.Collapse eventKey="10">
                                                     <Card.Text>
                                                      <br/>
                                                      Security Analyst means something different at many organizations. Often times its a SOC Analyst that performs alert triage and incident response, other times it's a penetration tester at a smaller consulting firm. There are many other connotations this title can bring, rarely however, is it both of these things and more.
@@ -337,10 +356,10 @@ class PortfolioBody extends Component{
                                                 Software Developer (2015-2018)
                                                 <br/>
                                                 <br/>
-                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="10">
+                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="11">
                                                     Learn More
                                                 </Accordion.Toggle>
-                                                <Accordion.Collapse eventKey="10">
+                                                <Accordion.Collapse eventKey="11">
                                                     <Card.Text>
                                                      <br/>
                                                      Working as Software Developer for 3 different companies over the years. Some were small freelance contracts, others client facing shops creating websites and mobile applications for customers. More significantly was a role working with a team to improve a set of products used by thousands across the nation.
@@ -366,10 +385,10 @@ class PortfolioBody extends Component{
                                                 System Administrator's Assistant (2013-2016)
                                                 <br/>
                                                 <br/>
-                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="11">
+                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="12">
                                                     Learn More
                                                 </Accordion.Toggle>
-                                                <Accordion.Collapse eventKey="11">
+                                                <Accordion.Collapse eventKey="12">
                                                     <Card.Text>
                                                      <br/>
                                                       This role was more or less a "junior" System Administrator role for a private school system. It was a start into the IT field and provided the opportunity to build a strong foundation of networks and physical hardware administration/maintenance.
@@ -393,13 +412,61 @@ class PortfolioBody extends Component{
                                                 <i class="fas fa-code-branch fa-5x"></i>
                                                 <br/>
                                                 <br/>
+                                                Lupo C2 Framework
+                                                    <br/>
+                                                    <br/>
+                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="13">
+                                                    Learn More
+                                                </Accordion.Toggle>
+                                                <Accordion.Collapse eventKey="13">
+                                                    <Card.Text>
+                                                     <br/>
+                                                     Author and maintainer of the Lupo C2 Framework: <a href="https://github.com/InjectionSoftwareandSecurityLLC/lupo">https://github.com/InjectionSoftwareandSecurityLLC/lupo</a>
+                                                    </Card.Text>
+                                                </Accordion.Collapse>
+                                        </Card.Text>
+                                       </Card.Body>
+                                       <Card.Body>
+                                        <Card.Text>
+                                                Spraygen - Password Generation Utility for Password Spraying
+                                                    <br/>
+                                                    <br/>
+                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="14">
+                                                    Learn More
+                                                </Accordion.Toggle>
+                                                <Accordion.Collapse eventKey="14">
+                                                    <Card.Text>
+                                                     <br/>
+                                                     Author and maintainer of Spraygen, a tool for automatically generating passwords useful in password spraying attacks: <a href="https://github.com/3ndG4me/spraygen">https://github.com/3ndG4me/spraygen</a>
+                                                    </Card.Text>
+                                                </Accordion.Collapse>
+                                        </Card.Text>
+                                       </Card.Body>
+                                       <Card.Body>
+                                        <Card.Text>
+                                                AutoBlue MS17-010 Exploit Toolkit
+                                                    <br/>
+                                                    <br/>
+                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="15">
+                                                    Learn More
+                                                </Accordion.Toggle>
+                                                <Accordion.Collapse eventKey="15">
+                                                    <Card.Text>
+                                                     <br/>
+                                                     Maintainer of the AutoBlue MS17-010 exploitation toolkit (Ported from the original Python based "Proof of Concept" authored by <a href="https://github.com/worawit/MS17-010">worawit</a>): <a href="https://github.com/3ndG4me/AutoBlue-MS17-010">https://github.com/3ndG4me/AutoBlue-MS17-010</a>
+                                                    </Card.Text>
+                                                </Accordion.Collapse>
+                                        </Card.Text>
+                                       </Card.Body>
+                                        <Card.Body>
+                                        <Card.Text>
                                                 OpenVPNConnect - WiFi Pineapple Module
                                                     <br/>
                                                     <br/>
-                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="12">
+                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="16">
                                                     Learn More
                                                 </Accordion.Toggle>
-                                                <Accordion.Collapse eventKey="12">
+                                                <Accordion.Collapse eventKey="16">
                                                     <Card.Text>
                                                      <br/>
                                                      Author and maintainer of the OpenVPNConnect WiFi Pineapple module: <a href="https://github.com/InjectionSoftwareandSecurityLLC/OpenVPNConnect">https://github.com/InjectionSoftwareandSecurityLLC/OpenVPNConnect</a>
@@ -412,13 +479,15 @@ class PortfolioBody extends Component{
                                                 Propane King of the Hill (NetKotH Fork)
                                                     <br/>
                                                     <br/>
-                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="13">
+                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="17">
                                                     Learn More
                                                 </Accordion.Toggle>
-                                                <Accordion.Collapse eventKey="13">
+                                                <Accordion.Collapse eventKey="17">
                                                 <Card.Text>
                                                 <br/>
-                                                Author and maintainer of the Propane King of the Hill platform:<br/><a href="https://github.com/InjectionSoftwareandSecurityLLC/Propane">https://github.com/InjectionSoftwareandSecurityLLC/Propane</a>
+                                                Author and maintainer of the Propane King of the Hill platform and PropaneCloud Automated Environment:<br/><a href="https://github.com/InjectionSoftwareandSecurityLLC/Propane">https://github.com/InjectionSoftwareandSecurityLLC/Propane</a>
+                                                <br/>
+                                                <a href="https://github.com/InjectionSoftwareandSecurityLLC/PropaneCloud">https://github.com/InjectionSoftwareandSecurityLLC/PropaneCloud</a>
                                                 <br/>
                                                 <br/>
                                                 Project forked and updated from the original NetKotH: <a href="https://netkoth.org/">https://netkoth.org/</a>
@@ -431,10 +500,10 @@ class PortfolioBody extends Component{
                                                 All other open source projects and repos
                                                 <br/>
                                                 <br/>
-                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="14">
+                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="18">
                                                     Learn More
                                                 </Accordion.Toggle>
-                                                <Accordion.Collapse eventKey="14">
+                                                <Accordion.Collapse eventKey="18">
                                                     <Card.Text>
                                                     <br/>
                                                     Injection Software and Security LLC:<br/> <a href="https://github.com/InjectionSoftwareandSecurityLLC">https://github.com/InjectionSoftwareandSecurityLLC</a>
@@ -452,16 +521,219 @@ class PortfolioBody extends Component{
                                         <Card.Header><Card.Title>Security Research</Card.Title></Card.Header>
                                         <Card.Body>
                                         <Card.Text>
-                                                 <i class="fas fa-search fa-5x"></i>
+                                                <i class="fas fa-search fa-5x"></i>
                                                 <br/>
                                                 <br/>
+                                                CVE-2021-31682 - WebCTRL/WebCTRL OEM v6.5 and Below Reflected XSS via locale Parameter
+                                                    <br/>
+                                                    <br/>
+                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="19">
+                                                    Learn More
+                                                </Accordion.Toggle>
+                                                <Accordion.Collapse eventKey="19">
+                                                    <Card.Text>
+                                                    <br/>
+                                                    CVE-2021-31682 was discovered by Casey Erdmann during a penetration testing engagement while performing authorized attacks against a client's instance of an Automated Logic WebCTRL/WebCTRL OEM web application.
+                                                    <br/>
+                                                    <br/>
+                                                    The login portal for the Automated Logic WebCTRL/WebCTRL OEM web application contains a vulnerability that allows for reflected XSS attacks due to the operatorlocale GET parameter not being sanitized.
+                                                    <br/>
+                                                    <br/>
+                                                    Full disclosure report with proof of concept by Casey Erdmann:
+                                                    <br/>
+                                                    <a href="https://github.com/3ndG4me/WebCTRL-OperatorLocale-Parameter-Reflected-XSS/blob/main/xss.md">https://github.com/3ndG4me/WebCTRL-OperatorLocale-Parameter-Reflected-XSS/blob/main/xss.md</a>
+                                                    <br/>
+                                                    <br/>
+                                                    Exploit DB entry:
+                                                    <br/>
+                                                    <a href="https://www.exploit-db.com/exploits/50463">https://www.exploit-db.com/exploits/50463</a>
+                                                    <br/>
+                                                    <br/>
+                                                    MITRE CVE entry: 
+                                                    <br/>
+                                                    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-31682">https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-31682</a>
+                                                    <br/>
+                                                    <br/>
+                                                    NIST NVD entry: 
+                                                    <br/>
+                                                    <a href="https://nvd.nist.gov/vuln/detail/CVE-2021-31682">https://nvd.nist.gov/vuln/detail/CVE-2021-31682</a>
+                                                    </Card.Text>
+                                                </Accordion.Collapse>
+                                        </Card.Text>
+                                       </Card.Body>
+                                        <Card.Body>
+                                        <Card.Text>
+                                                 CVE-2021-25679 - Adtran Personal Phone Manager Authenticated Stored XSS in Change Email Address Form
+                                                    <br/>
+                                                    <br/>
+                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="20">
+                                                    Learn More
+                                                </Accordion.Toggle>
+                                                <Accordion.Collapse eventKey="20">
+                                                    <Card.Text>
+                                                    <br/>
+                                                    CVE-2021-25679 was discovered by Casey Erdmann during a penetration testing engagement after compromising a client's AdTran Personal Phone Manager instance.
+                                                    <br/>
+                                                    <br/>
+                                                    The AdTran Personal Phone Manager software is vulnerable to an authenticated stored cross-site scripting (XSS) issues. These issues impact at minimum versions 10.8.1 and below but potentially impact later versions as well since they have not previously been disclosed. Only version 10.8.1 was able to be confirmed during primary research.
+                                                    <br/>
+                                                    <br/>
+                                                    Full disclosure report with proof of concept by Casey Erdmann:
+                                                    <br/>
+                                                    <a href="https://github.com/3ndG4me/AdTran-Personal-Phone-Manager-Vulns/blob/main/CVE-2021-25679.md">https://github.com/3ndG4me/AdTran-Personal-Phone-Manager-Vulns/blob/main/CVE-2021-25679.md</a>
+                                                    <br/>
+                                                    <br/>
+                                                    Exploit DB entry:
+                                                    <br/>
+                                                    <a href="https://www.exploit-db.com/exploits/49785">https://www.exploit-db.com/exploits/49785</a>
+                                                    <br/>
+                                                    <br/>
+                                                    MITRE CVE entry: 
+                                                    <br/>
+                                                    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25679">https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25679</a>
+                                                    <br/>
+                                                    <br/>
+                                                    NIST NVD entry: 
+                                                    <br/>
+                                                    <a href="https://nvd.nist.gov/vuln/detail/CVE-2021-25679">https://nvd.nist.gov/vuln/detail/CVE-2021-25679</a>
+                                                    </Card.Text>
+                                                </Accordion.Collapse>
+                                        </Card.Text>
+                                       </Card.Body>
+                                        <Card.Body>
+                                        <Card.Text>
+                                                CVE-2021-25680 - Adtran Personal Phone Manager Multiple Reflected XSS
+                                                    <br/>
+                                                    <br/>
+                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="21">
+                                                    Learn More
+                                                </Accordion.Toggle>
+                                                <Accordion.Collapse eventKey="21">
+                                                    <Card.Text>
+                                                    <br/>
+                                                    CVE-2021-25680 was discovered by Casey Erdmann during a penetration testing engagement after compromising an AdTran Personal Phone Manager instance on a client's external network.
+                                                    <br/>
+                                                    <br/>
+                                                    The AdTran Personal Phone Manager software is vulnerable to multiple reflected cross-site scripting (XSS) issues. These issues impact at minimum versions 10.8.1 and below but potentially impact later versions as well since they have not previously been disclosed. Only version 10.8.1 was able to be confirmed during primary research.                                                   
+                                                    <br/>
+                                                    <br/>
+                                                    Full disclosure report with proof of concept by Casey Erdmann:
+                                                    <br/>
+                                                    <a href="https://github.com/3ndG4me/AdTran-Personal-Phone-Manager-Vulns/blob/main/CVE-2021-25680.md">https://github.com/3ndG4me/AdTran-Personal-Phone-Manager-Vulns/blob/main/CVE-2021-25680.md</a>
+                                                    <br/>
+                                                    <br/>
+                                                    Exploit DB entry:
+                                                    <br/>
+                                                    <a href="https://www.exploit-db.com/exploits/49786">https://www.exploit-db.com/exploits/49786</a>
+                                                    <br/>
+                                                    <br/>
+                                                    MITRE CVE entry: 
+                                                    <br/>
+                                                    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25680">https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25680</a>
+                                                    <br/>
+                                                    <br/>
+                                                    NIST NVD entry: 
+                                                    <br/>
+                                                    <a href="https://nvd.nist.gov/vuln/detail/CVE-2021-25680">https://nvd.nist.gov/vuln/detail/CVE-2021-25680</a>
+                                                    </Card.Text>
+                                                </Accordion.Collapse>
+                                        </Card.Text>
+                                       </Card.Body>
+                                        <Card.Body>
+                                        <Card.Text>
+                                                CVE-2021-25681 - AdTran Personal Phone Manager DNS Exfiltration
+                                                    <br/>
+                                                    <br/>
+                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="22">
+                                                    Learn More
+                                                </Accordion.Toggle>
+                                                <Accordion.Collapse eventKey="22">
+                                                    <Card.Text>
+                                                    <br/>
+                                                    CVE-2021-25681 was discovered by Casey Erdmann during a penetration testing engagement after compromising an AdTran Personal Phone Manager instance on a client's external network.
+                                                    <br/>
+                                                    <br/>
+                                                    The AdTran Personal Phone Manager software is vulnerable to an issue that allows for exfiltration of data over DNS. This could allow for exposed AdTran Personal Phone Manager web servers to be used as DNS redirectors to tunnel arbitrary data over DNS.
+                                                    <br/>
+                                                    <br/>
+                                                    Full disclosure report with proof of concept by Casey Erdmann:
+                                                    <br/>
+                                                    <a href="https://github.com/3ndG4me/AdTran-Personal-Phone-Manager-Vulns/blob/main/CVE-2021-25681.md">https://github.com/3ndG4me/AdTran-Personal-Phone-Manager-Vulns/blob/main/CVE-2021-25681.md</a>
+                                                    <br/>
+                                                    <br/>
+                                                    Exploit DB entry:
+                                                    <br/>
+                                                    <a href="https://www.exploit-db.com/exploits/49787">https://www.exploit-db.com/exploits/49787</a>
+                                                    <br/>
+                                                    <br/>
+                                                    MITRE CVE entry: 
+                                                    <br/>
+                                                    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25681">https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25681</a>
+                                                    <br/>
+                                                    <br/>
+                                                    NIST NVD entry: 
+                                                    <br/>
+                                                    <a href="https://nvd.nist.gov/vuln/detail/CVE-2021-25681">https://nvd.nist.gov/vuln/detail/CVE-2021-25681</a>
+                                                    </Card.Text>
+                                                </Accordion.Collapse>
+                                        </Card.Text>
+                                       </Card.Body>
+                                       <Card.Body>
+                                        <Card.Text>
+                                                CVE-2016-6415 - BENIGN CERTAIN IKEv1 Memory Leak Exploit (Authored by NSA, published by Shadow Brokers Group)
+                                                    <br/>
+                                                    <br/>
+                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="23">
+                                                    Learn More
+                                                </Accordion.Toggle>
+                                                <Accordion.Collapse eventKey="23">
+                                                    <Card.Text>
+                                                    <br/>
+                                                    CVE-2016-6415 - BENIGN CERTAIN IKEv1 Memory Leak is an exploit that allows for leaking internal memory from a system running a vulnerable version of a CISCO IKEv1 service. Leaking of this memory could lead to compromising cleartext VPN credentials as well as other memory data that is stored in cleartext on a vulnerable system.
+                                                    This exploit was published by the Shadow Brokers Group in their leak of NSA exploitation toolkits around April of 2017.
+                                                    <br/>
+                                                    <br/>
+                                                    This exploit code is based on an automated monitor built in a Docker container by virtue security published on April 16th, 2020 and uses a "Proof of Concept" exploit from author Ross Bradley published on August 19th, 2020.
+                                                    <br/>
+                                                    <br/>
+                                                    On November 4th, 2020 Casey published a new variant of the Benign Certain Monitor that combined the tools developed by Virtue Security and Ross Bradely to create a more impactful exploit, that is more stable and expandable, thanks to replacing the unstable Virtue Security "bc-id" binary with Ross Bradley's python based exploit. 
+                                                    <br/>
+                                                    <br/>
+                                                    <h6>NOTE:</h6> Casey/Injection have no formal association with the original reseachers at Virtue Security or with the researcher Ross Bradley. All credit for the original research belongs to them. Casey is simply the author of the public exploit code below based on his own further research of the exploits published by both of these parties.
+                                                    All original exploits come from the Shadow Brokers Group's leaks and were authored by NSA researchers, more details from CISCO are here: <a href="https://blogs.cisco.com/security/shadow-brokers">https://blogs.cisco.com/security/shadow-brokers</a>
+                                                    <br/>
+                                                    <br/>
+                                                    CVE-2016-6415 Exploit by Casey Erdmann:
+                                                    <br/>
+                                                    <a href="https://github.com/3ndG4me/CVE-2016-6415-BenignCertain-Monitor">https://github.com/3ndG4me/CVE-2016-6415-BenignCertain-Monitor</a>
+                                                    <br/>
+                                                    <br/>
+                                                    CVE-2016-6415 Exploit by Virtue Security:
+                                                    <br/>
+                                                    <a href="https://github.com/VirtueSecurity/benigncertain-monitor">https://github.com/VirtueSecurity/benigncertain-monitor</a>
+                                                    <br/>
+                                                    <br/>
+                                                    CVE-2016-6415 Exploit by Ross Bradley:
+                                                    <br/>
+                                                    <a href="https://github.com/ross-bradley/benign-certain">https://github.com/ross-bradley/benign-certain</a>
+                                                    <br/>
+                                                    <br/>
+                                                    Advisory from CISCO: 
+                                                    <br/>
+                                                    <a href="https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-20160916-ikev1.html">https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-20160916-ikev1.html</a>
+                                                    </Card.Text>
+                                                </Accordion.Collapse>
+                                        </Card.Text>
+                                       </Card.Body>
+                                        <Card.Body>
+                                        <Card.Text>
                                                 CVE-2020-3452 - CISCO ASA/FTD Directory Traversal Exploit (discovered by Ahmed Aboul-Ela)
                                                     <br/>
                                                     <br/>
-                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="15">
+                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="24">
                                                     Learn More
                                                 </Accordion.Toggle>
-                                                <Accordion.Collapse eventKey="15">
+                                                <Accordion.Collapse eventKey="24">
                                                     <Card.Text>
                                                     <br/>
                                                     CVE-2020-3452 is a directory traversal vulnerability discovered by Ahmed Aboul-Ela and published on July 22nd 2020.
@@ -486,6 +758,11 @@ class PortfolioBody extends Component{
                                                     <a href="https://github.com/3ndG4me/CVE-2020-3452-Exploit">https://github.com/3ndG4me/CVE-2020-3452-Exploit</a>
                                                     <br/>
                                                     <br/>
+                                                    Exploit DB entry:
+                                                    <br/>
+                                                    <a href="https://www.exploit-db.com/exploits/48871">https://www.exploit-db.com/exploits/48871</a>
+                                                    <br/>
+                                                    <br/>
                                                     Advisory from CISCO: 
                                                     <br/>
                                                     <a href="https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-ro-path-KJuQhB86">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-ro-path-KJuQhB86</a>
@@ -503,16 +780,16 @@ class PortfolioBody extends Component{
                                                 CVE-2020-7934 - Authenticated Persistent XSS in Liferay Portal CE 7.1.0-7.2.1
                                                     <br/>
                                                     <br/>
-                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="16">
+                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="25">
                                                     Learn More
                                                 </Accordion.Toggle>
-                                                <Accordion.Collapse eventKey="16">
+                                                <Accordion.Collapse eventKey="25">
                                                     <Card.Text>
                                                     <br/>
                                                     CVE-2020-7934 was discovered by Casey Erdmann during a local penetration test/software security audit of the Liferay Portal application.
                                                     <br/>
                                                     <br/>
-                                                    It is an authenticated persistent cross site scripting (XSS) vulnerability that can allow a potential attacker to execute JavaScript code in the context of another user's session.
+                                                    The Liferay Portal application (versions 7.1.0 through 7.2.1 GA2) is vulnerable to an authenticated persistent cross site scripting (XSS) vulnerability that can allow a potential attacker to execute JavaScript code in the context of another user's session.
                                                     This can be used to escalate privileges, move laterally, and in cases of administrative privilege escalation, even gain access to GroovyScript functionality in Liferay which can provide a path to remote code execution.
                                                     <br/>
                                                     <br/>
@@ -524,6 +801,11 @@ class PortfolioBody extends Component{
                                                     Full disclosure report with proof of concept by Casey Erdmann:
                                                     <br/>
                                                     <a href="https://github.com/3ndG4me/liferay-xss-7.2.1GA2-poc-report-CVE-2020-7934">https://github.com/3ndG4me/liferay-xss-7.2.1GA2-poc-report-CVE-2020-7934</a>
+                                                    <br/>
+                                                    <br/>
+                                                    Exploit DB entry:
+                                                    <br/>
+                                                    <a href="https://www.exploit-db.com/exploits/49091">https://www.exploit-db.com/exploits/49091</a>
                                                     <br/>
                                                     <br/>
                                                     MITRE CVE entry: 
@@ -543,10 +825,10 @@ class PortfolioBody extends Component{
                                                 BadSalt - Adversarial DevOps - Red Team Village @ DEF CON 27
                                                 <br/>
                                                 <br/>
-                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="17">
+                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="26">
                                                     Learn More
                                                 </Accordion.Toggle>
-                                                <Accordion.Collapse eventKey="17">
+                                                <Accordion.Collapse eventKey="26">
                                                     <Card.Text>
                                                     <br/>
                                                     BadSalt is a project that was created from research conducted around the concept of using modern "DevOps" tools from an adversarial, or "red team", perspective.
@@ -575,10 +857,10 @@ class PortfolioBody extends Component{
                                                 Cyber Attacks/Effects on Cyber Physical Systems (CPS) - MITRE - Elevator Simulation
                                                     <br/>
                                                     <br/>
-                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="18">
+                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="27">
                                                     Learn More
                                                 </Accordion.Toggle>
-                                                <Accordion.Collapse eventKey="18">
+                                                <Accordion.Collapse eventKey="27">
                                                 <Card.Text>
                                                 <br/>
                                                 Alongside fellow researcher Cody Greene, under the guidance of research owner Suresh Damodaran of MITRE, a software based elevator simulation was developed. The goal of this simulator was to construct specific interfaces in order to provide mechanisms to simulate effects that would impact the system in the event of an attack or malfunction that might occur on a real elevator system.
@@ -605,7 +887,12 @@ class PortfolioBody extends Component{
                                         <Card.Header><Card.Title>Professional Certifications</Card.Title></Card.Header>
                                     <Card.Body>
                                         <Card.Text>
-                                               OSCP, LRPA, GDPR Foundations, eJPT
+                                               <ul>
+                                               <li>OSCP</li>
+                                               <li>eJPT</li>
+                                               <li>GDPR Foundations</li>
+                                               <li>LRPA (expired in 2020)</li>
+                                               </ul>
                                         </Card.Text>
                                        </Card.Body>
                                     </Card>
@@ -613,7 +900,7 @@ class PortfolioBody extends Component{
                         </div>
                         <div class="col-lg-5 portfolio-image-container">
                             <img alt="3ndG4me Pic" class="rounded-circle border" width="80%" src="/media/img/3ndG4me_main.png" />
-                            <img alt="Casey headshot Pic" class="rounded-circle border portfolio-image-pos" width="80%" src="/media/img/headshot.png" />
+                            <img alt="Casey headshot Pic" class="rounded-circle border portfolio-image-pos" width="80%" src="/media/img/headshot.jpg" />
                         </div>
                      </div>
                 </div> 
