@@ -64,7 +64,20 @@ export default class About extends Component {
                   If you are interested in learning more about the security services we offer please visit the <a class="a-dark" href="/security">security section</a> of our site!
                   <br />
                   <br />
-                  Additionally we are a software company. While we don't offer software development contracting, we do build our own software. 
+                  Additionally we focus on security education content in the form of both comepletely free and paid professional content to train professionals in offensive security. Find our content at the links below:
+                  <br />
+                  <br />
+                  Offensive Security Engineering Udemy Course:
+                  <br />
+                  <a href="https://www.udemy.com/course/offensive-security-engineering/">https://www.udemy.com/course/offensive-security-engineering/</a>
+                  <br />
+                  <br />
+                  Injection YouTube Channel: 
+                  <br />
+                  <a href="https://www.youtube.com/@InjectionSec">https://www.youtube.com/@InjectionSec</a>
+                  <br />
+                  <br />
+                  Last but not least, we are also a software company. While we don't offer software development contracting, we do build our own software. 
                   <br />
                   <br />
                   Much of this software is related to offensive security specifically, and almost all of it is open source for you to use to improve your organization's own security practices/tooling.
