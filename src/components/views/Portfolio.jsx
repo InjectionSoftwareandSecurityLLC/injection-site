@@ -218,9 +218,28 @@ class PortfolioBody extends Component{
                                                 </Accordion.Collapse>
                                         </Card.Text>
                                        </Card.Body>
+                                        <Card.Body>
+                                        <Card.Text>
+                                                Senior Red Team Operator (2025 - Current)
+                                                    <br/>
+                                                    <br/>
+                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="5">
+                                                    Learn More
+                                                </Accordion.Toggle>
+                                                <Accordion.Collapse eventKey="5">
+                                                    <Card.Text>
+                                                    <br/>
+                                                    As a Senior Red Team Operator the core responsibility is to conduct goal oriented operations that scale from novice to advanced adversarial emulation. Engagements are ran the same way a real world criminal threat would, targeting a goal and achieving it. The output of this role is to help the Blue Team improve their ability to detect and defend from real world threat actors using the same tactics, techniques, and procedures. 
+                                                    <br/>
+                                                    <br/>
+                                                    This role facilitates ever changing offensive engagements, in the form of assessing external and internal networks, web applications, mobile applications, wireless networks, social engineering attack vectors, and physical security for the organization.
+                                                    </Card.Text>
+                                                </Accordion.Collapse>
+                                        </Card.Text>
+                                       </Card.Body>
                                        <Card.Body>
                                         <Card.Text>
-                                                Senior Security Consultant (2021 - Current)
+                                                Senior Security Consultant (2021 - 2025)
                                                     <br/>
                                                     <br/>
                                                 <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="5">

@@ -63,7 +63,7 @@ class SecurityBody extends Component{
                                             At Injection, security is our passion. We are hackers at heart, always trying to find a way to do the things no one is supposed to be able do.
                                             <br/>
                                             <br/>
-                                            With well over 6 years in industry backgrounds within the IT spaces of payments, medical, and security research, our consultants have the experience to provide services that can be tailored to your organization's needs.
+                                            With well over a decade of experience across varying backgrounds within the IT spaces of payments, medical, and security research, our consultants have the experience to provide services that can be tailored to your organization's needs.
                                             <br/>
                                             <br/>
                                             Compliance standards are not security standards, but they do try. Our services close that gap and not only help you satisfy compliance goals within standards such as PCI DSS, HIPAA, and GDPR, but also provide a value of real security guidance and remediation with our results.
