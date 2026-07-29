@@ -86,7 +86,7 @@ class PortfolioBody extends Component{
                                                 Not all hackers have handles of course, for those that do, it can become more than a nickname. A handle can become a sort of brand for those in this community at times. Many hackers who are known for their work are known by their handles. 
                                                 <br/>
                                                 <br/>
-                                                A few that inspire us are mubix, ReL1K, g0tmi1k, _r00k_, ippsec, and Viss.
+                                                A few that inspire us are mubix, ReL1K, g0tmi1k, _r00k_, ippsec, and clam.
                                                 <br/>
                                                 <br/>
                                                 3ndG4me is a brand of sorts in that same vein. Not that it's a product or household name we expect you to know, but it's a person, attached to an identity, built around contributing to the hacking and security world. All of our YouTube content, blog posts, and even our services have a bit of personal flare to them captured by the handle of the contributor. Casey, being the founder of this company, is the primary contributor, as such, 3ndG4me is a name you may see often in relation to publications, talks, blogs, and videos that we produce here at Injection Software and Security LLC.
@@ -123,7 +123,7 @@ class PortfolioBody extends Component{
                                                 <i class="fas fa-users fa-5x"></i>
                                                 <br/>
                                                 <br/>
-                                                DC706 - Co-Founder of DC706
+                                                DC706 - Co-Founder of DC706 (Now Disbanded)
                                                     <br/>
                                                     <br/>
                                                 <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="1">
@@ -185,13 +185,26 @@ class PortfolioBody extends Component{
                                     <br/>
                                     <br/>
                                     <Card className="dark-card-white" text="white">
+                                        <Card.Header><Card.Title>Educational Content</Card.Title></Card.Header>
+                                    <Card.Body>
+                                        <Card.Text>
+                                               <ul>
+                                               <li><i>"Red Team Engineering: The Art of Building Offensive Tools and Infrastructure"</i> <br/>Published by No Starch Press: <a href="https://nostarch.com/red-team-engineering">https://nostarch.com/red-team-engineering</a></li>
+                                               <li>Offensive Security Engineering <br/> Udemy Course: <a href="https://www.udemy.com/course/offensive-security-engineering/?referralCode=B561E056323FA1B9C4C2">https://www.udemy.com/course/offensive-security-engineering/</a></li>
+                                               <li>Offensive Security Programming <br/> Udemy Course: <a href="https://www.udemy.com/course/offensive-security-programming/?referralCode=1AFFBF1119D68853F04A">https://www.udemy.com/course/offensive-security-programming/</a></li>
+                                               </ul>
+                                        </Card.Text>
+                                       </Card.Body>
+                                    </Card>                                    <br/>
+                                    <br/>
+                                    <Card className="dark-card-white" text="white">
                                         <Card.Header><Card.Title>Professional Experience</Card.Title></Card.Header>
                                         <Card.Body>
-                                        <Card.Text>
                                                 <i class="fas fa-user-tie fa-5x"></i>
                                                 <br/>
                                                 <br/>
-                                                Founder/Lead Consultant/Hacker (2019 - Current)
+                                        <Card.Text>
+                                                Senior Red Team Operator (2024 - Current)
                                                     <br/>
                                                     <br/>
                                                 <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="4">
@@ -200,46 +213,20 @@ class PortfolioBody extends Component{
                                                 <Accordion.Collapse eventKey="4">
                                                     <Card.Text>
                                                     <br/>
-                                                     Created and founded Injection Software and Security LLC  to develop software and provide a wide variety of offensive security consulting engagements to organizations in the U.S.
-                                                    <br/>
-                                                    <br/>
-                                                    All work is client facing across many industries tailored to the needs and goals of the clients.
-                                                    <br/>
-                                                    <br/>
-                                                    Aside from the business aspects of running the company, and working with clients, since this is a small operation, the primary responsibility is to be a core contributor to services being offered.
-                                                    <br/>
-                                                    <br/>
-                                                    Many of the engagements conducted are solely by this role, bringing in additional contractors as needed. This creates opportunity for many growing experiences, no matter how much expertise is already demonstrated.
-                                                    From security awareness, to adversarial emulation, and everything in between, this role is a primary contributor to the consulting practice.
-                                                    <br/>
-                                                    <br/>
-                                                    Additional responsibilities include developing software for various projects and infrastructure, as well as maintaining the company website, and creating both free and paid educational content for information security professionals.
-                                                    </Card.Text>
-                                                </Accordion.Collapse>
-                                        </Card.Text>
-                                       </Card.Body>
-                                        <Card.Body>
-                                        <Card.Text>
-                                                Senior Red Team Operator (2025 - Current)
-                                                    <br/>
-                                                    <br/>
-                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="5">
-                                                    Learn More
-                                                </Accordion.Toggle>
-                                                <Accordion.Collapse eventKey="5">
-                                                    <Card.Text>
-                                                    <br/>
                                                     As a Senior Red Team Operator the core responsibility is to conduct goal oriented operations that scale from novice to advanced adversarial emulation. Engagements are ran the same way a real world criminal threat would, targeting a goal and achieving it. The output of this role is to help the Blue Team improve their ability to detect and defend from real world threat actors using the same tactics, techniques, and procedures. 
                                                     <br/>
                                                     <br/>
-                                                    This role facilitates ever changing offensive engagements, in the form of assessing external and internal networks, web applications, mobile applications, wireless networks, social engineering attack vectors, and physical security for the organization.
+                                                    This role facilitates ever changing offensive engagements, in the form of assessing external and internal networks, web applications, mobile applications, wireless networks, social engineering attack vectors, and physical security for the organization. 
+                                                    <br/>
+                                                    <br/>
+                                                    In this role a key resposibility was a functioning as a malware development and infrastructure automation specialist. This specialization encompassed the development of custom implants, ransomware, as well as weaponizing 0 day vulnerabilities discovered by the Vulnerability Research team.
                                                     </Card.Text>
                                                 </Accordion.Collapse>
                                         </Card.Text>
                                        </Card.Body>
                                        <Card.Body>
                                         <Card.Text>
-                                                Senior Security Consultant (2021 - 2025)
+                                                Senior Security Consultant (2021 - 2024)
                                                     <br/>
                                                     <br/>
                                                 <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="5">
@@ -277,13 +264,42 @@ class PortfolioBody extends Component{
                                        </Card.Body>
                                         <Card.Body>
                                         <Card.Text>
-                                                Security Engineer (2019 - 2020)
+                                                Founder/Lead Consultant/Hacker (2019 - Current)
                                                     <br/>
                                                     <br/>
                                                 <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="7">
                                                     Learn More
                                                 </Accordion.Toggle>
                                                 <Accordion.Collapse eventKey="7">
+                                                    <Card.Text>
+                                                    <br/>
+                                                     Created and founded Injection Software and Security LLC  to develop software and provide a wide variety of offensive security consulting engagements to organizations in the U.S.
+                                                    <br/>
+                                                    <br/>
+                                                    All work is client facing across many industries tailored to the needs and goals of the clients.
+                                                    <br/>
+                                                    <br/>
+                                                    Aside from the business aspects of running the company, and working with clients, since this is a small operation, the primary responsibility is to be a core contributor to services being offered.
+                                                    <br/>
+                                                    <br/>
+                                                    Many of the engagements conducted are solely by this role, bringing in additional contractors as needed. This creates opportunity for many growing experiences, no matter how much expertise is already demonstrated.
+                                                    From security awareness, to adversarial emulation, and everything in between, this role is a primary contributor to the consulting practice.
+                                                    <br/>
+                                                    <br/>
+                                                    Additional responsibilities include developing software for various projects and infrastructure, as well as maintaining the company website, and creating both free and paid educational content for information security professionals.
+                                                    </Card.Text>
+                                                </Accordion.Collapse>
+                                        </Card.Text>
+                                       </Card.Body>
+                                        <Card.Body>
+                                        <Card.Text>
+                                                Security Engineer (2019 - 2020)
+                                                    <br/>
+                                                    <br/>
+                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="8">
+                                                    Learn More
+                                                </Accordion.Toggle>
+                                                <Accordion.Collapse eventKey="8">
                                                     <Card.Text>
                                                     <br/>
                                                     As a Security Engineer the core responsibilities are to serve as a subject matter experts on all things computer and information security. Daily responsibilities include a healthy mix of offensive security testing and DevSecOps automation work to proactively insure applications/systems are secure. 
@@ -305,10 +321,10 @@ class PortfolioBody extends Component{
                                                 SRT Security Researcher (2019 - Current)
                                                     <br/>
                                                     <br/>
-                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="8">
+                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="9">
                                                     Learn More
                                                 </Accordion.Toggle>
-                                                <Accordion.Collapse eventKey="8">
+                                                <Accordion.Collapse eventKey="9">
                                                     <Card.Text>
                                                     <br/>
                                                     As a Security Researcher on the Synack Red Team (SRT) the core responsibility is simply to hack target applications/systems to identity vulnerabilities with the goal of improving their security posture. 
@@ -324,10 +340,10 @@ class PortfolioBody extends Component{
                                                 Manager of Information Security (2019)
                                                 <br/>
                                                 <br/>
-                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="9">
+                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="10">
                                                     Learn More
                                                 </Accordion.Toggle>
-                                                <Accordion.Collapse eventKey="9">
+                                                <Accordion.Collapse eventKey="10">
                                                     <Card.Text>
                                                      <br/>
                                                      As a Manager of Information Security for a financial firm there are many critical requirements to keep up with. One of the key experiences during time spent in this role was leading the organization to PCI DSS Level 1 and both SOC 1 and 2 compliance statuses. This meant not only having to meet compliance goals, but also meeting brand new security standards this organization had never faced. 
@@ -347,10 +363,10 @@ class PortfolioBody extends Component{
                                                 Security Analyst (2018-2019)
                                                 <br/>
                                                 <br/>
-                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="10">
+                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="11">
                                                     Learn More
                                                 </Accordion.Toggle>
-                                                <Accordion.Collapse eventKey="10">
+                                                <Accordion.Collapse eventKey="11">
                                                     <Card.Text>
                                                      <br/>
                                                      Security Analyst means something different at many organizations. Often times its a SOC Analyst that performs alert triage and incident response, other times it's a penetration tester at a smaller consulting firm. There are many other connotations this title can bring, rarely however, is it both of these things and more.
@@ -375,10 +391,10 @@ class PortfolioBody extends Component{
                                                 Software Developer (2015-2018)
                                                 <br/>
                                                 <br/>
-                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="11">
+                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="12">
                                                     Learn More
                                                 </Accordion.Toggle>
-                                                <Accordion.Collapse eventKey="11">
+                                                <Accordion.Collapse eventKey="12">
                                                     <Card.Text>
                                                      <br/>
                                                      Working as Software Developer for 3 different companies over the years. Some were small freelance contracts, others client facing shops creating websites and mobile applications for customers. More significantly was a role working with a team to improve a set of products used by thousands across the nation.
@@ -404,10 +420,10 @@ class PortfolioBody extends Component{
                                                 System Administrator's Assistant (2013-2016)
                                                 <br/>
                                                 <br/>
-                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="12">
+                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="13">
                                                     Learn More
                                                 </Accordion.Toggle>
-                                                <Accordion.Collapse eventKey="12">
+                                                <Accordion.Collapse eventKey="13">
                                                     <Card.Text>
                                                      <br/>
                                                       This role was more or less a "junior" System Administrator role for a private school system. It was a start into the IT field and provided the opportunity to build a strong foundation of networks and physical hardware administration/maintenance.
@@ -434,10 +450,10 @@ class PortfolioBody extends Component{
                                                 Lupo C2 Framework
                                                     <br/>
                                                     <br/>
-                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="13">
+                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="14">
                                                     Learn More
                                                 </Accordion.Toggle>
-                                                <Accordion.Collapse eventKey="13">
+                                                <Accordion.Collapse eventKey="14">
                                                     <Card.Text>
                                                      <br/>
                                                      Author and maintainer of the Lupo C2 Framework: <a href="https://github.com/InjectionSoftwareandSecurityLLC/lupo">https://github.com/InjectionSoftwareandSecurityLLC/lupo</a>
@@ -450,10 +466,10 @@ class PortfolioBody extends Component{
                                                 Spraygen - Password Generation Utility for Password Spraying
                                                     <br/>
                                                     <br/>
-                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="14">
+                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="15">
                                                     Learn More
                                                 </Accordion.Toggle>
-                                                <Accordion.Collapse eventKey="14">
+                                                <Accordion.Collapse eventKey="15">
                                                     <Card.Text>
                                                      <br/>
                                                      Author and maintainer of Spraygen, a tool for automatically generating passwords useful in password spraying attacks: <a href="https://github.com/3ndG4me/spraygen">https://github.com/3ndG4me/spraygen</a>
@@ -466,10 +482,10 @@ class PortfolioBody extends Component{
                                                 AutoBlue MS17-010 Exploit Toolkit
                                                     <br/>
                                                     <br/>
-                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="15">
+                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="16">
                                                     Learn More
                                                 </Accordion.Toggle>
-                                                <Accordion.Collapse eventKey="15">
+                                                <Accordion.Collapse eventKey="16">
                                                     <Card.Text>
                                                      <br/>
                                                      Maintainer of the AutoBlue MS17-010 exploitation toolkit (Ported from the original Python based "Proof of Concept" authored by <a href="https://github.com/worawit/MS17-010">worawit</a>): <a href="https://github.com/3ndG4me/AutoBlue-MS17-010">https://github.com/3ndG4me/AutoBlue-MS17-010</a>
@@ -482,10 +498,10 @@ class PortfolioBody extends Component{
                                                 OpenVPNConnect - WiFi Pineapple Module
                                                     <br/>
                                                     <br/>
-                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="16">
+                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="17">
                                                     Learn More
                                                 </Accordion.Toggle>
-                                                <Accordion.Collapse eventKey="16">
+                                                <Accordion.Collapse eventKey="17">
                                                     <Card.Text>
                                                      <br/>
                                                      Author and maintainer of the OpenVPNConnect WiFi Pineapple module: <a href="https://github.com/InjectionSoftwareandSecurityLLC/OpenVPNConnect">https://github.com/InjectionSoftwareandSecurityLLC/OpenVPNConnect</a>
@@ -498,10 +514,10 @@ class PortfolioBody extends Component{
                                                 Propane King of the Hill (NetKotH Fork)
                                                     <br/>
                                                     <br/>
-                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="17">
+                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="18">
                                                     Learn More
                                                 </Accordion.Toggle>
-                                                <Accordion.Collapse eventKey="17">
+                                                <Accordion.Collapse eventKey="18">
                                                 <Card.Text>
                                                 <br/>
                                                 Author and maintainer of the Propane King of the Hill platform and PropaneCloud Automated Environment:<br/><a href="https://github.com/InjectionSoftwareandSecurityLLC/Propane">https://github.com/InjectionSoftwareandSecurityLLC/Propane</a>
@@ -519,10 +535,10 @@ class PortfolioBody extends Component{
                                                 All other open source projects and repos
                                                 <br/>
                                                 <br/>
-                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="18">
+                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="19">
                                                     Learn More
                                                 </Accordion.Toggle>
-                                                <Accordion.Collapse eventKey="18">
+                                                <Accordion.Collapse eventKey="19">
                                                     <Card.Text>
                                                     <br/>
                                                     Injection Software and Security LLC:<br/> <a href="https://github.com/InjectionSoftwareandSecurityLLC">https://github.com/InjectionSoftwareandSecurityLLC</a>
@@ -546,10 +562,10 @@ class PortfolioBody extends Component{
                                                 CVE-2021-31682 - WebCTRL/WebCTRL OEM v6.5 and Below Reflected XSS via locale Parameter
                                                     <br/>
                                                     <br/>
-                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="19">
+                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="20">
                                                     Learn More
                                                 </Accordion.Toggle>
-                                                <Accordion.Collapse eventKey="19">
+                                                <Accordion.Collapse eventKey="20">
                                                     <Card.Text>
                                                     <br/>
                                                     CVE-2021-31682 was discovered by Casey Erdmann during a penetration testing engagement while performing authorized attacks against a client's instance of an Automated Logic WebCTRL/WebCTRL OEM web application.
@@ -585,16 +601,16 @@ class PortfolioBody extends Component{
                                                  CVE-2021-25679 - Adtran Personal Phone Manager Authenticated Stored XSS in Change Email Address Form
                                                     <br/>
                                                     <br/>
-                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="20">
+                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="21">
                                                     Learn More
                                                 </Accordion.Toggle>
-                                                <Accordion.Collapse eventKey="20">
+                                                <Accordion.Collapse eventKey="21">
                                                     <Card.Text>
                                                     <br/>
                                                     CVE-2021-25679 was discovered by Casey Erdmann during a penetration testing engagement after compromising a client's AdTran Personal Phone Manager instance.
                                                     <br/>
                                                     <br/>
-                                                    The AdTran Personal Phone Manager software is vulnerable to an authenticated stored cross-site scripting (XSS) issues. These issues impact at minimum versions 10.8.1 and below but potentially impact later versions as well since they have not previously been disclosed. Only version 10.8.1 was able to be confirmed during primary research.
+                                                    The AdTran Personal Phone Manager software is vulnerable to authenticated stored cross-site scripting (XSS) issues. These issues impact at minimum versions 10.8.1 and below but potentially impact later versions as well since they have not previously been disclosed. Only version 10.8.1 was able to be confirmed during primary research.
                                                     <br/>
                                                     <br/>
                                                     Full disclosure report with proof of concept by Casey Erdmann:
@@ -624,10 +640,10 @@ class PortfolioBody extends Component{
                                                 CVE-2021-25680 - Adtran Personal Phone Manager Multiple Reflected XSS
                                                     <br/>
                                                     <br/>
-                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="21">
+                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="22">
                                                     Learn More
                                                 </Accordion.Toggle>
-                                                <Accordion.Collapse eventKey="21">
+                                                <Accordion.Collapse eventKey="22">
                                                     <Card.Text>
                                                     <br/>
                                                     CVE-2021-25680 was discovered by Casey Erdmann during a penetration testing engagement after compromising an AdTran Personal Phone Manager instance on a client's external network.
@@ -663,10 +679,10 @@ class PortfolioBody extends Component{
                                                 CVE-2021-25681 - AdTran Personal Phone Manager DNS Exfiltration
                                                     <br/>
                                                     <br/>
-                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="22">
+                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="23">
                                                     Learn More
                                                 </Accordion.Toggle>
-                                                <Accordion.Collapse eventKey="22">
+                                                <Accordion.Collapse eventKey="23">
                                                     <Card.Text>
                                                     <br/>
                                                     CVE-2021-25681 was discovered by Casey Erdmann during a penetration testing engagement after compromising an AdTran Personal Phone Manager instance on a client's external network.
@@ -702,10 +718,10 @@ class PortfolioBody extends Component{
                                                 CVE-2016-6415 - BENIGN CERTAIN IKEv1 Memory Leak Exploit (Authored by NSA, published by Shadow Brokers Group)
                                                     <br/>
                                                     <br/>
-                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="23">
+                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="24">
                                                     Learn More
                                                 </Accordion.Toggle>
-                                                <Accordion.Collapse eventKey="23">
+                                                <Accordion.Collapse eventKey="24">
                                                     <Card.Text>
                                                     <br/>
                                                     CVE-2016-6415 - BENIGN CERTAIN IKEv1 Memory Leak is an exploit that allows for leaking internal memory from a system running a vulnerable version of a CISCO IKEv1 service. Leaking of this memory could lead to compromising cleartext VPN credentials as well as other memory data that is stored in cleartext on a vulnerable system.
@@ -749,10 +765,10 @@ class PortfolioBody extends Component{
                                                 CVE-2020-3452 - CISCO ASA/FTD Directory Traversal Exploit (discovered by Ahmed Aboul-Ela)
                                                     <br/>
                                                     <br/>
-                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="24">
+                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="25">
                                                     Learn More
                                                 </Accordion.Toggle>
-                                                <Accordion.Collapse eventKey="24">
+                                                <Accordion.Collapse eventKey="25">
                                                     <Card.Text>
                                                     <br/>
                                                     CVE-2020-3452 is a directory traversal vulnerability discovered by Ahmed Aboul-Ela and published on July 22nd 2020.
@@ -799,10 +815,10 @@ class PortfolioBody extends Component{
                                                 CVE-2020-7934 - Authenticated Persistent XSS in Liferay Portal CE 7.1.0-7.2.1
                                                     <br/>
                                                     <br/>
-                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="25">
+                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="26">
                                                     Learn More
                                                 </Accordion.Toggle>
-                                                <Accordion.Collapse eventKey="25">
+                                                <Accordion.Collapse eventKey="26">
                                                     <Card.Text>
                                                     <br/>
                                                     CVE-2020-7934 was discovered by Casey Erdmann during a local penetration test/software security audit of the Liferay Portal application.
@@ -844,10 +860,10 @@ class PortfolioBody extends Component{
                                                 BadSalt - Adversarial DevOps - Red Team Village @ DEF CON 27
                                                 <br/>
                                                 <br/>
-                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="26">
+                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="27">
                                                     Learn More
                                                 </Accordion.Toggle>
-                                                <Accordion.Collapse eventKey="26">
+                                                <Accordion.Collapse eventKey="27">
                                                     <Card.Text>
                                                     <br/>
                                                     BadSalt is a project that was created from research conducted around the concept of using modern "DevOps" tools from an adversarial, or "red team", perspective.
@@ -876,10 +892,10 @@ class PortfolioBody extends Component{
                                                 Cyber Attacks/Effects on Cyber Physical Systems (CPS) - MITRE - Elevator Simulation
                                                     <br/>
                                                     <br/>
-                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="27">
+                                                <Accordion.Toggle as={Button} variant="outline-dark" className="dark-btn-outline-white" eventKey="28">
                                                     Learn More
                                                 </Accordion.Toggle>
-                                                <Accordion.Collapse eventKey="27">
+                                                <Accordion.Collapse eventKey="28">
                                                 <Card.Text>
                                                 <br/>
                                                 Alongside fellow researcher Cody Greene, under the guidance of research owner Suresh Damodaran of MITRE, a software based elevator simulation was developed. The goal of this simulator was to construct specific interfaces in order to provide mechanisms to simulate effects that would impact the system in the event of an attack or malfunction that might occur on a real elevator system.
@@ -907,6 +923,7 @@ class PortfolioBody extends Component{
                                     <Card.Body>
                                         <Card.Text>
                                                <ul>
+                                               <li>OSAI (In Progress)</li>
                                                <li>OSCP</li>
                                                <li>eJPT</li>
                                                <li>GDPR Foundations</li>
